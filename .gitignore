@@ -14,3 +14,7 @@ __pycache__/
 
 # OS files
 .DS_Store
+
+# Antigravity IDE artifacts
+.agents/
+agy-setup.md
