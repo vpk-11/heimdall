@@ -1,0 +1,23 @@
+[
+  {
+    "company_id": "COMP-001",
+    "name": "Apex Retailers",
+    "contact_name": "Alice Johnson",
+    "email": "alice@apexretail.com",
+    "tier": "Gold"
+  },
+  {
+    "company_id": "COMP-002",
+    "name": "Beacon Distribution",
+    "contact_name": "Bob Smith",
+    "email": "bob@beacondist.com",
+    "tier": "Silver"
+  },
+  {
+    "company_id": "COMP-003",
+    "name": "Summit Goods",
+    "contact_name": "Charlie Brown",
+    "email": "charlie@summitgoods.co",
+    "tier": "Standard"
+  }
+]

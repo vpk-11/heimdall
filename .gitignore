@@ -1,0 +1,16 @@
+# Python virtual environment and cache files
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+.adk/
+
+# Environment secrets
+.env
+.env.local
+.env.*.local
+
+# OS files
+.DS_Store

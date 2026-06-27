@@ -1,0 +1,47 @@
+[
+  {
+    "order_id": "ORD-1001",
+    "company_id": "COMP-001",
+    "channel": "B2B",
+    "product_id": "PROD-A",
+    "quantity": 200,
+    "status": "Completed",
+    "date": "2026-05-15"
+  },
+  {
+    "order_id": "ORD-1002",
+    "company_id": "COMP-002",
+    "channel": "B2B",
+    "product_id": "PROD-B",
+    "quantity": 100,
+    "status": "Completed",
+    "date": "2026-06-01"
+  },
+  {
+    "order_id": "ORD-DTC-001",
+    "company_id": null,
+    "channel": "DTC",
+    "product_id": "PROD-A",
+    "quantity": 15,
+    "status": "Completed",
+    "date": "2026-06-10"
+  },
+  {
+    "order_id": "ORD-DTC-002",
+    "company_id": null,
+    "channel": "DTC",
+    "product_id": "PROD-A",
+    "quantity": 25,
+    "status": "Completed",
+    "date": "2026-06-12"
+  },
+  {
+    "order_id": "ORD-DTC-003",
+    "company_id": null,
+    "channel": "DTC",
+    "product_id": "PROD-B",
+    "quantity": 30,
+    "status": "Completed",
+    "date": "2026-06-15"
+  }
+]

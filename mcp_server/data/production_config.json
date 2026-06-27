@@ -1,0 +1,21 @@
+{
+  "production_rate_units_per_day": 50,
+  "setup_lead_time_days": 2,
+  "cost_tiers": [
+    {
+      "min_quantity": 1,
+      "max_quantity": 100,
+      "cost_per_unit": 12.0
+    },
+    {
+      "min_quantity": 101,
+      "max_quantity": 500,
+      "cost_per_unit": 10.0
+    },
+    {
+      "min_quantity": 501,
+      "max_quantity": null,
+      "cost_per_unit": 8.0
+    }
+  ]
+}

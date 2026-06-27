@@ -1,0 +1,14 @@
+[
+  {
+    "product_id": "PROD-A",
+    "name": "Eco-Friendly Yoga Mat",
+    "stock": 600,
+    "dtc_monthly_velocity": 400
+  },
+  {
+    "product_id": "PROD-B",
+    "name": "Organic Cotton Towel",
+    "stock": 150,
+    "dtc_monthly_velocity": 100
+  }
+]
