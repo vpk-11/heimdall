@@ -47,6 +47,7 @@ Follow this strict multi-step reasoning chain:
 
 root_agent = Agent(
     name="HeimdallAgent",
+    model="gemini-2.5-flash",
     instruction=AGENT_INSTRUCTIONS,
     before_model_callback=before_model_callback,
     after_model_callback=after_model_callback,
