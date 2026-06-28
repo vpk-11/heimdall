@@ -1,0 +1,322 @@
+{
+  "communities": {
+    "0": [
+      "mcp_server_server",
+      "mcp_server_server_customer_lookup",
+      "mcp_server_server_dtc_monthly_velocity",
+      "mcp_server_server_order_history",
+      "mcp_server_server_rationale_20",
+      "mcp_server_server_rationale_29",
+      "mcp_server_server_rationale_38",
+      "tests_test_tools",
+      "tests_test_tools_testcustomerlookup",
+      "tests_test_tools_testcustomerlookup_test_invalid_format_no_digits_raises",
+      "tests_test_tools_testcustomerlookup_test_invalid_format_raises",
+      "tests_test_tools_testcustomerlookup_test_known_company_returns_record",
+      "tests_test_tools_testcustomerlookup_test_unknown_company_returns_error",
+      "tests_test_tools_testdtcvelocity",
+      "tests_test_tools_testdtcvelocity_test_invalid_format_raises",
+      "tests_test_tools_testdtcvelocity_test_known_product_returns_velocity",
+      "tests_test_tools_testdtcvelocity_test_unknown_product_returns_zero",
+      "tests_test_tools_testorderhistory",
+      "tests_test_tools_testorderhistory_test_company_with_no_orders_returns_empty",
+      "tests_test_tools_testorderhistory_test_invalid_format_raises",
+      "tests_test_tools_testorderhistory_test_known_company_returns_orders",
+      "tools_customer_lookup",
+      "tools_customer_lookup_lookup_customer",
+      "tools_customer_lookup_rationale_8",
+      "tools_order_history",
+      "tools_order_history_get_dtc_monthly_velocity",
+      "tools_order_history_lookup_order_history",
+      "tools_order_history_rationale_29",
+      "tools_order_history_rationale_8"
+    ],
+    "1": [
+      "after_model_callback",
+      "after_model_callback_signatures",
+      "before_model_callback",
+      "before_model_callback_signatures",
+      "cloud_run_deployment",
+      "customer_lookup",
+      "customer_lookup_tool",
+      "dtc_monthly_velocity",
+      "heimdall_agent",
+      "heimdall_gemini_2_5_flash",
+      "inventory_lookup",
+      "inventory_lookup_tool",
+      "mcp_toolset",
+      "mcp_toolset_imports",
+      "order_history",
+      "order_history_tool",
+      "production_estimate",
+      "production_estimate_tool"
+    ],
+    "2": [
+      "agent",
+      "tests_test_e2e",
+      "tests_test_e2e_build_test_agent",
+      "tests_test_e2e_event_loop",
+      "tests_test_e2e_rationale_1",
+      "tests_test_e2e_rationale_115",
+      "tests_test_e2e_rationale_133",
+      "tests_test_e2e_rationale_148",
+      "tests_test_e2e_rationale_163",
+      "tests_test_e2e_rationale_176",
+      "tests_test_e2e_rationale_193",
+      "tests_test_e2e_run_inquiry",
+      "tests_test_e2e_test_draft_response_never_claims_auto_sent",
+      "tests_test_e2e_test_feasible_order_no_production_needed",
+      "tests_test_e2e_test_full_production_order",
+      "tests_test_e2e_test_injection_blocked_before_llm",
+      "tests_test_e2e_test_partial_shortfall_triggers_production_estimate",
+      "tests_test_e2e_test_unknown_company_handled_gracefully"
+    ],
+    "3": [
+      "mcp_server_server_production_estimate",
+      "mcp_server_server_rationale_56",
+      "tests_test_tools_testproductionestimate",
+      "tests_test_tools_testproductionestimate_test_large_order_hits_tier_three",
+      "tests_test_tools_testproductionestimate_test_lead_time_includes_setup",
+      "tests_test_tools_testproductionestimate_test_mid_order_hits_tier_two",
+      "tests_test_tools_testproductionestimate_test_negative_quantity_raises",
+      "tests_test_tools_testproductionestimate_test_small_order_hits_tier_one",
+      "tests_test_tools_testproductionestimate_test_total_cost_correct",
+      "tests_test_tools_testproductionestimate_test_zero_quantity_raises",
+      "tools_production_estimate",
+      "tools_production_estimate_estimate_production",
+      "tools_production_estimate_rationale_8"
+    ],
+    "4": [
+      "app_callbacks_detect_injection",
+      "app_callbacks_rationale_59",
+      "tests_test_callbacks",
+      "tests_test_callbacks_testdetectinjection",
+      "tests_test_callbacks_testdetectinjection_test_case_insensitive",
+      "tests_test_callbacks_testdetectinjection_test_clean_inquiry_not_flagged",
+      "tests_test_callbacks_testdetectinjection_test_detects_ignore_previous_instructions",
+      "tests_test_callbacks_testdetectinjection_test_detects_jailbreak",
+      "tests_test_callbacks_testdetectinjection_test_detects_new_instructions",
+      "tests_test_callbacks_testdetectinjection_test_detects_system_override",
+      "tests_test_callbacks_testdetectinjection_test_empty_string_not_flagged",
+      "tests_test_callbacks_testdetectinjection_test_none_not_flagged"
+    ],
+    "5": [
+      "app_callbacks_rationale_35",
+      "app_callbacks_redact_text",
+      "tests_test_callbacks_testredacttext",
+      "tests_test_callbacks_testredacttext_test_empty_string_passthrough",
+      "tests_test_callbacks_testredacttext_test_leaves_clean_text_unchanged",
+      "tests_test_callbacks_testredacttext_test_multiple_emails_redacted",
+      "tests_test_callbacks_testredacttext_test_none_passthrough",
+      "tests_test_callbacks_testredacttext_test_redacts_email",
+      "tests_test_callbacks_testredacttext_test_redacts_name_my_name_is",
+      "tests_test_callbacks_testredacttext_test_redacts_phone_us_format",
+      "tests_test_callbacks_testredacttext_test_redacts_phone_with_country_code",
+      "tests_test_callbacks_testredacttext_test_redacts_street_address"
+    ],
+    "6": [
+      "app_agent",
+      "app_callbacks",
+      "app_callbacks_after_model_callback",
+      "app_callbacks_before_model_callback",
+      "app_callbacks_rationale_105",
+      "app_callbacks_rationale_71",
+      "callbackcontext",
+      "llmrequest",
+      "llmresponse"
+    ],
+    "7": [
+      "mcp_server_server_inventory_lookup",
+      "mcp_server_server_rationale_47",
+      "tests_test_tools_testinventorylookup",
+      "tests_test_tools_testinventorylookup_test_invalid_format_raises",
+      "tests_test_tools_testinventorylookup_test_known_product_returns_stock",
+      "tests_test_tools_testinventorylookup_test_unknown_product_returns_error",
+      "tools_inventory_lookup",
+      "tools_inventory_lookup_lookup_inventory",
+      "tools_inventory_lookup_rationale_8"
+    ],
+    "8": [
+      "tests_test_tools_rationale_108",
+      "tests_test_tools_testfeasibilitymath",
+      "tests_test_tools_testfeasibilitymath_test_full_production_needed",
+      "tests_test_tools_testfeasibilitymath_test_no_shortfall_when_stock_sufficient",
+      "tests_test_tools_testfeasibilitymath_test_partial_shortfall"
+    ],
+    "9": [
+      "app_main",
+      "app_main_run_agent_interactive"
+    ],
+    "10": [
+      "scripts_deploy",
+      "users_vpk_library_cloudstorage_onedrive_personal_documents_development_heimdall_scripts_deploy_sh__entry"
+    ],
+    "11": [
+      "scripts_start",
+      "users_vpk_library_cloudstorage_onedrive_personal_documents_development_heimdall_scripts_start_sh__entry"
+    ],
+    "12": [
+      "app_init"
+    ],
+    "13": [
+      "mcp_server_init"
+    ],
+    "14": [
+      "mcp_toolset_integration"
+    ],
+    "15": [
+      "mock_customers_json"
+    ],
+    "16": [
+      "mock_inventory_json"
+    ],
+    "17": [
+      "production_config_json"
+    ],
+    "18": [
+      "requirements_txt"
+    ],
+    "19": [
+      "tests_init"
+    ],
+    "20": [
+      "tools_init"
+    ]
+  },
+  "cohesion": {
+    "0": 0.10837438423645321,
+    "1": 0.1503267973856209,
+    "2": 0.1568627450980392,
+    "3": 0.23076923076923078,
+    "4": 0.2878787878787879,
+    "5": 0.2878787878787879,
+    "6": 0.3333333333333333,
+    "7": 0.2777777777777778,
+    "8": 0.4,
+    "9": 1.0,
+    "10": 1.0,
+    "11": 1.0,
+    "12": 1.0,
+    "13": 1.0,
+    "14": 1.0,
+    "15": 1.0,
+    "16": 1.0,
+    "17": 1.0,
+    "18": 1.0,
+    "19": 1.0,
+    "20": 1.0
+  },
+  "gods": [
+    {
+      "id": "app_callbacks_redact_text",
+      "label": "redact_text()",
+      "degree": 14
+    },
+    {
+      "id": "app_callbacks_detect_injection",
+      "label": "detect_injection()",
+      "degree": 12
+    },
+    {
+      "id": "tools_production_estimate_estimate_production",
+      "label": "estimate_production()",
+      "degree": 12
+    },
+    {
+      "id": "tests_test_callbacks_testredacttext",
+      "label": "TestRedactText",
+      "degree": 10
+    },
+    {
+      "id": "app_callbacks_before_model_callback",
+      "label": "before_model_callback()",
+      "degree": 9
+    },
+    {
+      "id": "tools_customer_lookup_lookup_customer",
+      "label": "lookup_customer()",
+      "degree": 9
+    },
+    {
+      "id": "tests_test_callbacks_testdetectinjection",
+      "label": "TestDetectInjection",
+      "degree": 9
+    },
+    {
+      "id": "tools_inventory_lookup_lookup_inventory",
+      "label": "lookup_inventory()",
+      "degree": 8
+    },
+    {
+      "id": "tools_order_history_lookup_order_history",
+      "label": "lookup_order_history()",
+      "degree": 8
+    },
+    {
+      "id": "tools_order_history_get_dtc_monthly_velocity",
+      "label": "get_dtc_monthly_velocity()",
+      "degree": 8
+    }
+  ],
+  "surprises": [
+    {
+      "source": "After Model Callback",
+      "target": "Customer Lookup",
+      "source_files": [
+        "heimdall/app/callbacks.py",
+        "README.md"
+      ],
+      "confidence": "INFERRED",
+      "relation": "references",
+      "why": "inferred connection - not explicitly stated in source; crosses file types (code \u2194 doc); connects across different repos/directories; peripheral node `Customer Lookup` unexpectedly reaches hub `After Model Callback`"
+    },
+    {
+      "source": "After Model Callback",
+      "target": "DTC Monthly Velocity",
+      "source_files": [
+        "heimdall/app/callbacks.py",
+        "README.md"
+      ],
+      "confidence": "INFERRED",
+      "relation": "references",
+      "why": "inferred connection - not explicitly stated in source; crosses file types (code \u2194 doc); connects across different repos/directories; peripheral node `DTC Monthly Velocity` unexpectedly reaches hub `After Model Callback`"
+    },
+    {
+      "source": "After Model Callback",
+      "target": "Inventory Lookup",
+      "source_files": [
+        "heimdall/app/callbacks.py",
+        "README.md"
+      ],
+      "confidence": "INFERRED",
+      "relation": "references",
+      "why": "inferred connection - not explicitly stated in source; crosses file types (code \u2194 doc); connects across different repos/directories; peripheral node `Inventory Lookup` unexpectedly reaches hub `After Model Callback`"
+    },
+    {
+      "source": "After Model Callback",
+      "target": "Order History",
+      "source_files": [
+        "heimdall/app/callbacks.py",
+        "README.md"
+      ],
+      "confidence": "INFERRED",
+      "relation": "references",
+      "why": "inferred connection - not explicitly stated in source; crosses file types (code \u2194 doc); connects across different repos/directories; peripheral node `Order History` unexpectedly reaches hub `After Model Callback`"
+    },
+    {
+      "source": "After Model Callback",
+      "target": "Production Estimate",
+      "source_files": [
+        "heimdall/app/callbacks.py",
+        "README.md"
+      ],
+      "confidence": "INFERRED",
+      "relation": "references",
+      "why": "inferred connection - not explicitly stated in source; crosses file types (code \u2194 doc); connects across different repos/directories; peripheral node `Production Estimate` unexpectedly reaches hub `After Model Callback`"
+    }
+  ],
+  "tokens": {
+    "input": 5586,
+    "output": 3425
+  }
+}
