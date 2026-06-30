@@ -36,15 +36,174 @@
   },
   "nodes": [
     {
-      "label": "__init__.py",
-      "file_type": "code",
-      "source_file": "app/__init__.py",
+      "label": "Claude.md",
+      "file_type": "document",
+      "source_file": "Claude.md",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 12,
-      "norm_label": "__init__.py",
-      "id": "app_init",
-      "community_name": "Init File"
+      "id": "claude",
+      "community": 21,
+      "norm_label": "claude.md"
+    },
+    {
+      "label": "Heimdall",
+      "file_type": "document",
+      "source_file": "Claude.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "claude_heimdall",
+      "community": 21,
+      "norm_label": "heimdall"
+    },
+    {
+      "label": "What This Is",
+      "file_type": "document",
+      "source_file": "Claude.md",
+      "source_location": "L4",
+      "_origin": "ast",
+      "id": "claude_what_this_is",
+      "community": 21,
+      "norm_label": "what this is"
+    },
+    {
+      "label": "Non-Requirements",
+      "file_type": "document",
+      "source_file": "Claude.md",
+      "source_location": "L7",
+      "_origin": "ast",
+      "id": "claude_non_requirements",
+      "community": 21,
+      "norm_label": "non-requirements"
+    },
+    {
+      "label": "Usability Check",
+      "file_type": "document",
+      "source_file": "Claude.md",
+      "source_location": "L15",
+      "_origin": "ast",
+      "id": "claude_usability_check",
+      "community": 21,
+      "norm_label": "usability check"
+    },
+    {
+      "label": "Environment Modes",
+      "file_type": "document",
+      "source_file": "Claude.md",
+      "source_location": "L19",
+      "_origin": "ast",
+      "id": "claude_environment_modes",
+      "community": 21,
+      "norm_label": "environment modes"
+    },
+    {
+      "label": "Local Dev",
+      "file_type": "document",
+      "source_file": "Claude.md",
+      "source_location": "L21",
+      "_origin": "ast",
+      "id": "claude_local_dev",
+      "community": 21,
+      "norm_label": "local dev"
+    },
+    {
+      "label": "Production",
+      "file_type": "document",
+      "source_file": "Claude.md",
+      "source_location": "L26",
+      "_origin": "ast",
+      "id": "claude_production",
+      "community": 21,
+      "norm_label": "production"
+    },
+    {
+      "label": "Security",
+      "file_type": "document",
+      "source_file": "Claude.md",
+      "source_location": "L31",
+      "_origin": "ast",
+      "id": "claude_security",
+      "community": 21,
+      "norm_label": "security"
+    },
+    {
+      "label": "Project Structure",
+      "file_type": "document",
+      "source_file": "Claude.md",
+      "source_location": "L38",
+      "_origin": "ast",
+      "id": "claude_project_structure",
+      "community": 21,
+      "norm_label": "project structure"
+    },
+    {
+      "label": "Skills (Claude Code)",
+      "file_type": "document",
+      "source_file": "Claude.md",
+      "source_location": "L68",
+      "_origin": "ast",
+      "id": "claude_skills_claude_code",
+      "community": 21,
+      "norm_label": "skills (claude code)"
+    },
+    {
+      "label": "Critical Snippets",
+      "file_type": "document",
+      "source_file": "Claude.md",
+      "source_location": "L80",
+      "_origin": "ast",
+      "id": "claude_critical_snippets",
+      "community": 21,
+      "norm_label": "critical snippets"
+    },
+    {
+      "label": "Implementation Phases",
+      "file_type": "document",
+      "source_file": "Claude.md",
+      "source_location": "L102",
+      "_origin": "ast",
+      "id": "claude_implementation_phases",
+      "community": 21,
+      "norm_label": "implementation phases"
+    },
+    {
+      "label": "Open Questions",
+      "file_type": "document",
+      "source_file": "Claude.md",
+      "source_location": "L129",
+      "_origin": "ast",
+      "id": "claude_open_questions",
+      "community": 21,
+      "norm_label": "open questions"
+    },
+    {
+      "label": "Changelog",
+      "file_type": "document",
+      "source_file": "Claude.md",
+      "source_location": "L139",
+      "_origin": "ast",
+      "id": "claude_changelog",
+      "community": 21,
+      "norm_label": "changelog"
+    },
+    {
+      "label": "2026-06-26 \u2014 Initial Build",
+      "file_type": "document",
+      "source_file": "Claude.md",
+      "source_location": "L141",
+      "_origin": "ast",
+      "id": "claude_2026_06_26_initial_build",
+      "community": 21,
+      "norm_label": "2026-06-26 \u2014 initial build"
+    },
+    {
+      "label": "graphify",
+      "file_type": "document",
+      "source_file": "Claude.md",
+      "source_location": "L144",
+      "_origin": "ast",
+      "id": "claude_graphify",
+      "community": 21,
+      "norm_label": "graphify"
     },
     {
       "label": "agent.py",
@@ -52,10 +211,20 @@
       "source_file": "app/agent.py",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 6,
-      "norm_label": "agent.py",
       "id": "app_agent",
-      "community_name": "Callback Handling"
+      "community": 6,
+      "norm_label": "agent.py"
+    },
+    {
+      "label": "__init__.py",
+      "file_type": "code",
+      "source_file": "app/__init__.py",
+      "source_location": "L1",
+      "_origin": "ast",
+      "community": 12,
+      "norm_label": "__init__.py",
+      "community_name": "Init File",
+      "id": "app_init"
     },
     {
       "label": "callbacks.py",
@@ -65,8 +234,8 @@
       "_origin": "ast",
       "community": 6,
       "norm_label": "callbacks.py",
-      "id": "app_callbacks",
-      "community_name": "Callback Handling"
+      "community_name": "Callback Handling",
+      "id": "app_callbacks"
     },
     {
       "label": "redact_text()",
@@ -76,8 +245,8 @@
       "_origin": "ast",
       "community": 5,
       "norm_label": "redact_text()",
-      "id": "app_callbacks_redact_text",
-      "community_name": "PII Redaction"
+      "community_name": "PII Redaction",
+      "id": "app_callbacks_redact_text"
     },
     {
       "label": "detect_injection()",
@@ -87,8 +256,8 @@
       "_origin": "ast",
       "community": 4,
       "norm_label": "detect_injection()",
-      "id": "app_callbacks_detect_injection",
-      "community_name": "Injection Detection"
+      "community_name": "Injection Detection",
+      "id": "app_callbacks_detect_injection"
     },
     {
       "label": "before_model_callback()",
@@ -98,8 +267,8 @@
       "_origin": "ast",
       "community": 6,
       "norm_label": "before_model_callback()",
-      "id": "app_callbacks_before_model_callback",
-      "community_name": "Callback Handling"
+      "community_name": "Callback Handling",
+      "id": "app_callbacks_before_model_callback"
     },
     {
       "label": "CallbackContext",
@@ -110,8 +279,8 @@
       "_origin": "ast",
       "community": 6,
       "norm_label": "callbackcontext",
-      "id": "callbackcontext",
-      "community_name": "Callback Handling"
+      "community_name": "Callback Handling",
+      "id": "callbackcontext"
     },
     {
       "label": "LlmRequest",
@@ -122,8 +291,8 @@
       "_origin": "ast",
       "community": 6,
       "norm_label": "llmrequest",
-      "id": "llmrequest",
-      "community_name": "Callback Handling"
+      "community_name": "Callback Handling",
+      "id": "llmrequest"
     },
     {
       "label": "LlmResponse",
@@ -134,8 +303,8 @@
       "_origin": "ast",
       "community": 6,
       "norm_label": "llmresponse",
-      "id": "llmresponse",
-      "community_name": "Callback Handling"
+      "community_name": "Callback Handling",
+      "id": "llmresponse"
     },
     {
       "label": "after_model_callback()",
@@ -145,8 +314,8 @@
       "_origin": "ast",
       "community": 6,
       "norm_label": "after_model_callback()",
-      "id": "app_callbacks_after_model_callback",
-      "community_name": "Callback Handling"
+      "community_name": "Callback Handling",
+      "id": "app_callbacks_after_model_callback"
     },
     {
       "label": "Redacts PII (email, phone, address, and name patterns) from text.",
@@ -156,8 +325,8 @@
       "_origin": "ast",
       "community": 5,
       "norm_label": "redacts pii (email, phone, address, and name patterns) from text.",
-      "id": "app_callbacks_rationale_35",
-      "community_name": "PII Redaction"
+      "community_name": "PII Redaction",
+      "id": "app_callbacks_rationale_35"
     },
     {
       "label": "Detects common prompt injection keyword phrases.",
@@ -167,8 +336,8 @@
       "_origin": "ast",
       "community": 4,
       "norm_label": "detects common prompt injection keyword phrases.",
-      "id": "app_callbacks_rationale_59",
-      "community_name": "Injection Detection"
+      "community_name": "Injection Detection",
+      "id": "app_callbacks_rationale_59"
     },
     {
       "label": "Runs before the LLM call.          Redacts PII from the raw inquiry text before",
@@ -178,8 +347,8 @@
       "_origin": "ast",
       "community": 6,
       "norm_label": "runs before the llm call.          redacts pii from the raw inquiry text before",
-      "id": "app_callbacks_rationale_71",
-      "community_name": "Callback Handling"
+      "community_name": "Callback Handling",
+      "id": "app_callbacks_rationale_71"
     },
     {
       "label": "Runs after the LLM call.          Checks the drafted response for leaked PII or",
@@ -189,8 +358,8 @@
       "_origin": "ast",
       "community": 6,
       "norm_label": "runs after the llm call.          checks the drafted response for leaked pii or",
-      "id": "app_callbacks_rationale_105",
-      "community_name": "Callback Handling"
+      "community_name": "Callback Handling",
+      "id": "app_callbacks_rationale_105"
     },
     {
       "label": "main.py",
@@ -200,8 +369,8 @@
       "_origin": "ast",
       "community": 9,
       "norm_label": "main.py",
-      "id": "app_main",
-      "community_name": "Agent Main"
+      "community_name": "Agent Main",
+      "id": "app_main"
     },
     {
       "label": "run_agent_interactive()",
@@ -211,8 +380,8 @@
       "_origin": "ast",
       "community": 9,
       "norm_label": "run_agent_interactive()",
-      "id": "app_main_run_agent_interactive",
-      "community_name": "Agent Main"
+      "community_name": "Agent Main",
+      "id": "app_main_run_agent_interactive"
     },
     {
       "label": "__init__.py",
@@ -222,8 +391,8 @@
       "_origin": "ast",
       "community": 13,
       "norm_label": "__init__.py",
-      "id": "mcp_server_init",
-      "community_name": "Init File"
+      "community_name": "Init File",
+      "id": "mcp_server_init"
     },
     {
       "label": "server.py",
@@ -233,8 +402,8 @@
       "_origin": "ast",
       "community": 0,
       "norm_label": "server.py",
-      "id": "mcp_server_server",
-      "community_name": "Customer CRM"
+      "community_name": "Customer CRM",
+      "id": "mcp_server_server"
     },
     {
       "label": "customer_lookup()",
@@ -244,8 +413,8 @@
       "_origin": "ast",
       "community": 0,
       "norm_label": "customer_lookup()",
-      "id": "mcp_server_server_customer_lookup",
-      "community_name": "Customer CRM"
+      "community_name": "Customer CRM",
+      "id": "mcp_server_server_customer_lookup"
     },
     {
       "label": "order_history()",
@@ -255,8 +424,8 @@
       "_origin": "ast",
       "community": 0,
       "norm_label": "order_history()",
-      "id": "mcp_server_server_order_history",
-      "community_name": "Customer CRM"
+      "community_name": "Customer CRM",
+      "id": "mcp_server_server_order_history"
     },
     {
       "label": "dtc_monthly_velocity()",
@@ -266,8 +435,8 @@
       "_origin": "ast",
       "community": 0,
       "norm_label": "dtc_monthly_velocity()",
-      "id": "mcp_server_server_dtc_monthly_velocity",
-      "community_name": "Customer CRM"
+      "community_name": "Customer CRM",
+      "id": "mcp_server_server_dtc_monthly_velocity"
     },
     {
       "label": "inventory_lookup()",
@@ -277,8 +446,8 @@
       "_origin": "ast",
       "community": 7,
       "norm_label": "inventory_lookup()",
-      "id": "mcp_server_server_inventory_lookup",
-      "community_name": "Inventory Lookup"
+      "community_name": "Inventory Lookup",
+      "id": "mcp_server_server_inventory_lookup"
     },
     {
       "label": "production_estimate()",
@@ -288,8 +457,8 @@
       "_origin": "ast",
       "community": 3,
       "norm_label": "production_estimate()",
-      "id": "mcp_server_server_production_estimate",
-      "community_name": "Production Estimation"
+      "community_name": "Production Estimation",
+      "id": "mcp_server_server_production_estimate"
     },
     {
       "label": "Look up a B2B customer in the CRM by their company ID (COMP-XXX format).",
@@ -299,8 +468,8 @@
       "_origin": "ast",
       "community": 0,
       "norm_label": "look up a b2b customer in the crm by their company id (comp-xxx format).",
-      "id": "mcp_server_server_rationale_20",
-      "community_name": "Customer CRM"
+      "community_name": "Customer CRM",
+      "id": "mcp_server_server_rationale_20"
     },
     {
       "label": "Retrieve B2B order history for a customer.          Args:         company_id: Th",
@@ -310,8 +479,8 @@
       "_origin": "ast",
       "community": 0,
       "norm_label": "retrieve b2b order history for a customer.          args:         company_id: th",
-      "id": "mcp_server_server_rationale_29",
-      "community_name": "Customer CRM"
+      "community_name": "Customer CRM",
+      "id": "mcp_server_server_rationale_29"
     },
     {
       "label": "Retrieve the recent monthly direct-to-consumer (DTC) velocity for a product.",
@@ -321,8 +490,8 @@
       "_origin": "ast",
       "community": 0,
       "norm_label": "retrieve the recent monthly direct-to-consumer (dtc) velocity for a product.",
-      "id": "mcp_server_server_rationale_38",
-      "community_name": "Customer CRM"
+      "community_name": "Customer CRM",
+      "id": "mcp_server_server_rationale_38"
     },
     {
       "label": "Look up current stock levels and details for a product.          Args:         p",
@@ -332,8 +501,8 @@
       "_origin": "ast",
       "community": 7,
       "norm_label": "look up current stock levels and details for a product.          args:         p",
-      "id": "mcp_server_server_rationale_47",
-      "community_name": "Inventory Lookup"
+      "community_name": "Inventory Lookup",
+      "id": "mcp_server_server_rationale_47"
     },
     {
       "label": "Estimate lead time and pricing tiers for producing a given unit shortfall quanti",
@@ -343,8 +512,8 @@
       "_origin": "ast",
       "community": 3,
       "norm_label": "estimate lead time and pricing tiers for producing a given unit shortfall quanti",
-      "id": "mcp_server_server_rationale_56",
-      "community_name": "Production Estimation"
+      "community_name": "Production Estimation",
+      "id": "mcp_server_server_rationale_56"
     },
     {
       "label": "__init__.py",
@@ -354,8 +523,8 @@
       "_origin": "ast",
       "community": 20,
       "norm_label": "__init__.py",
-      "id": "tools_init",
-      "community_name": "Init File"
+      "community_name": "Init File",
+      "id": "tools_init"
     },
     {
       "label": "customer_lookup.py",
@@ -365,8 +534,8 @@
       "_origin": "ast",
       "community": 0,
       "norm_label": "customer_lookup.py",
-      "id": "tools_customer_lookup",
-      "community_name": "Customer CRM"
+      "community_name": "Customer CRM",
+      "id": "tools_customer_lookup"
     },
     {
       "label": "lookup_customer()",
@@ -376,8 +545,8 @@
       "_origin": "ast",
       "community": 0,
       "norm_label": "lookup_customer()",
-      "id": "tools_customer_lookup_lookup_customer",
-      "community_name": "Customer CRM"
+      "community_name": "Customer CRM",
+      "id": "tools_customer_lookup_lookup_customer"
     },
     {
       "label": "Look up a B2B customer in the mock CRM.          Args:         company_id: The u",
@@ -387,8 +556,8 @@
       "_origin": "ast",
       "community": 0,
       "norm_label": "look up a b2b customer in the mock crm.          args:         company_id: the u",
-      "id": "tools_customer_lookup_rationale_8",
-      "community_name": "Customer CRM"
+      "community_name": "Customer CRM",
+      "id": "tools_customer_lookup_rationale_8"
     },
     {
       "label": "inventory_lookup.py",
@@ -398,8 +567,8 @@
       "_origin": "ast",
       "community": 7,
       "norm_label": "inventory_lookup.py",
-      "id": "tools_inventory_lookup",
-      "community_name": "Inventory Lookup"
+      "community_name": "Inventory Lookup",
+      "id": "tools_inventory_lookup"
     },
     {
       "label": "lookup_inventory()",
@@ -409,8 +578,8 @@
       "_origin": "ast",
       "community": 7,
       "norm_label": "lookup_inventory()",
-      "id": "tools_inventory_lookup_lookup_inventory",
-      "community_name": "Inventory Lookup"
+      "community_name": "Inventory Lookup",
+      "id": "tools_inventory_lookup_lookup_inventory"
     },
     {
       "label": "Look up current stock level and details for a given product.          Args:",
@@ -420,8 +589,8 @@
       "_origin": "ast",
       "community": 7,
       "norm_label": "look up current stock level and details for a given product.          args:",
-      "id": "tools_inventory_lookup_rationale_8",
-      "community_name": "Inventory Lookup"
+      "community_name": "Inventory Lookup",
+      "id": "tools_inventory_lookup_rationale_8"
     },
     {
       "label": "order_history.py",
@@ -431,8 +600,8 @@
       "_origin": "ast",
       "community": 0,
       "norm_label": "order_history.py",
-      "id": "tools_order_history",
-      "community_name": "Customer CRM"
+      "community_name": "Customer CRM",
+      "id": "tools_order_history"
     },
     {
       "label": "lookup_order_history()",
@@ -442,8 +611,8 @@
       "_origin": "ast",
       "community": 0,
       "norm_label": "lookup_order_history()",
-      "id": "tools_order_history_lookup_order_history",
-      "community_name": "Customer CRM"
+      "community_name": "Customer CRM",
+      "id": "tools_order_history_lookup_order_history"
     },
     {
       "label": "get_dtc_monthly_velocity()",
@@ -453,8 +622,8 @@
       "_origin": "ast",
       "community": 0,
       "norm_label": "get_dtc_monthly_velocity()",
-      "id": "tools_order_history_get_dtc_monthly_velocity",
-      "community_name": "Customer CRM"
+      "community_name": "Customer CRM",
+      "id": "tools_order_history_get_dtc_monthly_velocity"
     },
     {
       "label": "Look up order history for a specific company ID.          Args:         company_",
@@ -464,8 +633,8 @@
       "_origin": "ast",
       "community": 0,
       "norm_label": "look up order history for a specific company id.          args:         company_",
-      "id": "tools_order_history_rationale_8",
-      "community_name": "Customer CRM"
+      "community_name": "Customer CRM",
+      "id": "tools_order_history_rationale_8"
     },
     {
       "label": "Get the recent direct-to-consumer (DTC) monthly order velocity for a product.",
@@ -475,8 +644,8 @@
       "_origin": "ast",
       "community": 0,
       "norm_label": "get the recent direct-to-consumer (dtc) monthly order velocity for a product.",
-      "id": "tools_order_history_rationale_29",
-      "community_name": "Customer CRM"
+      "community_name": "Customer CRM",
+      "id": "tools_order_history_rationale_29"
     },
     {
       "label": "production_estimate.py",
@@ -486,8 +655,8 @@
       "_origin": "ast",
       "community": 3,
       "norm_label": "production_estimate.py",
-      "id": "tools_production_estimate",
-      "community_name": "Production Estimation"
+      "community_name": "Production Estimation",
+      "id": "tools_production_estimate"
     },
     {
       "label": "estimate_production()",
@@ -497,8 +666,8 @@
       "_origin": "ast",
       "community": 3,
       "norm_label": "estimate_production()",
-      "id": "tools_production_estimate_estimate_production",
-      "community_name": "Production Estimation"
+      "community_name": "Production Estimation",
+      "id": "tools_production_estimate_estimate_production"
     },
     {
       "label": "Calculate lead time and cost estimates for producing a specified quantity of sho",
@@ -508,8 +677,8 @@
       "_origin": "ast",
       "community": 3,
       "norm_label": "calculate lead time and cost estimates for producing a specified quantity of sho",
-      "id": "tools_production_estimate_rationale_8",
-      "community_name": "Production Estimation"
+      "community_name": "Production Estimation",
+      "id": "tools_production_estimate_rationale_8"
     },
     {
       "label": "deploy.sh",
@@ -523,8 +692,8 @@
       "_origin": "ast",
       "community": 10,
       "norm_label": "deploy.sh",
-      "id": "scripts_deploy",
-      "community_name": "Deployment Script"
+      "community_name": "Deployment Script",
+      "id": "scripts_deploy"
     },
     {
       "label": "deploy.sh script",
@@ -538,8 +707,8 @@
       "_origin": "ast",
       "community": 10,
       "norm_label": "deploy.sh script",
-      "id": "users_vpk_library_cloudstorage_onedrive_personal_documents_development_heimdall_scripts_deploy_sh__entry",
-      "community_name": "Deployment Script"
+      "community_name": "Deployment Script",
+      "id": "users_vpk_library_cloudstorage_onedrive_personal_documents_development_heimdall_scripts_deploy_sh__entry"
     },
     {
       "label": "start.sh",
@@ -553,8 +722,8 @@
       "_origin": "ast",
       "community": 11,
       "norm_label": "start.sh",
-      "id": "scripts_start",
-      "community_name": "Start Script"
+      "community_name": "Start Script",
+      "id": "scripts_start"
     },
     {
       "label": "start.sh script",
@@ -568,8 +737,8 @@
       "_origin": "ast",
       "community": 11,
       "norm_label": "start.sh script",
-      "id": "users_vpk_library_cloudstorage_onedrive_personal_documents_development_heimdall_scripts_start_sh__entry",
-      "community_name": "Start Script"
+      "community_name": "Start Script",
+      "id": "users_vpk_library_cloudstorage_onedrive_personal_documents_development_heimdall_scripts_start_sh__entry"
     },
     {
       "label": "__init__.py",
@@ -579,8 +748,8 @@
       "_origin": "ast",
       "community": 19,
       "norm_label": "__init__.py",
-      "id": "tests_init",
-      "community_name": "Init File"
+      "community_name": "Init File",
+      "id": "tests_init"
     },
     {
       "label": "test_callbacks.py",
@@ -590,8 +759,8 @@
       "_origin": "ast",
       "community": 4,
       "norm_label": "test_callbacks.py",
-      "id": "tests_test_callbacks",
-      "community_name": "Injection Detection"
+      "community_name": "Injection Detection",
+      "id": "tests_test_callbacks"
     },
     {
       "label": "TestRedactText",
@@ -601,8 +770,8 @@
       "_origin": "ast",
       "community": 5,
       "norm_label": "testredacttext",
-      "id": "tests_test_callbacks_testredacttext",
-      "community_name": "PII Redaction"
+      "community_name": "PII Redaction",
+      "id": "tests_test_callbacks_testredacttext"
     },
     {
       "label": ".test_redacts_email()",
@@ -612,8 +781,8 @@
       "_origin": "ast",
       "community": 5,
       "norm_label": ".test_redacts_email()",
-      "id": "tests_test_callbacks_testredacttext_test_redacts_email",
-      "community_name": "PII Redaction"
+      "community_name": "PII Redaction",
+      "id": "tests_test_callbacks_testredacttext_test_redacts_email"
     },
     {
       "label": ".test_redacts_phone_us_format()",
@@ -623,8 +792,8 @@
       "_origin": "ast",
       "community": 5,
       "norm_label": ".test_redacts_phone_us_format()",
-      "id": "tests_test_callbacks_testredacttext_test_redacts_phone_us_format",
-      "community_name": "PII Redaction"
+      "community_name": "PII Redaction",
+      "id": "tests_test_callbacks_testredacttext_test_redacts_phone_us_format"
     },
     {
       "label": ".test_redacts_phone_with_country_code()",
@@ -634,8 +803,8 @@
       "_origin": "ast",
       "community": 5,
       "norm_label": ".test_redacts_phone_with_country_code()",
-      "id": "tests_test_callbacks_testredacttext_test_redacts_phone_with_country_code",
-      "community_name": "PII Redaction"
+      "community_name": "PII Redaction",
+      "id": "tests_test_callbacks_testredacttext_test_redacts_phone_with_country_code"
     },
     {
       "label": ".test_redacts_street_address()",
@@ -645,8 +814,8 @@
       "_origin": "ast",
       "community": 5,
       "norm_label": ".test_redacts_street_address()",
-      "id": "tests_test_callbacks_testredacttext_test_redacts_street_address",
-      "community_name": "PII Redaction"
+      "community_name": "PII Redaction",
+      "id": "tests_test_callbacks_testredacttext_test_redacts_street_address"
     },
     {
       "label": ".test_redacts_name_my_name_is()",
@@ -656,8 +825,8 @@
       "_origin": "ast",
       "community": 5,
       "norm_label": ".test_redacts_name_my_name_is()",
-      "id": "tests_test_callbacks_testredacttext_test_redacts_name_my_name_is",
-      "community_name": "PII Redaction"
+      "community_name": "PII Redaction",
+      "id": "tests_test_callbacks_testredacttext_test_redacts_name_my_name_is"
     },
     {
       "label": ".test_leaves_clean_text_unchanged()",
@@ -667,8 +836,8 @@
       "_origin": "ast",
       "community": 5,
       "norm_label": ".test_leaves_clean_text_unchanged()",
-      "id": "tests_test_callbacks_testredacttext_test_leaves_clean_text_unchanged",
-      "community_name": "PII Redaction"
+      "community_name": "PII Redaction",
+      "id": "tests_test_callbacks_testredacttext_test_leaves_clean_text_unchanged"
     },
     {
       "label": ".test_empty_string_passthrough()",
@@ -678,8 +847,8 @@
       "_origin": "ast",
       "community": 5,
       "norm_label": ".test_empty_string_passthrough()",
-      "id": "tests_test_callbacks_testredacttext_test_empty_string_passthrough",
-      "community_name": "PII Redaction"
+      "community_name": "PII Redaction",
+      "id": "tests_test_callbacks_testredacttext_test_empty_string_passthrough"
     },
     {
       "label": ".test_none_passthrough()",
@@ -689,8 +858,8 @@
       "_origin": "ast",
       "community": 5,
       "norm_label": ".test_none_passthrough()",
-      "id": "tests_test_callbacks_testredacttext_test_none_passthrough",
-      "community_name": "PII Redaction"
+      "community_name": "PII Redaction",
+      "id": "tests_test_callbacks_testredacttext_test_none_passthrough"
     },
     {
       "label": ".test_multiple_emails_redacted()",
@@ -700,8 +869,8 @@
       "_origin": "ast",
       "community": 5,
       "norm_label": ".test_multiple_emails_redacted()",
-      "id": "tests_test_callbacks_testredacttext_test_multiple_emails_redacted",
-      "community_name": "PII Redaction"
+      "community_name": "PII Redaction",
+      "id": "tests_test_callbacks_testredacttext_test_multiple_emails_redacted"
     },
     {
       "label": "TestDetectInjection",
@@ -711,8 +880,8 @@
       "_origin": "ast",
       "community": 4,
       "norm_label": "testdetectinjection",
-      "id": "tests_test_callbacks_testdetectinjection",
-      "community_name": "Injection Detection"
+      "community_name": "Injection Detection",
+      "id": "tests_test_callbacks_testdetectinjection"
     },
     {
       "label": ".test_detects_ignore_previous_instructions()",
@@ -722,8 +891,8 @@
       "_origin": "ast",
       "community": 4,
       "norm_label": ".test_detects_ignore_previous_instructions()",
-      "id": "tests_test_callbacks_testdetectinjection_test_detects_ignore_previous_instructions",
-      "community_name": "Injection Detection"
+      "community_name": "Injection Detection",
+      "id": "tests_test_callbacks_testdetectinjection_test_detects_ignore_previous_instructions"
     },
     {
       "label": ".test_detects_jailbreak()",
@@ -733,8 +902,8 @@
       "_origin": "ast",
       "community": 4,
       "norm_label": ".test_detects_jailbreak()",
-      "id": "tests_test_callbacks_testdetectinjection_test_detects_jailbreak",
-      "community_name": "Injection Detection"
+      "community_name": "Injection Detection",
+      "id": "tests_test_callbacks_testdetectinjection_test_detects_jailbreak"
     },
     {
       "label": ".test_detects_system_override()",
@@ -744,8 +913,8 @@
       "_origin": "ast",
       "community": 4,
       "norm_label": ".test_detects_system_override()",
-      "id": "tests_test_callbacks_testdetectinjection_test_detects_system_override",
-      "community_name": "Injection Detection"
+      "community_name": "Injection Detection",
+      "id": "tests_test_callbacks_testdetectinjection_test_detects_system_override"
     },
     {
       "label": ".test_detects_new_instructions()",
@@ -755,8 +924,8 @@
       "_origin": "ast",
       "community": 4,
       "norm_label": ".test_detects_new_instructions()",
-      "id": "tests_test_callbacks_testdetectinjection_test_detects_new_instructions",
-      "community_name": "Injection Detection"
+      "community_name": "Injection Detection",
+      "id": "tests_test_callbacks_testdetectinjection_test_detects_new_instructions"
     },
     {
       "label": ".test_case_insensitive()",
@@ -766,8 +935,8 @@
       "_origin": "ast",
       "community": 4,
       "norm_label": ".test_case_insensitive()",
-      "id": "tests_test_callbacks_testdetectinjection_test_case_insensitive",
-      "community_name": "Injection Detection"
+      "community_name": "Injection Detection",
+      "id": "tests_test_callbacks_testdetectinjection_test_case_insensitive"
     },
     {
       "label": ".test_clean_inquiry_not_flagged()",
@@ -777,8 +946,8 @@
       "_origin": "ast",
       "community": 4,
       "norm_label": ".test_clean_inquiry_not_flagged()",
-      "id": "tests_test_callbacks_testdetectinjection_test_clean_inquiry_not_flagged",
-      "community_name": "Injection Detection"
+      "community_name": "Injection Detection",
+      "id": "tests_test_callbacks_testdetectinjection_test_clean_inquiry_not_flagged"
     },
     {
       "label": ".test_empty_string_not_flagged()",
@@ -788,8 +957,8 @@
       "_origin": "ast",
       "community": 4,
       "norm_label": ".test_empty_string_not_flagged()",
-      "id": "tests_test_callbacks_testdetectinjection_test_empty_string_not_flagged",
-      "community_name": "Injection Detection"
+      "community_name": "Injection Detection",
+      "id": "tests_test_callbacks_testdetectinjection_test_empty_string_not_flagged"
     },
     {
       "label": ".test_none_not_flagged()",
@@ -799,8 +968,8 @@
       "_origin": "ast",
       "community": 4,
       "norm_label": ".test_none_not_flagged()",
-      "id": "tests_test_callbacks_testdetectinjection_test_none_not_flagged",
-      "community_name": "Injection Detection"
+      "community_name": "Injection Detection",
+      "id": "tests_test_callbacks_testdetectinjection_test_none_not_flagged"
     },
     {
       "label": "test_e2e.py",
@@ -810,8 +979,8 @@
       "_origin": "ast",
       "community": 2,
       "norm_label": "test_e2e.py",
-      "id": "tests_test_e2e",
-      "community_name": "Inventory Shortfall"
+      "community_name": "Inventory Shortfall",
+      "id": "tests_test_e2e"
     },
     {
       "label": "build_test_agent()",
@@ -821,8 +990,8 @@
       "_origin": "ast",
       "community": 2,
       "norm_label": "build_test_agent()",
-      "id": "tests_test_e2e_build_test_agent",
-      "community_name": "Inventory Shortfall"
+      "community_name": "Inventory Shortfall",
+      "id": "tests_test_e2e_build_test_agent"
     },
     {
       "label": "Agent",
@@ -833,8 +1002,8 @@
       "_origin": "ast",
       "community": 2,
       "norm_label": "agent",
-      "id": "agent",
-      "community_name": "Inventory Shortfall"
+      "community_name": "Inventory Shortfall",
+      "id": "agent"
     },
     {
       "label": "run_inquiry()",
@@ -844,8 +1013,8 @@
       "_origin": "ast",
       "community": 2,
       "norm_label": "run_inquiry()",
-      "id": "tests_test_e2e_run_inquiry",
-      "community_name": "Inventory Shortfall"
+      "community_name": "Inventory Shortfall",
+      "id": "tests_test_e2e_run_inquiry"
     },
     {
       "label": "event_loop()",
@@ -855,8 +1024,8 @@
       "_origin": "ast",
       "community": 2,
       "norm_label": "event_loop()",
-      "id": "tests_test_e2e_event_loop",
-      "community_name": "Inventory Shortfall"
+      "community_name": "Inventory Shortfall",
+      "id": "tests_test_e2e_event_loop"
     },
     {
       "label": "test_feasible_order_no_production_needed()",
@@ -866,8 +1035,8 @@
       "_origin": "ast",
       "community": 2,
       "norm_label": "test_feasible_order_no_production_needed()",
-      "id": "tests_test_e2e_test_feasible_order_no_production_needed",
-      "community_name": "Inventory Shortfall"
+      "community_name": "Inventory Shortfall",
+      "id": "tests_test_e2e_test_feasible_order_no_production_needed"
     },
     {
       "label": "test_partial_shortfall_triggers_production_estimate()",
@@ -877,8 +1046,8 @@
       "_origin": "ast",
       "community": 2,
       "norm_label": "test_partial_shortfall_triggers_production_estimate()",
-      "id": "tests_test_e2e_test_partial_shortfall_triggers_production_estimate",
-      "community_name": "Inventory Shortfall"
+      "community_name": "Inventory Shortfall",
+      "id": "tests_test_e2e_test_partial_shortfall_triggers_production_estimate"
     },
     {
       "label": "test_full_production_order()",
@@ -888,8 +1057,8 @@
       "_origin": "ast",
       "community": 2,
       "norm_label": "test_full_production_order()",
-      "id": "tests_test_e2e_test_full_production_order",
-      "community_name": "Inventory Shortfall"
+      "community_name": "Inventory Shortfall",
+      "id": "tests_test_e2e_test_full_production_order"
     },
     {
       "label": "test_injection_blocked_before_llm()",
@@ -899,8 +1068,8 @@
       "_origin": "ast",
       "community": 2,
       "norm_label": "test_injection_blocked_before_llm()",
-      "id": "tests_test_e2e_test_injection_blocked_before_llm",
-      "community_name": "Inventory Shortfall"
+      "community_name": "Inventory Shortfall",
+      "id": "tests_test_e2e_test_injection_blocked_before_llm"
     },
     {
       "label": "test_unknown_company_handled_gracefully()",
@@ -910,8 +1079,8 @@
       "_origin": "ast",
       "community": 2,
       "norm_label": "test_unknown_company_handled_gracefully()",
-      "id": "tests_test_e2e_test_unknown_company_handled_gracefully",
-      "community_name": "Inventory Shortfall"
+      "community_name": "Inventory Shortfall",
+      "id": "tests_test_e2e_test_unknown_company_handled_gracefully"
     },
     {
       "label": "test_draft_response_never_claims_auto_sent()",
@@ -921,8 +1090,8 @@
       "_origin": "ast",
       "community": 2,
       "norm_label": "test_draft_response_never_claims_auto_sent()",
-      "id": "tests_test_e2e_test_draft_response_never_claims_auto_sent",
-      "community_name": "Inventory Shortfall"
+      "community_name": "Inventory Shortfall",
+      "id": "tests_test_e2e_test_draft_response_never_claims_auto_sent"
     },
     {
       "label": "End-to-end tests using Ollama (qwen2.5:7b via LiteLLM) instead of Gemini.  Runs",
@@ -932,8 +1101,8 @@
       "_origin": "ast",
       "community": 2,
       "norm_label": "end-to-end tests using ollama (qwen2.5:7b via litellm) instead of gemini.  runs",
-      "id": "tests_test_e2e_rationale_1",
-      "community_name": "Inventory Shortfall"
+      "community_name": "Inventory Shortfall",
+      "id": "tests_test_e2e_rationale_1"
     },
     {
       "label": "PROD-A: stock=600, DTC=400/mo, ask=100 -> shortfall=0, fulfill from stock.",
@@ -943,8 +1112,8 @@
       "_origin": "ast",
       "community": 2,
       "norm_label": "prod-a: stock=600, dtc=400/mo, ask=100 -> shortfall=0, fulfill from stock.",
-      "id": "tests_test_e2e_rationale_115",
-      "community_name": "Inventory Shortfall"
+      "community_name": "Inventory Shortfall",
+      "id": "tests_test_e2e_rationale_115"
     },
     {
       "label": "PROD-A: stock=600, DTC=400/mo, ask=300 -> shortfall=100, partial fulfillment.",
@@ -954,8 +1123,8 @@
       "_origin": "ast",
       "community": 2,
       "norm_label": "prod-a: stock=600, dtc=400/mo, ask=300 -> shortfall=100, partial fulfillment.",
-      "id": "tests_test_e2e_rationale_133",
-      "community_name": "Inventory Shortfall"
+      "community_name": "Inventory Shortfall",
+      "id": "tests_test_e2e_rationale_133"
     },
     {
       "label": "PROD-B: stock=150, DTC=100/mo, ask=500 -> shortfall=450, full production.",
@@ -965,8 +1134,8 @@
       "_origin": "ast",
       "community": 2,
       "norm_label": "prod-b: stock=150, dtc=100/mo, ask=500 -> shortfall=450, full production.",
-      "id": "tests_test_e2e_rationale_148",
-      "community_name": "Inventory Shortfall"
+      "community_name": "Inventory Shortfall",
+      "id": "tests_test_e2e_rationale_148"
     },
     {
       "label": "Injection in inquiry must be blocked by before_model_callback, not reach LLM.",
@@ -976,8 +1145,8 @@
       "_origin": "ast",
       "community": 2,
       "norm_label": "injection in inquiry must be blocked by before_model_callback, not reach llm.",
-      "id": "tests_test_e2e_rationale_163",
-      "community_name": "Inventory Shortfall"
+      "community_name": "Inventory Shortfall",
+      "id": "tests_test_e2e_rationale_163"
     },
     {
       "label": "Pipeline must not raise an unhandled exception on an unknown company ID.      Th",
@@ -987,8 +1156,8 @@
       "_origin": "ast",
       "community": 2,
       "norm_label": "pipeline must not raise an unhandled exception on an unknown company id.      th",
-      "id": "tests_test_e2e_rationale_176",
-      "community_name": "Inventory Shortfall"
+      "community_name": "Inventory Shortfall",
+      "id": "tests_test_e2e_rationale_176"
     },
     {
       "label": "Output gate must catch any language implying an email was auto-sent.",
@@ -998,8 +1167,8 @@
       "_origin": "ast",
       "community": 2,
       "norm_label": "output gate must catch any language implying an email was auto-sent.",
-      "id": "tests_test_e2e_rationale_193",
-      "community_name": "Inventory Shortfall"
+      "community_name": "Inventory Shortfall",
+      "id": "tests_test_e2e_rationale_193"
     },
     {
       "label": "test_tools.py",
@@ -1009,8 +1178,8 @@
       "_origin": "ast",
       "community": 0,
       "norm_label": "test_tools.py",
-      "id": "tests_test_tools",
-      "community_name": "Customer CRM"
+      "community_name": "Customer CRM",
+      "id": "tests_test_tools"
     },
     {
       "label": "TestCustomerLookup",
@@ -1020,8 +1189,8 @@
       "_origin": "ast",
       "community": 0,
       "norm_label": "testcustomerlookup",
-      "id": "tests_test_tools_testcustomerlookup",
-      "community_name": "Customer CRM"
+      "community_name": "Customer CRM",
+      "id": "tests_test_tools_testcustomerlookup"
     },
     {
       "label": ".test_known_company_returns_record()",
@@ -1031,8 +1200,8 @@
       "_origin": "ast",
       "community": 0,
       "norm_label": ".test_known_company_returns_record()",
-      "id": "tests_test_tools_testcustomerlookup_test_known_company_returns_record",
-      "community_name": "Customer CRM"
+      "community_name": "Customer CRM",
+      "id": "tests_test_tools_testcustomerlookup_test_known_company_returns_record"
     },
     {
       "label": ".test_unknown_company_returns_error()",
@@ -1042,8 +1211,8 @@
       "_origin": "ast",
       "community": 0,
       "norm_label": ".test_unknown_company_returns_error()",
-      "id": "tests_test_tools_testcustomerlookup_test_unknown_company_returns_error",
-      "community_name": "Customer CRM"
+      "community_name": "Customer CRM",
+      "id": "tests_test_tools_testcustomerlookup_test_unknown_company_returns_error"
     },
     {
       "label": ".test_invalid_format_raises()",
@@ -1053,8 +1222,8 @@
       "_origin": "ast",
       "community": 0,
       "norm_label": ".test_invalid_format_raises()",
-      "id": "tests_test_tools_testcustomerlookup_test_invalid_format_raises",
-      "community_name": "Customer CRM"
+      "community_name": "Customer CRM",
+      "id": "tests_test_tools_testcustomerlookup_test_invalid_format_raises"
     },
     {
       "label": ".test_invalid_format_no_digits_raises()",
@@ -1064,8 +1233,8 @@
       "_origin": "ast",
       "community": 0,
       "norm_label": ".test_invalid_format_no_digits_raises()",
-      "id": "tests_test_tools_testcustomerlookup_test_invalid_format_no_digits_raises",
-      "community_name": "Customer CRM"
+      "community_name": "Customer CRM",
+      "id": "tests_test_tools_testcustomerlookup_test_invalid_format_no_digits_raises"
     },
     {
       "label": "TestInventoryLookup",
@@ -1075,8 +1244,8 @@
       "_origin": "ast",
       "community": 7,
       "norm_label": "testinventorylookup",
-      "id": "tests_test_tools_testinventorylookup",
-      "community_name": "Inventory Lookup"
+      "community_name": "Inventory Lookup",
+      "id": "tests_test_tools_testinventorylookup"
     },
     {
       "label": ".test_known_product_returns_stock()",
@@ -1086,8 +1255,8 @@
       "_origin": "ast",
       "community": 7,
       "norm_label": ".test_known_product_returns_stock()",
-      "id": "tests_test_tools_testinventorylookup_test_known_product_returns_stock",
-      "community_name": "Inventory Lookup"
+      "community_name": "Inventory Lookup",
+      "id": "tests_test_tools_testinventorylookup_test_known_product_returns_stock"
     },
     {
       "label": ".test_unknown_product_returns_error()",
@@ -1097,8 +1266,8 @@
       "_origin": "ast",
       "community": 7,
       "norm_label": ".test_unknown_product_returns_error()",
-      "id": "tests_test_tools_testinventorylookup_test_unknown_product_returns_error",
-      "community_name": "Inventory Lookup"
+      "community_name": "Inventory Lookup",
+      "id": "tests_test_tools_testinventorylookup_test_unknown_product_returns_error"
     },
     {
       "label": ".test_invalid_format_raises()",
@@ -1108,8 +1277,8 @@
       "_origin": "ast",
       "community": 7,
       "norm_label": ".test_invalid_format_raises()",
-      "id": "tests_test_tools_testinventorylookup_test_invalid_format_raises",
-      "community_name": "Inventory Lookup"
+      "community_name": "Inventory Lookup",
+      "id": "tests_test_tools_testinventorylookup_test_invalid_format_raises"
     },
     {
       "label": "TestOrderHistory",
@@ -1119,8 +1288,8 @@
       "_origin": "ast",
       "community": 0,
       "norm_label": "testorderhistory",
-      "id": "tests_test_tools_testorderhistory",
-      "community_name": "Customer CRM"
+      "community_name": "Customer CRM",
+      "id": "tests_test_tools_testorderhistory"
     },
     {
       "label": ".test_known_company_returns_orders()",
@@ -1130,8 +1299,8 @@
       "_origin": "ast",
       "community": 0,
       "norm_label": ".test_known_company_returns_orders()",
-      "id": "tests_test_tools_testorderhistory_test_known_company_returns_orders",
-      "community_name": "Customer CRM"
+      "community_name": "Customer CRM",
+      "id": "tests_test_tools_testorderhistory_test_known_company_returns_orders"
     },
     {
       "label": ".test_company_with_no_orders_returns_empty()",
@@ -1141,8 +1310,8 @@
       "_origin": "ast",
       "community": 0,
       "norm_label": ".test_company_with_no_orders_returns_empty()",
-      "id": "tests_test_tools_testorderhistory_test_company_with_no_orders_returns_empty",
-      "community_name": "Customer CRM"
+      "community_name": "Customer CRM",
+      "id": "tests_test_tools_testorderhistory_test_company_with_no_orders_returns_empty"
     },
     {
       "label": ".test_invalid_format_raises()",
@@ -1152,8 +1321,8 @@
       "_origin": "ast",
       "community": 0,
       "norm_label": ".test_invalid_format_raises()",
-      "id": "tests_test_tools_testorderhistory_test_invalid_format_raises",
-      "community_name": "Customer CRM"
+      "community_name": "Customer CRM",
+      "id": "tests_test_tools_testorderhistory_test_invalid_format_raises"
     },
     {
       "label": "TestDtcVelocity",
@@ -1163,8 +1332,8 @@
       "_origin": "ast",
       "community": 0,
       "norm_label": "testdtcvelocity",
-      "id": "tests_test_tools_testdtcvelocity",
-      "community_name": "Customer CRM"
+      "community_name": "Customer CRM",
+      "id": "tests_test_tools_testdtcvelocity"
     },
     {
       "label": ".test_known_product_returns_velocity()",
@@ -1174,8 +1343,8 @@
       "_origin": "ast",
       "community": 0,
       "norm_label": ".test_known_product_returns_velocity()",
-      "id": "tests_test_tools_testdtcvelocity_test_known_product_returns_velocity",
-      "community_name": "Customer CRM"
+      "community_name": "Customer CRM",
+      "id": "tests_test_tools_testdtcvelocity_test_known_product_returns_velocity"
     },
     {
       "label": ".test_unknown_product_returns_zero()",
@@ -1185,8 +1354,8 @@
       "_origin": "ast",
       "community": 0,
       "norm_label": ".test_unknown_product_returns_zero()",
-      "id": "tests_test_tools_testdtcvelocity_test_unknown_product_returns_zero",
-      "community_name": "Customer CRM"
+      "community_name": "Customer CRM",
+      "id": "tests_test_tools_testdtcvelocity_test_unknown_product_returns_zero"
     },
     {
       "label": ".test_invalid_format_raises()",
@@ -1196,8 +1365,8 @@
       "_origin": "ast",
       "community": 0,
       "norm_label": ".test_invalid_format_raises()",
-      "id": "tests_test_tools_testdtcvelocity_test_invalid_format_raises",
-      "community_name": "Customer CRM"
+      "community_name": "Customer CRM",
+      "id": "tests_test_tools_testdtcvelocity_test_invalid_format_raises"
     },
     {
       "label": "TestProductionEstimate",
@@ -1207,8 +1376,8 @@
       "_origin": "ast",
       "community": 3,
       "norm_label": "testproductionestimate",
-      "id": "tests_test_tools_testproductionestimate",
-      "community_name": "Production Estimation"
+      "community_name": "Production Estimation",
+      "id": "tests_test_tools_testproductionestimate"
     },
     {
       "label": ".test_small_order_hits_tier_one()",
@@ -1218,8 +1387,8 @@
       "_origin": "ast",
       "community": 3,
       "norm_label": ".test_small_order_hits_tier_one()",
-      "id": "tests_test_tools_testproductionestimate_test_small_order_hits_tier_one",
-      "community_name": "Production Estimation"
+      "community_name": "Production Estimation",
+      "id": "tests_test_tools_testproductionestimate_test_small_order_hits_tier_one"
     },
     {
       "label": ".test_mid_order_hits_tier_two()",
@@ -1229,8 +1398,8 @@
       "_origin": "ast",
       "community": 3,
       "norm_label": ".test_mid_order_hits_tier_two()",
-      "id": "tests_test_tools_testproductionestimate_test_mid_order_hits_tier_two",
-      "community_name": "Production Estimation"
+      "community_name": "Production Estimation",
+      "id": "tests_test_tools_testproductionestimate_test_mid_order_hits_tier_two"
     },
     {
       "label": ".test_large_order_hits_tier_three()",
@@ -1240,8 +1409,8 @@
       "_origin": "ast",
       "community": 3,
       "norm_label": ".test_large_order_hits_tier_three()",
-      "id": "tests_test_tools_testproductionestimate_test_large_order_hits_tier_three",
-      "community_name": "Production Estimation"
+      "community_name": "Production Estimation",
+      "id": "tests_test_tools_testproductionestimate_test_large_order_hits_tier_three"
     },
     {
       "label": ".test_lead_time_includes_setup()",
@@ -1251,8 +1420,8 @@
       "_origin": "ast",
       "community": 3,
       "norm_label": ".test_lead_time_includes_setup()",
-      "id": "tests_test_tools_testproductionestimate_test_lead_time_includes_setup",
-      "community_name": "Production Estimation"
+      "community_name": "Production Estimation",
+      "id": "tests_test_tools_testproductionestimate_test_lead_time_includes_setup"
     },
     {
       "label": ".test_total_cost_correct()",
@@ -1262,8 +1431,8 @@
       "_origin": "ast",
       "community": 3,
       "norm_label": ".test_total_cost_correct()",
-      "id": "tests_test_tools_testproductionestimate_test_total_cost_correct",
-      "community_name": "Production Estimation"
+      "community_name": "Production Estimation",
+      "id": "tests_test_tools_testproductionestimate_test_total_cost_correct"
     },
     {
       "label": ".test_zero_quantity_raises()",
@@ -1273,8 +1442,8 @@
       "_origin": "ast",
       "community": 3,
       "norm_label": ".test_zero_quantity_raises()",
-      "id": "tests_test_tools_testproductionestimate_test_zero_quantity_raises",
-      "community_name": "Production Estimation"
+      "community_name": "Production Estimation",
+      "id": "tests_test_tools_testproductionestimate_test_zero_quantity_raises"
     },
     {
       "label": ".test_negative_quantity_raises()",
@@ -1284,8 +1453,8 @@
       "_origin": "ast",
       "community": 3,
       "norm_label": ".test_negative_quantity_raises()",
-      "id": "tests_test_tools_testproductionestimate_test_negative_quantity_raises",
-      "community_name": "Production Estimation"
+      "community_name": "Production Estimation",
+      "id": "tests_test_tools_testproductionestimate_test_negative_quantity_raises"
     },
     {
       "label": "TestFeasibilityMath",
@@ -1295,8 +1464,8 @@
       "_origin": "ast",
       "community": 8,
       "norm_label": "testfeasibilitymath",
-      "id": "tests_test_tools_testfeasibilitymath",
-      "community_name": "Feasibility Math"
+      "community_name": "Feasibility Math",
+      "id": "tests_test_tools_testfeasibilitymath"
     },
     {
       "label": ".test_no_shortfall_when_stock_sufficient()",
@@ -1306,8 +1475,8 @@
       "_origin": "ast",
       "community": 8,
       "norm_label": ".test_no_shortfall_when_stock_sufficient()",
-      "id": "tests_test_tools_testfeasibilitymath_test_no_shortfall_when_stock_sufficient",
-      "community_name": "Feasibility Math"
+      "community_name": "Feasibility Math",
+      "id": "tests_test_tools_testfeasibilitymath_test_no_shortfall_when_stock_sufficient"
     },
     {
       "label": ".test_partial_shortfall()",
@@ -1317,8 +1486,8 @@
       "_origin": "ast",
       "community": 8,
       "norm_label": ".test_partial_shortfall()",
-      "id": "tests_test_tools_testfeasibilitymath_test_partial_shortfall",
-      "community_name": "Feasibility Math"
+      "community_name": "Feasibility Math",
+      "id": "tests_test_tools_testfeasibilitymath_test_partial_shortfall"
     },
     {
       "label": ".test_full_production_needed()",
@@ -1328,8 +1497,8 @@
       "_origin": "ast",
       "community": 8,
       "norm_label": ".test_full_production_needed()",
-      "id": "tests_test_tools_testfeasibilitymath_test_full_production_needed",
-      "community_name": "Feasibility Math"
+      "community_name": "Feasibility Math",
+      "id": "tests_test_tools_testfeasibilitymath_test_full_production_needed"
     },
     {
       "label": "Validates the core shortfall equation the agent reasons over.      stock_shortfa",
@@ -1339,8 +1508,8 @@
       "_origin": "ast",
       "community": 8,
       "norm_label": "validates the core shortfall equation the agent reasons over.      stock_shortfa",
-      "id": "tests_test_tools_rationale_108",
-      "community_name": "Feasibility Math"
+      "community_name": "Feasibility Math",
+      "id": "tests_test_tools_rationale_108"
     },
     {
       "label": "Heimdall Agent",
@@ -1353,8 +1522,8 @@
       "contributor": null,
       "community": 1,
       "norm_label": "heimdall agent",
-      "id": "heimdall_agent",
-      "community_name": "Model Callbacks"
+      "community_name": "Model Callbacks",
+      "id": "heimdall_agent"
     },
     {
       "label": "MCP Toolset",
@@ -1367,8 +1536,8 @@
       "contributor": null,
       "community": 1,
       "norm_label": "mcp toolset",
-      "id": "mcp_toolset",
-      "community_name": "Model Callbacks"
+      "community_name": "Model Callbacks",
+      "id": "mcp_toolset"
     },
     {
       "label": "Before Model Callback",
@@ -1381,8 +1550,8 @@
       "contributor": null,
       "community": 1,
       "norm_label": "before model callback",
-      "id": "before_model_callback",
-      "community_name": "Model Callbacks"
+      "community_name": "Model Callbacks",
+      "id": "before_model_callback"
     },
     {
       "label": "After Model Callback",
@@ -1395,8 +1564,8 @@
       "contributor": null,
       "community": 1,
       "norm_label": "after model callback",
-      "id": "after_model_callback",
-      "community_name": "Model Callbacks"
+      "community_name": "Model Callbacks",
+      "id": "after_model_callback"
     },
     {
       "label": "Customer Lookup Tool",
@@ -1409,8 +1578,8 @@
       "contributor": null,
       "community": 1,
       "norm_label": "customer lookup tool",
-      "id": "customer_lookup_tool",
-      "community_name": "Model Callbacks"
+      "community_name": "Model Callbacks",
+      "id": "customer_lookup_tool"
     },
     {
       "label": "Order History Tool",
@@ -1423,8 +1592,8 @@
       "contributor": null,
       "community": 1,
       "norm_label": "order history tool",
-      "id": "order_history_tool",
-      "community_name": "Model Callbacks"
+      "community_name": "Model Callbacks",
+      "id": "order_history_tool"
     },
     {
       "label": "Inventory Lookup Tool",
@@ -1437,8 +1606,8 @@
       "contributor": null,
       "community": 1,
       "norm_label": "inventory lookup tool",
-      "id": "inventory_lookup_tool",
-      "community_name": "Model Callbacks"
+      "community_name": "Model Callbacks",
+      "id": "inventory_lookup_tool"
     },
     {
       "label": "Production Estimate Tool",
@@ -1451,8 +1620,8 @@
       "contributor": null,
       "community": 1,
       "norm_label": "production estimate tool",
-      "id": "production_estimate_tool",
-      "community_name": "Model Callbacks"
+      "community_name": "Model Callbacks",
+      "id": "production_estimate_tool"
     },
     {
       "label": "MCP Toolset Imports",
@@ -1465,8 +1634,8 @@
       "contributor": null,
       "community": 1,
       "norm_label": "mcp toolset imports",
-      "id": "mcp_toolset_imports",
-      "community_name": "Model Callbacks"
+      "community_name": "Model Callbacks",
+      "id": "mcp_toolset_imports"
     },
     {
       "label": "MCP Toolset Integration",
@@ -1479,8 +1648,8 @@
       "contributor": null,
       "community": 14,
       "norm_label": "mcp toolset integration",
-      "id": "mcp_toolset_integration",
-      "community_name": "MCP Integration"
+      "community_name": "MCP Integration",
+      "id": "mcp_toolset_integration"
     },
     {
       "label": "Before Model Callback Signatures",
@@ -1493,8 +1662,8 @@
       "contributor": null,
       "community": 1,
       "norm_label": "before model callback signatures",
-      "id": "before_model_callback_signatures",
-      "community_name": "Model Callbacks"
+      "community_name": "Model Callbacks",
+      "id": "before_model_callback_signatures"
     },
     {
       "label": "After Model Callback Signatures",
@@ -1507,8 +1676,8 @@
       "contributor": null,
       "community": 1,
       "norm_label": "after model callback signatures",
-      "id": "after_model_callback_signatures",
-      "community_name": "Model Callbacks"
+      "community_name": "Model Callbacks",
+      "id": "after_model_callback_signatures"
     },
     {
       "label": "Cloud Run Deployment",
@@ -1521,8 +1690,8 @@
       "contributor": null,
       "community": 1,
       "norm_label": "cloud run deployment",
-      "id": "cloud_run_deployment",
-      "community_name": "Model Callbacks"
+      "community_name": "Model Callbacks",
+      "id": "cloud_run_deployment"
     },
     {
       "label": "Requirements.txt",
@@ -1535,8 +1704,8 @@
       "contributor": null,
       "community": 18,
       "norm_label": "requirements.txt",
-      "id": "requirements_txt",
-      "community_name": "Requirements"
+      "community_name": "Requirements",
+      "id": "requirements_txt"
     },
     {
       "label": "ADK Agent (Gemini 2.5 Flash)",
@@ -1549,8 +1718,8 @@
       "contributor": null,
       "community": 1,
       "norm_label": "adk agent (gemini 2.5 flash)",
-      "id": "heimdall_gemini_2_5_flash",
-      "community_name": "Model Callbacks"
+      "community_name": "Model Callbacks",
+      "id": "heimdall_gemini_2_5_flash"
     },
     {
       "label": "Customer Lookup",
@@ -1563,8 +1732,8 @@
       "contributor": null,
       "community": 1,
       "norm_label": "customer lookup",
-      "id": "customer_lookup",
-      "community_name": "Model Callbacks"
+      "community_name": "Model Callbacks",
+      "id": "customer_lookup"
     },
     {
       "label": "Inventory Lookup",
@@ -1577,8 +1746,8 @@
       "contributor": null,
       "community": 1,
       "norm_label": "inventory lookup",
-      "id": "inventory_lookup",
-      "community_name": "Model Callbacks"
+      "community_name": "Model Callbacks",
+      "id": "inventory_lookup"
     },
     {
       "label": "DTC Monthly Velocity",
@@ -1591,8 +1760,8 @@
       "contributor": null,
       "community": 1,
       "norm_label": "dtc monthly velocity",
-      "id": "dtc_monthly_velocity",
-      "community_name": "Model Callbacks"
+      "community_name": "Model Callbacks",
+      "id": "dtc_monthly_velocity"
     },
     {
       "label": "Order History",
@@ -1605,8 +1774,8 @@
       "contributor": null,
       "community": 1,
       "norm_label": "order history",
-      "id": "order_history",
-      "community_name": "Model Callbacks"
+      "community_name": "Model Callbacks",
+      "id": "order_history"
     },
     {
       "label": "Production Estimate",
@@ -1619,8 +1788,8 @@
       "contributor": null,
       "community": 1,
       "norm_label": "production estimate",
-      "id": "production_estimate",
-      "community_name": "Model Callbacks"
+      "community_name": "Model Callbacks",
+      "id": "production_estimate"
     },
     {
       "label": "Mock Customers JSON",
@@ -1633,8 +1802,8 @@
       "contributor": null,
       "community": 15,
       "norm_label": "mock customers json",
-      "id": "mock_customers_json",
-      "community_name": "Mock Customers"
+      "community_name": "Mock Customers",
+      "id": "mock_customers_json"
     },
     {
       "label": "Mock Inventory JSON",
@@ -1647,8 +1816,8 @@
       "contributor": null,
       "community": 16,
       "norm_label": "mock inventory json",
-      "id": "mock_inventory_json",
-      "community_name": "Mock Inventory"
+      "community_name": "Mock Inventory",
+      "id": "mock_inventory_json"
     },
     {
       "label": "Production Config JSON",
@@ -1661,11 +1830,171 @@
       "contributor": null,
       "community": 17,
       "norm_label": "production config json",
-      "id": "production_config_json",
-      "community_name": "Production Config"
+      "community_name": "Production Config",
+      "id": "production_config_json"
     }
   ],
   "links": [
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Claude.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "claude",
+      "target": "claude_heimdall",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Claude.md",
+      "source_location": "L139",
+      "weight": 1.0,
+      "source": "claude_heimdall",
+      "target": "claude_changelog",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Claude.md",
+      "source_location": "L80",
+      "weight": 1.0,
+      "source": "claude_heimdall",
+      "target": "claude_critical_snippets",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Claude.md",
+      "source_location": "L19",
+      "weight": 1.0,
+      "source": "claude_heimdall",
+      "target": "claude_environment_modes",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Claude.md",
+      "source_location": "L144",
+      "weight": 1.0,
+      "source": "claude_heimdall",
+      "target": "claude_graphify",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Claude.md",
+      "source_location": "L102",
+      "weight": 1.0,
+      "source": "claude_heimdall",
+      "target": "claude_implementation_phases",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Claude.md",
+      "source_location": "L7",
+      "weight": 1.0,
+      "source": "claude_heimdall",
+      "target": "claude_non_requirements",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Claude.md",
+      "source_location": "L129",
+      "weight": 1.0,
+      "source": "claude_heimdall",
+      "target": "claude_open_questions",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Claude.md",
+      "source_location": "L38",
+      "weight": 1.0,
+      "source": "claude_heimdall",
+      "target": "claude_project_structure",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Claude.md",
+      "source_location": "L31",
+      "weight": 1.0,
+      "source": "claude_heimdall",
+      "target": "claude_security",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Claude.md",
+      "source_location": "L68",
+      "weight": 1.0,
+      "source": "claude_heimdall",
+      "target": "claude_skills_claude_code",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Claude.md",
+      "source_location": "L15",
+      "weight": 1.0,
+      "source": "claude_heimdall",
+      "target": "claude_usability_check",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Claude.md",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "claude_heimdall",
+      "target": "claude_what_this_is",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Claude.md",
+      "source_location": "L21",
+      "weight": 1.0,
+      "source": "claude_environment_modes",
+      "target": "claude_local_dev",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Claude.md",
+      "source_location": "L26",
+      "weight": 1.0,
+      "source": "claude_environment_modes",
+      "target": "claude_production",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Claude.md",
+      "source_location": "L141",
+      "weight": 1.0,
+      "source": "claude_changelog",
+      "target": "claude_2026_06_26_initial_build",
+      "confidence_score": 1.0
+    },
     {
       "relation": "imports_from",
       "context": "import",
@@ -3689,5 +4018,5 @@
       "source_file": "README.md"
     }
   ],
-  "built_at_commit": "444221d2d87764cf76435f87bf2b9510f14c16be"
+  "built_at_commit": "2cd8fa620ac9db444d14e47a0ae677c5f8c484e0"
 }

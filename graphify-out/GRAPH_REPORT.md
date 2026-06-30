@@ -1,15 +1,16 @@
-# Graph Report - .  (2026-06-28)
+# Graph Report - heimdall  (2026-06-28)
 
 ## Corpus Check
-- cluster-only mode — file stats not available
+- 25 files · ~6,269 words
+- Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 140 nodes · 196 edges · 21 communities (13 shown, 8 thin omitted)
-- Extraction: 97% EXTRACTED · 3% INFERRED · 0% AMBIGUOUS · INFERRED: 5 edges (avg confidence: 1.0)
+- 157 nodes · 212 edges · 22 communities (14 shown, 8 thin omitted)
+- Extraction: 98% EXTRACTED · 2% INFERRED · 0% AMBIGUOUS · INFERRED: 5 edges (avg confidence: 1.0)
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `444221d2`
+- Built from commit: `2cd8fa62`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -30,18 +31,19 @@
 - [[_COMMUNITY_Mock Inventory|Mock Inventory]]
 - [[_COMMUNITY_Production Config|Production Config]]
 - [[_COMMUNITY_Requirements|Requirements]]
+- [[_COMMUNITY_Community 21|Community 21]]
 
 ## God Nodes (most connected - your core abstractions)
 1. `redact_text()` - 14 edges
-2. `detect_injection()` - 12 edges
-3. `estimate_production()` - 12 edges
-4. `TestRedactText` - 10 edges
-5. `before_model_callback()` - 9 edges
-6. `lookup_customer()` - 9 edges
-7. `TestDetectInjection` - 9 edges
-8. `lookup_inventory()` - 8 edges
-9. `lookup_order_history()` - 8 edges
-10. `get_dtc_monthly_velocity()` - 8 edges
+2. `Heimdall` - 13 edges
+3. `detect_injection()` - 12 edges
+4. `estimate_production()` - 12 edges
+5. `TestRedactText` - 10 edges
+6. `before_model_callback()` - 9 edges
+7. `lookup_customer()` - 9 edges
+8. `TestDetectInjection` - 9 edges
+9. `lookup_inventory()` - 8 edges
+10. `lookup_order_history()` - 8 edges
 
 ## Surprising Connections (you probably didn't know these)
 - `After Model Callback` --references--> `Customer Lookup`  [INFERRED]
@@ -62,7 +64,7 @@
 - **Tool Calls via MCP Stdio** — heimdall_gemini_2_5_flash, customer_lookup, inventory_lookup, dtc_monthly_velocity, order_history, production_estimate [EXTRACTED 0.70]
 - **Mock Data Files** — mock_customers_json, mock_inventory_json, production_config_json [INFERRED 0.80]
 
-## Communities (21 total, 8 thin omitted)
+## Communities (22 total, 8 thin omitted)
 
 ### Community 0 - "Customer CRM"
 Cohesion: 0.11
@@ -96,8 +98,12 @@ Nodes (7): after_model_callback(), before_model_callback(), Runs after the LLM c
 Cohesion: 0.28
 Nodes (5): inventory_lookup(), Look up current stock levels and details for a product.          Args:         p, TestInventoryLookup, lookup_inventory(), Look up current stock level and details for a given product.          Args:
 
+### Community 21 - "Community 21"
+Cohesion: 0.12
+Nodes (16): 2026-06-26 — Initial Build, Changelog, Critical Snippets, Environment Modes, graphify, Heimdall, Implementation Phases, Local Dev (+8 more)
+
 ## Knowledge Gaps
-- **15 isolated node(s):** `deploy.sh script`, `start.sh script`, `Customer Lookup Tool`, `Order History Tool`, `Inventory Lookup Tool` (+10 more)
+- **28 isolated node(s):** `What This Is`, `Non-Requirements`, `Usability Check`, `Local Dev`, `Production` (+23 more)
   These have ≤1 connection - possible missing edges or undocumented components.
 - **8 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
@@ -105,12 +111,14 @@ Nodes (5): inventory_lookup(), Look up current stock levels and details for a pr
 _Questions this graph is uniquely positioned to answer:_
 
 - **Why does `redact_text()` connect `PII Redaction` to `Injection Detection`, `Callback Handling`?**
-  _High betweenness centrality (0.041) - this node is a cross-community bridge._
+  _High betweenness centrality (0.032) - this node is a cross-community bridge._
 - **Why does `estimate_production()` connect `Production Estimation` to `Customer CRM`?**
-  _High betweenness centrality (0.038) - this node is a cross-community bridge._
+  _High betweenness centrality (0.030) - this node is a cross-community bridge._
 - **Why does `detect_injection()` connect `Injection Detection` to `Callback Handling`?**
-  _High betweenness centrality (0.037) - this node is a cross-community bridge._
-- **What connects `Redacts PII (email, phone, address, and name patterns) from text.`, `Detects common prompt injection keyword phrases.`, `Runs before the LLM call.          Redacts PII from the raw inquiry text before` to the rest of the system?**
-  _37 weakly-connected nodes found - possible documentation gaps or missing edges._
+  _High betweenness centrality (0.029) - this node is a cross-community bridge._
+- **What connects `What This Is`, `Non-Requirements`, `Usability Check` to the rest of the system?**
+  _50 weakly-connected nodes found - possible documentation gaps or missing edges._
 - **Should `Customer CRM` be split into smaller, more focused modules?**
   _Cohesion score 0.10837438423645321 - nodes in this community are weakly interconnected._
+- **Should `Community 21` be split into smaller, more focused modules?**
+  _Cohesion score 0.11764705882352941 - nodes in this community are weakly interconnected._
