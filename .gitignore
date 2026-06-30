@@ -19,6 +19,10 @@ __pycache__/
 .agents/
 agy-setup.md
 
+# Claude Code local config
+.claude/
+CLAUDE.md
+
 # Graphify — machine-local files
 graphify-out/manifest.json
 graphify-out/cost.json
