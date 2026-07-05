@@ -36,174 +36,154 @@
   },
   "nodes": [
     {
-      "label": "Claude.md",
+      "label": "README.md",
       "file_type": "document",
-      "source_file": "Claude.md",
+      "source_file": "README.md",
       "source_location": "L1",
       "_origin": "ast",
-      "id": "claude",
-      "community": 21,
-      "norm_label": "claude.md"
+      "id": "readme",
+      "community": 7,
+      "norm_label": "readme.md"
     },
     {
       "label": "Heimdall",
       "file_type": "document",
-      "source_file": "Claude.md",
+      "source_file": "README.md",
       "source_location": "L1",
       "_origin": "ast",
-      "id": "claude_heimdall",
-      "community": 21,
+      "id": "readme_heimdall",
+      "community": 7,
       "norm_label": "heimdall"
     },
     {
-      "label": "What This Is",
+      "label": "Why it exists",
       "file_type": "document",
-      "source_file": "Claude.md",
-      "source_location": "L4",
+      "source_file": "README.md",
+      "source_location": "L11",
       "_origin": "ast",
-      "id": "claude_what_this_is",
-      "community": 21,
-      "norm_label": "what this is"
+      "id": "readme_why_it_exists",
+      "community": 7,
+      "norm_label": "why it exists"
     },
     {
-      "label": "Non-Requirements",
+      "label": "Architecture",
       "file_type": "document",
-      "source_file": "Claude.md",
-      "source_location": "L7",
+      "source_file": "README.md",
+      "source_location": "L17",
       "_origin": "ast",
-      "id": "claude_non_requirements",
-      "community": 21,
-      "norm_label": "non-requirements"
+      "id": "readme_architecture",
+      "community": 7,
+      "norm_label": "architecture"
     },
     {
-      "label": "Usability Check",
+      "label": "How this was built",
       "file_type": "document",
-      "source_file": "Claude.md",
-      "source_location": "L15",
+      "source_file": "README.md",
+      "source_location": "L47",
       "_origin": "ast",
-      "id": "claude_usability_check",
-      "community": 21,
-      "norm_label": "usability check"
+      "id": "readme_how_this_was_built",
+      "community": 7,
+      "norm_label": "how this was built"
     },
     {
-      "label": "Environment Modes",
+      "label": "Quickstart",
       "file_type": "document",
-      "source_file": "Claude.md",
-      "source_location": "L19",
+      "source_file": "README.md",
+      "source_location": "L53",
       "_origin": "ast",
-      "id": "claude_environment_modes",
-      "community": 21,
-      "norm_label": "environment modes"
+      "id": "readme_quickstart",
+      "community": 7,
+      "norm_label": "quickstart"
     },
     {
-      "label": "Local Dev",
+      "label": "Requirements",
       "file_type": "document",
-      "source_file": "Claude.md",
-      "source_location": "L21",
+      "source_file": "README.md",
+      "source_location": "L55",
       "_origin": "ast",
-      "id": "claude_local_dev",
-      "community": 21,
+      "id": "readme_requirements",
+      "community": 7,
+      "norm_label": "requirements"
+    },
+    {
+      "label": "Local dev",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L60",
+      "_origin": "ast",
+      "id": "readme_local_dev",
+      "community": 7,
       "norm_label": "local dev"
     },
     {
-      "label": "Production",
+      "label": "Environment variables",
       "file_type": "document",
-      "source_file": "Claude.md",
-      "source_location": "L26",
+      "source_file": "README.md",
+      "source_location": "L78",
       "_origin": "ast",
-      "id": "claude_production",
-      "community": 21,
-      "norm_label": "production"
+      "id": "readme_environment_variables",
+      "community": 7,
+      "norm_label": "environment variables"
+    },
+    {
+      "label": "Run tests",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L99",
+      "_origin": "ast",
+      "id": "readme_run_tests",
+      "community": 7,
+      "norm_label": "run tests"
+    },
+    {
+      "label": "Reasoning chain",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L106",
+      "_origin": "ast",
+      "id": "readme_reasoning_chain",
+      "community": 7,
+      "norm_label": "reasoning chain"
+    },
+    {
+      "label": "Triage outcomes",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L118",
+      "_origin": "ast",
+      "id": "readme_triage_outcomes",
+      "community": 7,
+      "norm_label": "triage outcomes"
     },
     {
       "label": "Security",
       "file_type": "document",
-      "source_file": "Claude.md",
-      "source_location": "L31",
+      "source_file": "README.md",
+      "source_location": "L126",
       "_origin": "ast",
-      "id": "claude_security",
-      "community": 21,
+      "id": "readme_security",
+      "community": 7,
       "norm_label": "security"
     },
     {
-      "label": "Project Structure",
+      "label": "Mock data",
       "file_type": "document",
-      "source_file": "Claude.md",
-      "source_location": "L38",
+      "source_file": "README.md",
+      "source_location": "L133",
       "_origin": "ast",
-      "id": "claude_project_structure",
-      "community": 21,
-      "norm_label": "project structure"
+      "id": "readme_mock_data",
+      "community": 7,
+      "norm_label": "mock data"
     },
     {
-      "label": "Skills (Claude Code)",
+      "label": "Deployment",
       "file_type": "document",
-      "source_file": "Claude.md",
-      "source_location": "L68",
+      "source_file": "README.md",
+      "source_location": "L142",
       "_origin": "ast",
-      "id": "claude_skills_claude_code",
-      "community": 21,
-      "norm_label": "skills (claude code)"
-    },
-    {
-      "label": "Critical Snippets",
-      "file_type": "document",
-      "source_file": "Claude.md",
-      "source_location": "L80",
-      "_origin": "ast",
-      "id": "claude_critical_snippets",
-      "community": 21,
-      "norm_label": "critical snippets"
-    },
-    {
-      "label": "Implementation Phases",
-      "file_type": "document",
-      "source_file": "Claude.md",
-      "source_location": "L102",
-      "_origin": "ast",
-      "id": "claude_implementation_phases",
-      "community": 21,
-      "norm_label": "implementation phases"
-    },
-    {
-      "label": "Open Questions",
-      "file_type": "document",
-      "source_file": "Claude.md",
-      "source_location": "L129",
-      "_origin": "ast",
-      "id": "claude_open_questions",
-      "community": 21,
-      "norm_label": "open questions"
-    },
-    {
-      "label": "Changelog",
-      "file_type": "document",
-      "source_file": "Claude.md",
-      "source_location": "L139",
-      "_origin": "ast",
-      "id": "claude_changelog",
-      "community": 21,
-      "norm_label": "changelog"
-    },
-    {
-      "label": "2026-06-26 \u2014 Initial Build",
-      "file_type": "document",
-      "source_file": "Claude.md",
-      "source_location": "L141",
-      "_origin": "ast",
-      "id": "claude_2026_06_26_initial_build",
-      "community": 21,
-      "norm_label": "2026-06-26 \u2014 initial build"
-    },
-    {
-      "label": "graphify",
-      "file_type": "document",
-      "source_file": "Claude.md",
-      "source_location": "L144",
-      "_origin": "ast",
-      "id": "claude_graphify",
-      "community": 21,
-      "norm_label": "graphify"
+      "id": "readme_deployment",
+      "community": 7,
+      "norm_label": "deployment"
     },
     {
       "label": "agent.py",
@@ -216,6 +196,327 @@
       "norm_label": "agent.py"
     },
     {
+      "label": "callbacks.py",
+      "file_type": "code",
+      "source_file": "app/callbacks.py",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "app_callbacks",
+      "community": 6,
+      "norm_label": "callbacks.py"
+    },
+    {
+      "label": "redact_text()",
+      "file_type": "code",
+      "source_file": "app/callbacks.py",
+      "source_location": "L34",
+      "_origin": "ast",
+      "id": "app_callbacks_redact_text",
+      "community": 5,
+      "norm_label": "redact_text()"
+    },
+    {
+      "label": "detect_injection()",
+      "file_type": "code",
+      "source_file": "app/callbacks.py",
+      "source_location": "L58",
+      "_origin": "ast",
+      "id": "app_callbacks_detect_injection",
+      "community": 4,
+      "norm_label": "detect_injection()"
+    },
+    {
+      "label": "before_model_callback()",
+      "file_type": "code",
+      "source_file": "app/callbacks.py",
+      "source_location": "L68",
+      "_origin": "ast",
+      "id": "app_callbacks_before_model_callback",
+      "community": 6,
+      "norm_label": "before_model_callback()"
+    },
+    {
+      "label": "CallbackContext",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "origin_file": "/Users/vpk/Library/CloudStorage/OneDrive-Personal/Documents/Development/heimdall/app/callbacks.py",
+      "_origin": "ast",
+      "id": "callbackcontext",
+      "community": 6,
+      "norm_label": "callbackcontext"
+    },
+    {
+      "label": "LlmRequest",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "origin_file": "/Users/vpk/Library/CloudStorage/OneDrive-Personal/Documents/Development/heimdall/app/callbacks.py",
+      "_origin": "ast",
+      "id": "llmrequest",
+      "community": 6,
+      "norm_label": "llmrequest"
+    },
+    {
+      "label": "LlmResponse",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "origin_file": "/Users/vpk/Library/CloudStorage/OneDrive-Personal/Documents/Development/heimdall/app/callbacks.py",
+      "_origin": "ast",
+      "id": "llmresponse",
+      "community": 6,
+      "norm_label": "llmresponse"
+    },
+    {
+      "label": "after_model_callback()",
+      "file_type": "code",
+      "source_file": "app/callbacks.py",
+      "source_location": "L100",
+      "_origin": "ast",
+      "id": "app_callbacks_after_model_callback",
+      "community": 6,
+      "norm_label": "after_model_callback()"
+    },
+    {
+      "label": "Redacts PII (email, phone, address, and name patterns) from text.",
+      "file_type": "rationale",
+      "source_file": "app/callbacks.py",
+      "source_location": "L35",
+      "_origin": "ast",
+      "id": "app_callbacks_rationale_35",
+      "community": 5,
+      "norm_label": "redacts pii (email, phone, address, and name patterns) from text."
+    },
+    {
+      "label": "Detects common prompt injection keyword phrases.",
+      "file_type": "rationale",
+      "source_file": "app/callbacks.py",
+      "source_location": "L59",
+      "_origin": "ast",
+      "id": "app_callbacks_rationale_59",
+      "community": 4,
+      "norm_label": "detects common prompt injection keyword phrases."
+    },
+    {
+      "label": "Runs before the LLM call.          Redacts PII from the raw inquiry text before",
+      "file_type": "rationale",
+      "source_file": "app/callbacks.py",
+      "source_location": "L71",
+      "_origin": "ast",
+      "id": "app_callbacks_rationale_71",
+      "community": 6,
+      "norm_label": "runs before the llm call.          redacts pii from the raw inquiry text before"
+    },
+    {
+      "label": "Runs after the LLM call.          Checks the drafted response for leaked PII or",
+      "file_type": "rationale",
+      "source_file": "app/callbacks.py",
+      "source_location": "L105",
+      "_origin": "ast",
+      "id": "app_callbacks_rationale_105",
+      "community": 6,
+      "norm_label": "runs after the llm call.          checks the drafted response for leaked pii or"
+    },
+    {
+      "label": "start.sh",
+      "file_type": "code",
+      "source_file": "scripts/start.sh",
+      "source_location": "L1",
+      "metadata": {
+        "language": "bash",
+        "kind": "file"
+      },
+      "_origin": "ast",
+      "id": "scripts_start",
+      "community": 11,
+      "norm_label": "start.sh"
+    },
+    {
+      "label": "start.sh script",
+      "file_type": "code",
+      "source_file": "scripts/start.sh",
+      "source_location": "L1",
+      "metadata": {
+        "language": "bash",
+        "kind": "bash_entrypoint"
+      },
+      "_origin": "ast",
+      "id": "users_vpk_library_cloudstorage_onedrive_personal_documents_development_heimdall_scripts_start_sh__entry",
+      "community": 11,
+      "norm_label": "start.sh script"
+    },
+    {
+      "label": "Claude.md",
+      "file_type": "document",
+      "source_file": "Claude.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "community": 21,
+      "norm_label": "claude.md",
+      "id": "claude"
+    },
+    {
+      "label": "Heimdall",
+      "file_type": "document",
+      "source_file": "Claude.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "community": 21,
+      "norm_label": "heimdall",
+      "id": "claude_heimdall"
+    },
+    {
+      "label": "What This Is",
+      "file_type": "document",
+      "source_file": "Claude.md",
+      "source_location": "L4",
+      "_origin": "ast",
+      "community": 21,
+      "norm_label": "what this is",
+      "id": "claude_what_this_is"
+    },
+    {
+      "label": "Non-Requirements",
+      "file_type": "document",
+      "source_file": "Claude.md",
+      "source_location": "L7",
+      "_origin": "ast",
+      "community": 21,
+      "norm_label": "non-requirements",
+      "id": "claude_non_requirements"
+    },
+    {
+      "label": "Usability Check",
+      "file_type": "document",
+      "source_file": "Claude.md",
+      "source_location": "L15",
+      "_origin": "ast",
+      "community": 21,
+      "norm_label": "usability check",
+      "id": "claude_usability_check"
+    },
+    {
+      "label": "Environment Modes",
+      "file_type": "document",
+      "source_file": "Claude.md",
+      "source_location": "L19",
+      "_origin": "ast",
+      "community": 21,
+      "norm_label": "environment modes",
+      "id": "claude_environment_modes"
+    },
+    {
+      "label": "Local Dev",
+      "file_type": "document",
+      "source_file": "Claude.md",
+      "source_location": "L21",
+      "_origin": "ast",
+      "community": 21,
+      "norm_label": "local dev",
+      "id": "claude_local_dev"
+    },
+    {
+      "label": "Production",
+      "file_type": "document",
+      "source_file": "Claude.md",
+      "source_location": "L26",
+      "_origin": "ast",
+      "community": 21,
+      "norm_label": "production",
+      "id": "claude_production"
+    },
+    {
+      "label": "Security",
+      "file_type": "document",
+      "source_file": "Claude.md",
+      "source_location": "L31",
+      "_origin": "ast",
+      "community": 21,
+      "norm_label": "security",
+      "id": "claude_security"
+    },
+    {
+      "label": "Project Structure",
+      "file_type": "document",
+      "source_file": "Claude.md",
+      "source_location": "L38",
+      "_origin": "ast",
+      "community": 21,
+      "norm_label": "project structure",
+      "id": "claude_project_structure"
+    },
+    {
+      "label": "Skills (Claude Code)",
+      "file_type": "document",
+      "source_file": "Claude.md",
+      "source_location": "L68",
+      "_origin": "ast",
+      "community": 21,
+      "norm_label": "skills (claude code)",
+      "id": "claude_skills_claude_code"
+    },
+    {
+      "label": "Critical Snippets",
+      "file_type": "document",
+      "source_file": "Claude.md",
+      "source_location": "L80",
+      "_origin": "ast",
+      "community": 21,
+      "norm_label": "critical snippets",
+      "id": "claude_critical_snippets"
+    },
+    {
+      "label": "Implementation Phases",
+      "file_type": "document",
+      "source_file": "Claude.md",
+      "source_location": "L102",
+      "_origin": "ast",
+      "community": 21,
+      "norm_label": "implementation phases",
+      "id": "claude_implementation_phases"
+    },
+    {
+      "label": "Open Questions",
+      "file_type": "document",
+      "source_file": "Claude.md",
+      "source_location": "L129",
+      "_origin": "ast",
+      "community": 21,
+      "norm_label": "open questions",
+      "id": "claude_open_questions"
+    },
+    {
+      "label": "Changelog",
+      "file_type": "document",
+      "source_file": "Claude.md",
+      "source_location": "L139",
+      "_origin": "ast",
+      "community": 21,
+      "norm_label": "changelog",
+      "id": "claude_changelog"
+    },
+    {
+      "label": "2026-06-26 \u2014 Initial Build",
+      "file_type": "document",
+      "source_file": "Claude.md",
+      "source_location": "L141",
+      "_origin": "ast",
+      "community": 21,
+      "norm_label": "2026-06-26 \u2014 initial build",
+      "id": "claude_2026_06_26_initial_build"
+    },
+    {
+      "label": "graphify",
+      "file_type": "document",
+      "source_file": "Claude.md",
+      "source_location": "L144",
+      "_origin": "ast",
+      "community": 21,
+      "norm_label": "graphify",
+      "id": "claude_graphify"
+    },
+    {
       "label": "__init__.py",
       "file_type": "code",
       "source_file": "app/__init__.py",
@@ -225,141 +526,6 @@
       "norm_label": "__init__.py",
       "community_name": "Init File",
       "id": "app_init"
-    },
-    {
-      "label": "callbacks.py",
-      "file_type": "code",
-      "source_file": "app/callbacks.py",
-      "source_location": "L1",
-      "_origin": "ast",
-      "community": 6,
-      "norm_label": "callbacks.py",
-      "community_name": "Callback Handling",
-      "id": "app_callbacks"
-    },
-    {
-      "label": "redact_text()",
-      "file_type": "code",
-      "source_file": "app/callbacks.py",
-      "source_location": "L34",
-      "_origin": "ast",
-      "community": 5,
-      "norm_label": "redact_text()",
-      "community_name": "PII Redaction",
-      "id": "app_callbacks_redact_text"
-    },
-    {
-      "label": "detect_injection()",
-      "file_type": "code",
-      "source_file": "app/callbacks.py",
-      "source_location": "L58",
-      "_origin": "ast",
-      "community": 4,
-      "norm_label": "detect_injection()",
-      "community_name": "Injection Detection",
-      "id": "app_callbacks_detect_injection"
-    },
-    {
-      "label": "before_model_callback()",
-      "file_type": "code",
-      "source_file": "app/callbacks.py",
-      "source_location": "L68",
-      "_origin": "ast",
-      "community": 6,
-      "norm_label": "before_model_callback()",
-      "community_name": "Callback Handling",
-      "id": "app_callbacks_before_model_callback"
-    },
-    {
-      "label": "CallbackContext",
-      "file_type": "code",
-      "source_file": "",
-      "source_location": "",
-      "origin_file": "/Users/vpk/Library/CloudStorage/OneDrive-Personal/Documents/Development/heimdall/app/callbacks.py",
-      "_origin": "ast",
-      "community": 6,
-      "norm_label": "callbackcontext",
-      "community_name": "Callback Handling",
-      "id": "callbackcontext"
-    },
-    {
-      "label": "LlmRequest",
-      "file_type": "code",
-      "source_file": "",
-      "source_location": "",
-      "origin_file": "/Users/vpk/Library/CloudStorage/OneDrive-Personal/Documents/Development/heimdall/app/callbacks.py",
-      "_origin": "ast",
-      "community": 6,
-      "norm_label": "llmrequest",
-      "community_name": "Callback Handling",
-      "id": "llmrequest"
-    },
-    {
-      "label": "LlmResponse",
-      "file_type": "code",
-      "source_file": "",
-      "source_location": "",
-      "origin_file": "/Users/vpk/Library/CloudStorage/OneDrive-Personal/Documents/Development/heimdall/app/callbacks.py",
-      "_origin": "ast",
-      "community": 6,
-      "norm_label": "llmresponse",
-      "community_name": "Callback Handling",
-      "id": "llmresponse"
-    },
-    {
-      "label": "after_model_callback()",
-      "file_type": "code",
-      "source_file": "app/callbacks.py",
-      "source_location": "L100",
-      "_origin": "ast",
-      "community": 6,
-      "norm_label": "after_model_callback()",
-      "community_name": "Callback Handling",
-      "id": "app_callbacks_after_model_callback"
-    },
-    {
-      "label": "Redacts PII (email, phone, address, and name patterns) from text.",
-      "file_type": "rationale",
-      "source_file": "app/callbacks.py",
-      "source_location": "L35",
-      "_origin": "ast",
-      "community": 5,
-      "norm_label": "redacts pii (email, phone, address, and name patterns) from text.",
-      "community_name": "PII Redaction",
-      "id": "app_callbacks_rationale_35"
-    },
-    {
-      "label": "Detects common prompt injection keyword phrases.",
-      "file_type": "rationale",
-      "source_file": "app/callbacks.py",
-      "source_location": "L59",
-      "_origin": "ast",
-      "community": 4,
-      "norm_label": "detects common prompt injection keyword phrases.",
-      "community_name": "Injection Detection",
-      "id": "app_callbacks_rationale_59"
-    },
-    {
-      "label": "Runs before the LLM call.          Redacts PII from the raw inquiry text before",
-      "file_type": "rationale",
-      "source_file": "app/callbacks.py",
-      "source_location": "L71",
-      "_origin": "ast",
-      "community": 6,
-      "norm_label": "runs before the llm call.          redacts pii from the raw inquiry text before",
-      "community_name": "Callback Handling",
-      "id": "app_callbacks_rationale_71"
-    },
-    {
-      "label": "Runs after the LLM call.          Checks the drafted response for leaked PII or",
-      "file_type": "rationale",
-      "source_file": "app/callbacks.py",
-      "source_location": "L105",
-      "_origin": "ast",
-      "community": 6,
-      "norm_label": "runs after the llm call.          checks the drafted response for leaked pii or",
-      "community_name": "Callback Handling",
-      "id": "app_callbacks_rationale_105"
     },
     {
       "label": "main.py",
@@ -444,7 +610,7 @@
       "source_file": "mcp_server/server.py",
       "source_location": "L46",
       "_origin": "ast",
-      "community": 7,
+      "community": 0,
       "norm_label": "inventory_lookup()",
       "community_name": "Inventory Lookup",
       "id": "mcp_server_server_inventory_lookup"
@@ -499,7 +665,7 @@
       "source_file": "mcp_server/server.py",
       "source_location": "L47",
       "_origin": "ast",
-      "community": 7,
+      "community": 0,
       "norm_label": "look up current stock levels and details for a product.          args:         p",
       "community_name": "Inventory Lookup",
       "id": "mcp_server_server_rationale_47"
@@ -532,7 +698,7 @@
       "source_file": "mcp_server/tools/customer_lookup.py",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 0,
+      "community": 15,
       "norm_label": "customer_lookup.py",
       "community_name": "Customer CRM",
       "id": "tools_customer_lookup"
@@ -543,7 +709,7 @@
       "source_file": "mcp_server/tools/customer_lookup.py",
       "source_location": "L7",
       "_origin": "ast",
-      "community": 0,
+      "community": 15,
       "norm_label": "lookup_customer()",
       "community_name": "Customer CRM",
       "id": "tools_customer_lookup_lookup_customer"
@@ -554,7 +720,7 @@
       "source_file": "mcp_server/tools/customer_lookup.py",
       "source_location": "L8",
       "_origin": "ast",
-      "community": 0,
+      "community": 15,
       "norm_label": "look up a b2b customer in the mock crm.          args:         company_id: the u",
       "community_name": "Customer CRM",
       "id": "tools_customer_lookup_rationale_8"
@@ -565,7 +731,7 @@
       "source_file": "mcp_server/tools/inventory_lookup.py",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 7,
+      "community": 0,
       "norm_label": "inventory_lookup.py",
       "community_name": "Inventory Lookup",
       "id": "tools_inventory_lookup"
@@ -576,7 +742,7 @@
       "source_file": "mcp_server/tools/inventory_lookup.py",
       "source_location": "L7",
       "_origin": "ast",
-      "community": 7,
+      "community": 0,
       "norm_label": "lookup_inventory()",
       "community_name": "Inventory Lookup",
       "id": "tools_inventory_lookup_lookup_inventory"
@@ -587,7 +753,7 @@
       "source_file": "mcp_server/tools/inventory_lookup.py",
       "source_location": "L8",
       "_origin": "ast",
-      "community": 7,
+      "community": 0,
       "norm_label": "look up current stock level and details for a given product.          args:",
       "community_name": "Inventory Lookup",
       "id": "tools_inventory_lookup_rationale_8"
@@ -709,36 +875,6 @@
       "norm_label": "deploy.sh script",
       "community_name": "Deployment Script",
       "id": "users_vpk_library_cloudstorage_onedrive_personal_documents_development_heimdall_scripts_deploy_sh__entry"
-    },
-    {
-      "label": "start.sh",
-      "file_type": "code",
-      "source_file": "scripts/start.sh",
-      "source_location": "L1",
-      "metadata": {
-        "language": "bash",
-        "kind": "file"
-      },
-      "_origin": "ast",
-      "community": 11,
-      "norm_label": "start.sh",
-      "community_name": "Start Script",
-      "id": "scripts_start"
-    },
-    {
-      "label": "start.sh script",
-      "file_type": "code",
-      "source_file": "scripts/start.sh",
-      "source_location": "L1",
-      "metadata": {
-        "language": "bash",
-        "kind": "bash_entrypoint"
-      },
-      "_origin": "ast",
-      "community": 11,
-      "norm_label": "start.sh script",
-      "community_name": "Start Script",
-      "id": "users_vpk_library_cloudstorage_onedrive_personal_documents_development_heimdall_scripts_start_sh__entry"
     },
     {
       "label": "__init__.py",
@@ -1187,7 +1323,7 @@
       "source_file": "tests/test_tools.py",
       "source_location": "L8",
       "_origin": "ast",
-      "community": 0,
+      "community": 15,
       "norm_label": "testcustomerlookup",
       "community_name": "Customer CRM",
       "id": "tests_test_tools_testcustomerlookup"
@@ -1198,7 +1334,7 @@
       "source_file": "tests/test_tools.py",
       "source_location": "L9",
       "_origin": "ast",
-      "community": 0,
+      "community": 15,
       "norm_label": ".test_known_company_returns_record()",
       "community_name": "Customer CRM",
       "id": "tests_test_tools_testcustomerlookup_test_known_company_returns_record"
@@ -1209,7 +1345,7 @@
       "source_file": "tests/test_tools.py",
       "source_location": "L14",
       "_origin": "ast",
-      "community": 0,
+      "community": 15,
       "norm_label": ".test_unknown_company_returns_error()",
       "community_name": "Customer CRM",
       "id": "tests_test_tools_testcustomerlookup_test_unknown_company_returns_error"
@@ -1220,7 +1356,7 @@
       "source_file": "tests/test_tools.py",
       "source_location": "L18",
       "_origin": "ast",
-      "community": 0,
+      "community": 15,
       "norm_label": ".test_invalid_format_raises()",
       "community_name": "Customer CRM",
       "id": "tests_test_tools_testcustomerlookup_test_invalid_format_raises"
@@ -1231,7 +1367,7 @@
       "source_file": "tests/test_tools.py",
       "source_location": "L22",
       "_origin": "ast",
-      "community": 0,
+      "community": 15,
       "norm_label": ".test_invalid_format_no_digits_raises()",
       "community_name": "Customer CRM",
       "id": "tests_test_tools_testcustomerlookup_test_invalid_format_no_digits_raises"
@@ -1242,7 +1378,7 @@
       "source_file": "tests/test_tools.py",
       "source_location": "L27",
       "_origin": "ast",
-      "community": 7,
+      "community": 0,
       "norm_label": "testinventorylookup",
       "community_name": "Inventory Lookup",
       "id": "tests_test_tools_testinventorylookup"
@@ -1253,7 +1389,7 @@
       "source_file": "tests/test_tools.py",
       "source_location": "L28",
       "_origin": "ast",
-      "community": 7,
+      "community": 0,
       "norm_label": ".test_known_product_returns_stock()",
       "community_name": "Inventory Lookup",
       "id": "tests_test_tools_testinventorylookup_test_known_product_returns_stock"
@@ -1264,7 +1400,7 @@
       "source_file": "tests/test_tools.py",
       "source_location": "L34",
       "_origin": "ast",
-      "community": 7,
+      "community": 0,
       "norm_label": ".test_unknown_product_returns_error()",
       "community_name": "Inventory Lookup",
       "id": "tests_test_tools_testinventorylookup_test_unknown_product_returns_error"
@@ -1275,7 +1411,7 @@
       "source_file": "tests/test_tools.py",
       "source_location": "L38",
       "_origin": "ast",
-      "community": 7,
+      "community": 0,
       "norm_label": ".test_invalid_format_raises()",
       "community_name": "Inventory Lookup",
       "id": "tests_test_tools_testinventorylookup_test_invalid_format_raises"
@@ -1706,293 +1842,147 @@
       "norm_label": "requirements.txt",
       "community_name": "Requirements",
       "id": "requirements_txt"
-    },
-    {
-      "label": "ADK Agent (Gemini 2.5 Flash)",
-      "file_type": "code",
-      "source_file": "README.md",
-      "source_location": null,
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null,
-      "community": 1,
-      "norm_label": "adk agent (gemini 2.5 flash)",
-      "community_name": "Model Callbacks",
-      "id": "heimdall_gemini_2_5_flash"
-    },
-    {
-      "label": "Customer Lookup",
-      "file_type": "code",
-      "source_file": "README.md",
-      "source_location": null,
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null,
-      "community": 1,
-      "norm_label": "customer lookup",
-      "community_name": "Model Callbacks",
-      "id": "customer_lookup"
-    },
-    {
-      "label": "Inventory Lookup",
-      "file_type": "code",
-      "source_file": "README.md",
-      "source_location": null,
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null,
-      "community": 1,
-      "norm_label": "inventory lookup",
-      "community_name": "Model Callbacks",
-      "id": "inventory_lookup"
-    },
-    {
-      "label": "DTC Monthly Velocity",
-      "file_type": "code",
-      "source_file": "README.md",
-      "source_location": null,
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null,
-      "community": 1,
-      "norm_label": "dtc monthly velocity",
-      "community_name": "Model Callbacks",
-      "id": "dtc_monthly_velocity"
-    },
-    {
-      "label": "Order History",
-      "file_type": "code",
-      "source_file": "README.md",
-      "source_location": null,
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null,
-      "community": 1,
-      "norm_label": "order history",
-      "community_name": "Model Callbacks",
-      "id": "order_history"
-    },
-    {
-      "label": "Production Estimate",
-      "file_type": "code",
-      "source_file": "README.md",
-      "source_location": null,
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null,
-      "community": 1,
-      "norm_label": "production estimate",
-      "community_name": "Model Callbacks",
-      "id": "production_estimate"
-    },
-    {
-      "label": "Mock Customers JSON",
-      "file_type": "code",
-      "source_file": "README.md",
-      "source_location": null,
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null,
-      "community": 15,
-      "norm_label": "mock customers json",
-      "community_name": "Mock Customers",
-      "id": "mock_customers_json"
-    },
-    {
-      "label": "Mock Inventory JSON",
-      "file_type": "code",
-      "source_file": "README.md",
-      "source_location": null,
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null,
-      "community": 16,
-      "norm_label": "mock inventory json",
-      "community_name": "Mock Inventory",
-      "id": "mock_inventory_json"
-    },
-    {
-      "label": "Production Config JSON",
-      "file_type": "code",
-      "source_file": "README.md",
-      "source_location": null,
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null,
-      "community": 17,
-      "norm_label": "production config json",
-      "community_name": "Production Config",
-      "id": "production_config_json"
     }
   ],
   "links": [
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "source_file": "Claude.md",
+      "source_file": "README.md",
       "source_location": "L1",
       "weight": 1.0,
-      "source": "claude",
-      "target": "claude_heimdall",
+      "source": "readme",
+      "target": "readme_heimdall",
       "confidence_score": 1.0
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "source_file": "Claude.md",
-      "source_location": "L139",
+      "source_file": "README.md",
+      "source_location": "L17",
       "weight": 1.0,
-      "source": "claude_heimdall",
-      "target": "claude_changelog",
+      "source": "readme_heimdall",
+      "target": "readme_architecture",
       "confidence_score": 1.0
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "source_file": "Claude.md",
-      "source_location": "L80",
+      "source_file": "README.md",
+      "source_location": "L142",
       "weight": 1.0,
-      "source": "claude_heimdall",
-      "target": "claude_critical_snippets",
+      "source": "readme_heimdall",
+      "target": "readme_deployment",
       "confidence_score": 1.0
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "source_file": "Claude.md",
-      "source_location": "L19",
+      "source_file": "README.md",
+      "source_location": "L47",
       "weight": 1.0,
-      "source": "claude_heimdall",
-      "target": "claude_environment_modes",
+      "source": "readme_heimdall",
+      "target": "readme_how_this_was_built",
       "confidence_score": 1.0
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "source_file": "Claude.md",
-      "source_location": "L144",
+      "source_file": "README.md",
+      "source_location": "L133",
       "weight": 1.0,
-      "source": "claude_heimdall",
-      "target": "claude_graphify",
+      "source": "readme_heimdall",
+      "target": "readme_mock_data",
       "confidence_score": 1.0
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "source_file": "Claude.md",
-      "source_location": "L102",
+      "source_file": "README.md",
+      "source_location": "L53",
       "weight": 1.0,
-      "source": "claude_heimdall",
-      "target": "claude_implementation_phases",
+      "source": "readme_heimdall",
+      "target": "readme_quickstart",
       "confidence_score": 1.0
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "source_file": "Claude.md",
-      "source_location": "L7",
+      "source_file": "README.md",
+      "source_location": "L106",
       "weight": 1.0,
-      "source": "claude_heimdall",
-      "target": "claude_non_requirements",
+      "source": "readme_heimdall",
+      "target": "readme_reasoning_chain",
       "confidence_score": 1.0
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "source_file": "Claude.md",
-      "source_location": "L129",
+      "source_file": "README.md",
+      "source_location": "L126",
       "weight": 1.0,
-      "source": "claude_heimdall",
-      "target": "claude_open_questions",
+      "source": "readme_heimdall",
+      "target": "readme_security",
       "confidence_score": 1.0
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "source_file": "Claude.md",
-      "source_location": "L38",
+      "source_file": "README.md",
+      "source_location": "L118",
       "weight": 1.0,
-      "source": "claude_heimdall",
-      "target": "claude_project_structure",
+      "source": "readme_heimdall",
+      "target": "readme_triage_outcomes",
       "confidence_score": 1.0
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "source_file": "Claude.md",
-      "source_location": "L31",
+      "source_file": "README.md",
+      "source_location": "L11",
       "weight": 1.0,
-      "source": "claude_heimdall",
-      "target": "claude_security",
+      "source": "readme_heimdall",
+      "target": "readme_why_it_exists",
       "confidence_score": 1.0
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "source_file": "Claude.md",
-      "source_location": "L68",
+      "source_file": "README.md",
+      "source_location": "L78",
       "weight": 1.0,
-      "source": "claude_heimdall",
-      "target": "claude_skills_claude_code",
+      "source": "readme_quickstart",
+      "target": "readme_environment_variables",
       "confidence_score": 1.0
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "source_file": "Claude.md",
-      "source_location": "L15",
+      "source_file": "README.md",
+      "source_location": "L60",
       "weight": 1.0,
-      "source": "claude_heimdall",
-      "target": "claude_usability_check",
+      "source": "readme_quickstart",
+      "target": "readme_local_dev",
       "confidence_score": 1.0
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "source_file": "Claude.md",
-      "source_location": "L4",
+      "source_file": "README.md",
+      "source_location": "L55",
       "weight": 1.0,
-      "source": "claude_heimdall",
-      "target": "claude_what_this_is",
+      "source": "readme_quickstart",
+      "target": "readme_requirements",
       "confidence_score": 1.0
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "source_file": "Claude.md",
-      "source_location": "L21",
+      "source_file": "README.md",
+      "source_location": "L99",
       "weight": 1.0,
-      "source": "claude_environment_modes",
-      "target": "claude_local_dev",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "Claude.md",
-      "source_location": "L26",
-      "weight": 1.0,
-      "source": "claude_environment_modes",
-      "target": "claude_production",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "Claude.md",
-      "source_location": "L141",
-      "weight": 1.0,
-      "source": "claude_changelog",
-      "target": "claude_2026_06_26_initial_build",
+      "source": "readme_quickstart",
+      "target": "readme_run_tests",
       "confidence_score": 1.0
     },
     {
@@ -2448,6 +2438,176 @@
       "confidence_score": 1.0,
       "source": "tests_test_e2e",
       "target": "app_callbacks_after_model_callback"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/start.sh",
+      "source_location": "L1",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "scripts_start",
+      "target": "users_vpk_library_cloudstorage_onedrive_personal_documents_development_heimdall_scripts_start_sh__entry"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Claude.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "claude",
+      "target": "claude_heimdall"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Claude.md",
+      "source_location": "L139",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "claude_heimdall",
+      "target": "claude_changelog"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Claude.md",
+      "source_location": "L80",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "claude_heimdall",
+      "target": "claude_critical_snippets"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Claude.md",
+      "source_location": "L19",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "claude_heimdall",
+      "target": "claude_environment_modes"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Claude.md",
+      "source_location": "L144",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "claude_heimdall",
+      "target": "claude_graphify"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Claude.md",
+      "source_location": "L102",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "claude_heimdall",
+      "target": "claude_implementation_phases"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Claude.md",
+      "source_location": "L7",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "claude_heimdall",
+      "target": "claude_non_requirements"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Claude.md",
+      "source_location": "L129",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "claude_heimdall",
+      "target": "claude_open_questions"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Claude.md",
+      "source_location": "L38",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "claude_heimdall",
+      "target": "claude_project_structure"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Claude.md",
+      "source_location": "L31",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "claude_heimdall",
+      "target": "claude_security"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Claude.md",
+      "source_location": "L68",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "claude_heimdall",
+      "target": "claude_skills_claude_code"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Claude.md",
+      "source_location": "L15",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "claude_heimdall",
+      "target": "claude_usability_check"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Claude.md",
+      "source_location": "L4",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "claude_heimdall",
+      "target": "claude_what_this_is"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Claude.md",
+      "source_location": "L21",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "claude_environment_modes",
+      "target": "claude_local_dev"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Claude.md",
+      "source_location": "L26",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "claude_environment_modes",
+      "target": "claude_production"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Claude.md",
+      "source_location": "L141",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "claude_changelog",
+      "target": "claude_2026_06_26_initial_build"
     },
     {
       "relation": "contains",
@@ -3053,16 +3213,6 @@
       "confidence_score": 1.0,
       "source": "scripts_deploy",
       "target": "users_vpk_library_cloudstorage_onedrive_personal_documents_development_heimdall_scripts_deploy_sh__entry"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "scripts/start.sh",
-      "source_location": "L1",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "scripts_start",
-      "target": "users_vpk_library_cloudstorage_onedrive_personal_documents_development_heimdall_scripts_start_sh__entry"
     },
     {
       "relation": "contains",
@@ -3875,46 +4025,6 @@
       "target": "mcp_toolset"
     },
     {
-      "relation": "calls",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "README.md",
-      "source": "before_model_callback",
-      "target": "customer_lookup"
-    },
-    {
-      "relation": "calls",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "README.md",
-      "source": "before_model_callback",
-      "target": "dtc_monthly_velocity"
-    },
-    {
-      "relation": "calls",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "README.md",
-      "source": "before_model_callback",
-      "target": "inventory_lookup"
-    },
-    {
-      "relation": "calls",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "README.md",
-      "source": "before_model_callback",
-      "target": "order_history"
-    },
-    {
-      "relation": "calls",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "README.md",
-      "source": "before_model_callback",
-      "target": "production_estimate"
-    },
-    {
       "from": "before_model_callback_signatures",
       "to": "before_model_callback",
       "source_file": "heimdall/app/callbacks.py",
@@ -3923,67 +4033,11 @@
       "target": "before_model_callback"
     },
     {
-      "relation": "calls",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "README.md",
-      "source": "heimdall_gemini_2_5_flash",
-      "target": "before_model_callback"
-    },
-    {
-      "relation": "references",
-      "confidence": "INFERRED",
-      "confidence_score": 1.0,
-      "source_file": "README.md",
-      "source": "after_model_callback",
-      "target": "customer_lookup"
-    },
-    {
-      "relation": "references",
-      "confidence": "INFERRED",
-      "confidence_score": 1.0,
-      "source_file": "README.md",
-      "source": "after_model_callback",
-      "target": "dtc_monthly_velocity"
-    },
-    {
-      "relation": "references",
-      "confidence": "INFERRED",
-      "confidence_score": 1.0,
-      "source_file": "README.md",
-      "source": "after_model_callback",
-      "target": "inventory_lookup"
-    },
-    {
-      "relation": "references",
-      "confidence": "INFERRED",
-      "confidence_score": 1.0,
-      "source_file": "README.md",
-      "source": "after_model_callback",
-      "target": "order_history"
-    },
-    {
-      "relation": "references",
-      "confidence": "INFERRED",
-      "confidence_score": 1.0,
-      "source_file": "README.md",
-      "source": "after_model_callback",
-      "target": "production_estimate"
-    },
-    {
       "from": "after_model_callback_signatures",
       "to": "after_model_callback",
       "source_file": "heimdall/app/callbacks.py",
       "confidence_score": 1.0,
       "source": "after_model_callback_signatures",
-      "target": "after_model_callback"
-    },
-    {
-      "relation": "calls",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "README.md",
-      "source": "heimdall_gemini_2_5_flash",
       "target": "after_model_callback"
     }
   ],
@@ -4018,5 +4072,5 @@
       "source_file": "README.md"
     }
   ],
-  "built_at_commit": "2cd8fa620ac9db444d14e47a0ae677c5f8c484e0"
+  "built_at_commit": "c4a35f88869fe8348eba9bdbf31beddda51a3c74"
 }
