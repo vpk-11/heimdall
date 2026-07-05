@@ -6,6 +6,20 @@ PROJECT_ROOT="$(dirname "$SCRIPT_DIR")"
 
 cd "$PROJECT_ROOT"
 
+# Ensure the heimdall conda env is active (has correct google-adk + mcp deps)
+if [ "${CONDA_DEFAULT_ENV:-}" != "heimdall" ]; then
+  CONDA_BASE="$(conda info --base 2>/dev/null || true)"
+  if [ -n "$CONDA_BASE" ] && [ -f "$CONDA_BASE/etc/profile.d/conda.sh" ]; then
+    # shellcheck disable=SC1091
+    source "$CONDA_BASE/etc/profile.d/conda.sh"
+    conda activate heimdall
+  else
+    echo "ERROR: 'heimdall' conda env not active and conda not found to activate it."
+    echo "Run: conda activate heimdall"
+    exit 1
+  fi
+fi
+
 # Check for .env
 if [ ! -f ".env" ]; then
   echo "ERROR: .env not found. Copy .env.example and fill in your keys."
