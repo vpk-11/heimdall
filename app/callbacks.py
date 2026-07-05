@@ -9,7 +9,7 @@ from google.genai import types
 EMAIL_REGEX = re.compile(r'[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+\.[a-zA-Z0-9-.]+')
 PHONE_REGEX = re.compile(r'\b(?:\+?\d{1,3}[-.\s]?)?\(?\d{3}\)?[-.\s]?\d{3}[-.\s]?\d{4}\b')
 ADDRESS_REGEX = re.compile(
-    r'\b\d+\s+[A-Za-z0-9\s\.,]+(?:Street|St|Avenue|Ave|Road|Rd|Highway|Hwy|Boulevard|Blvd|Drive|Dr|Lane|Ln|Court|Ct|Circle|Cir|Way|Suite|Ste|Apt)\b', 
+    r'\b\d+[ \t]+[A-Za-z0-9][A-Za-z0-9 \t\.,]{0,40}(?:Street|St|Avenue|Ave|Road|Rd|Highway|Hwy|Boulevard|Blvd|Drive|Dr|Lane|Ln|Court|Ct|Circle|Cir|Way|Suite|Ste|Apt)\b',
     re.IGNORECASE
 )
 NAME_PATTERNS = [
