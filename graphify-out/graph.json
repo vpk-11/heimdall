@@ -59,7 +59,7 @@
       "label": "Why it exists",
       "file_type": "document",
       "source_file": "README.md",
-      "source_location": "L11",
+      "source_location": "L13",
       "_origin": "ast",
       "id": "readme_why_it_exists",
       "community": 7,
@@ -69,7 +69,7 @@
       "label": "Architecture",
       "file_type": "document",
       "source_file": "README.md",
-      "source_location": "L17",
+      "source_location": "L19",
       "_origin": "ast",
       "id": "readme_architecture",
       "community": 7,
@@ -79,7 +79,7 @@
       "label": "How this was built",
       "file_type": "document",
       "source_file": "README.md",
-      "source_location": "L47",
+      "source_location": "L50",
       "_origin": "ast",
       "id": "readme_how_this_was_built",
       "community": 7,
@@ -89,7 +89,7 @@
       "label": "Quickstart",
       "file_type": "document",
       "source_file": "README.md",
-      "source_location": "L53",
+      "source_location": "L56",
       "_origin": "ast",
       "id": "readme_quickstart",
       "community": 7,
@@ -99,7 +99,7 @@
       "label": "Requirements",
       "file_type": "document",
       "source_file": "README.md",
-      "source_location": "L55",
+      "source_location": "L58",
       "_origin": "ast",
       "id": "readme_requirements",
       "community": 7,
@@ -109,7 +109,7 @@
       "label": "Local dev",
       "file_type": "document",
       "source_file": "README.md",
-      "source_location": "L60",
+      "source_location": "L63",
       "_origin": "ast",
       "id": "readme_local_dev",
       "community": 7,
@@ -119,7 +119,7 @@
       "label": "Environment variables",
       "file_type": "document",
       "source_file": "README.md",
-      "source_location": "L78",
+      "source_location": "L83",
       "_origin": "ast",
       "id": "readme_environment_variables",
       "community": 7,
@@ -129,7 +129,7 @@
       "label": "Run tests",
       "file_type": "document",
       "source_file": "README.md",
-      "source_location": "L99",
+      "source_location": "L109",
       "_origin": "ast",
       "id": "readme_run_tests",
       "community": 7,
@@ -139,7 +139,7 @@
       "label": "Reasoning chain",
       "file_type": "document",
       "source_file": "README.md",
-      "source_location": "L106",
+      "source_location": "L123",
       "_origin": "ast",
       "id": "readme_reasoning_chain",
       "community": 7,
@@ -149,7 +149,7 @@
       "label": "Triage outcomes",
       "file_type": "document",
       "source_file": "README.md",
-      "source_location": "L118",
+      "source_location": "L135",
       "_origin": "ast",
       "id": "readme_triage_outcomes",
       "community": 7,
@@ -159,7 +159,7 @@
       "label": "Security",
       "file_type": "document",
       "source_file": "README.md",
-      "source_location": "L126",
+      "source_location": "L143",
       "_origin": "ast",
       "id": "readme_security",
       "community": 7,
@@ -169,7 +169,7 @@
       "label": "Mock data",
       "file_type": "document",
       "source_file": "README.md",
-      "source_location": "L133",
+      "source_location": "L150",
       "_origin": "ast",
       "id": "readme_mock_data",
       "community": 7,
@@ -179,144 +179,242 @@
       "label": "Deployment",
       "file_type": "document",
       "source_file": "README.md",
-      "source_location": "L142",
+      "source_location": "L159",
       "_origin": "ast",
       "id": "readme_deployment",
       "community": 7,
       "norm_label": "deployment"
     },
     {
-      "label": "agent.py",
+      "label": "Changelog",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L170",
+      "_origin": "ast",
+      "id": "readme_changelog",
+      "community": 7,
+      "norm_label": "changelog"
+    },
+    {
+      "label": "test_e2e.py",
       "file_type": "code",
-      "source_file": "app/agent.py",
+      "source_file": "tests/test_e2e.py",
       "source_location": "L1",
       "_origin": "ast",
-      "id": "app_agent",
-      "community": 6,
-      "norm_label": "agent.py"
+      "community": 2,
+      "norm_label": "test_e2e.py",
+      "id": "tests_test_e2e"
     },
     {
-      "label": "callbacks.py",
+      "label": "_ollama_reachable()",
       "file_type": "code",
-      "source_file": "app/callbacks.py",
+      "source_file": "tests/test_e2e.py",
+      "source_location": "L21",
+      "_origin": "ast",
+      "community": 2,
+      "norm_label": "_ollama_reachable()",
+      "id": "tests_test_e2e_ollama_reachable"
+    },
+    {
+      "label": "build_test_agent()",
+      "file_type": "code",
+      "source_file": "tests/test_e2e.py",
+      "source_location": "L67",
+      "_origin": "ast",
+      "community": 2,
+      "norm_label": "build_test_agent()",
+      "id": "tests_test_e2e_build_test_agent"
+    },
+    {
+      "label": "Agent",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "origin_file": "/Users/vpk/Library/CloudStorage/OneDrive-Personal/Documents/Development/heimdall/tests/test_e2e.py",
+      "_origin": "ast",
+      "community": 2,
+      "norm_label": "agent",
+      "id": "agent"
+    },
+    {
+      "label": "run_inquiry()",
+      "file_type": "code",
+      "source_file": "tests/test_e2e.py",
+      "source_location": "L91",
+      "_origin": "ast",
+      "community": 2,
+      "norm_label": "run_inquiry()",
+      "id": "tests_test_e2e_run_inquiry"
+    },
+    {
+      "label": "event_loop()",
+      "file_type": "code",
+      "source_file": "tests/test_e2e.py",
+      "source_location": "L123",
+      "_origin": "ast",
+      "community": 2,
+      "norm_label": "event_loop()",
+      "id": "tests_test_e2e_event_loop"
+    },
+    {
+      "label": "test_feasible_order_no_production_needed()",
+      "file_type": "code",
+      "source_file": "tests/test_e2e.py",
+      "source_location": "L130",
+      "_origin": "ast",
+      "community": 2,
+      "norm_label": "test_feasible_order_no_production_needed()",
+      "id": "tests_test_e2e_test_feasible_order_no_production_needed"
+    },
+    {
+      "label": "test_partial_shortfall_triggers_production_estimate()",
+      "file_type": "code",
+      "source_file": "tests/test_e2e.py",
+      "source_location": "L148",
+      "_origin": "ast",
+      "community": 2,
+      "norm_label": "test_partial_shortfall_triggers_production_estimate()",
+      "id": "tests_test_e2e_test_partial_shortfall_triggers_production_estimate"
+    },
+    {
+      "label": "test_full_production_order()",
+      "file_type": "code",
+      "source_file": "tests/test_e2e.py",
+      "source_location": "L163",
+      "_origin": "ast",
+      "community": 2,
+      "norm_label": "test_full_production_order()",
+      "id": "tests_test_e2e_test_full_production_order"
+    },
+    {
+      "label": "test_injection_blocked_before_llm()",
+      "file_type": "code",
+      "source_file": "tests/test_e2e.py",
+      "source_location": "L178",
+      "_origin": "ast",
+      "community": 2,
+      "norm_label": "test_injection_blocked_before_llm()",
+      "id": "tests_test_e2e_test_injection_blocked_before_llm"
+    },
+    {
+      "label": "test_unknown_company_handled_gracefully()",
+      "file_type": "code",
+      "source_file": "tests/test_e2e.py",
+      "source_location": "L191",
+      "_origin": "ast",
+      "community": 2,
+      "norm_label": "test_unknown_company_handled_gracefully()",
+      "id": "tests_test_e2e_test_unknown_company_handled_gracefully"
+    },
+    {
+      "label": "test_draft_response_never_claims_auto_sent()",
+      "file_type": "code",
+      "source_file": "tests/test_e2e.py",
+      "source_location": "L208",
+      "_origin": "ast",
+      "community": 2,
+      "norm_label": "test_draft_response_never_claims_auto_sent()",
+      "id": "tests_test_e2e_test_draft_response_never_claims_auto_sent"
+    },
+    {
+      "label": "End-to-end tests using Ollama (qwen2.5:7b via LiteLLM) instead of Gemini.  Runs",
+      "file_type": "rationale",
+      "source_file": "tests/test_e2e.py",
       "source_location": "L1",
       "_origin": "ast",
-      "id": "app_callbacks",
-      "community": 6,
-      "norm_label": "callbacks.py"
+      "community": 2,
+      "norm_label": "end-to-end tests using ollama (qwen2.5:7b via litellm) instead of gemini.  runs",
+      "id": "tests_test_e2e_rationale_1"
     },
     {
-      "label": "redact_text()",
-      "file_type": "code",
-      "source_file": "app/callbacks.py",
-      "source_location": "L34",
-      "_origin": "ast",
-      "id": "app_callbacks_redact_text",
-      "community": 5,
-      "norm_label": "redact_text()"
-    },
-    {
-      "label": "detect_injection()",
-      "file_type": "code",
-      "source_file": "app/callbacks.py",
-      "source_location": "L58",
-      "_origin": "ast",
-      "id": "app_callbacks_detect_injection",
-      "community": 4,
-      "norm_label": "detect_injection()"
-    },
-    {
-      "label": "before_model_callback()",
-      "file_type": "code",
-      "source_file": "app/callbacks.py",
-      "source_location": "L68",
-      "_origin": "ast",
-      "id": "app_callbacks_before_model_callback",
-      "community": 6,
-      "norm_label": "before_model_callback()"
-    },
-    {
-      "label": "CallbackContext",
-      "file_type": "code",
-      "source_file": "",
-      "source_location": "",
-      "origin_file": "/Users/vpk/Library/CloudStorage/OneDrive-Personal/Documents/Development/heimdall/app/callbacks.py",
-      "_origin": "ast",
-      "id": "callbackcontext",
-      "community": 6,
-      "norm_label": "callbackcontext"
-    },
-    {
-      "label": "LlmRequest",
-      "file_type": "code",
-      "source_file": "",
-      "source_location": "",
-      "origin_file": "/Users/vpk/Library/CloudStorage/OneDrive-Personal/Documents/Development/heimdall/app/callbacks.py",
-      "_origin": "ast",
-      "id": "llmrequest",
-      "community": 6,
-      "norm_label": "llmrequest"
-    },
-    {
-      "label": "LlmResponse",
-      "file_type": "code",
-      "source_file": "",
-      "source_location": "",
-      "origin_file": "/Users/vpk/Library/CloudStorage/OneDrive-Personal/Documents/Development/heimdall/app/callbacks.py",
-      "_origin": "ast",
-      "id": "llmresponse",
-      "community": 6,
-      "norm_label": "llmresponse"
-    },
-    {
-      "label": "after_model_callback()",
-      "file_type": "code",
-      "source_file": "app/callbacks.py",
-      "source_location": "L100",
-      "_origin": "ast",
-      "id": "app_callbacks_after_model_callback",
-      "community": 6,
-      "norm_label": "after_model_callback()"
-    },
-    {
-      "label": "Redacts PII (email, phone, address, and name patterns) from text.",
+      "label": "PROD-A: stock=600, DTC=400/mo, ask=100 -> shortfall=0, fulfill from stock.",
       "file_type": "rationale",
-      "source_file": "app/callbacks.py",
-      "source_location": "L35",
+      "source_file": "tests/test_e2e.py",
+      "source_location": "L131",
       "_origin": "ast",
-      "id": "app_callbacks_rationale_35",
-      "community": 5,
-      "norm_label": "redacts pii (email, phone, address, and name patterns) from text."
+      "community": 2,
+      "norm_label": "prod-a: stock=600, dtc=400/mo, ask=100 -> shortfall=0, fulfill from stock.",
+      "id": "tests_test_e2e_rationale_131"
     },
     {
-      "label": "Detects common prompt injection keyword phrases.",
+      "label": "PROD-A: stock=600, DTC=400/mo, ask=300 -> shortfall=100, partial fulfillment.",
       "file_type": "rationale",
-      "source_file": "app/callbacks.py",
-      "source_location": "L59",
+      "source_file": "tests/test_e2e.py",
+      "source_location": "L149",
       "_origin": "ast",
-      "id": "app_callbacks_rationale_59",
-      "community": 4,
-      "norm_label": "detects common prompt injection keyword phrases."
+      "community": 2,
+      "norm_label": "prod-a: stock=600, dtc=400/mo, ask=300 -> shortfall=100, partial fulfillment.",
+      "id": "tests_test_e2e_rationale_149"
     },
     {
-      "label": "Runs before the LLM call.          Redacts PII from the raw inquiry text before",
+      "label": "PROD-B: stock=150, DTC=100/mo, ask=500 -> shortfall=450, full production.",
       "file_type": "rationale",
-      "source_file": "app/callbacks.py",
-      "source_location": "L71",
+      "source_file": "tests/test_e2e.py",
+      "source_location": "L164",
       "_origin": "ast",
-      "id": "app_callbacks_rationale_71",
-      "community": 6,
-      "norm_label": "runs before the llm call.          redacts pii from the raw inquiry text before"
+      "community": 2,
+      "norm_label": "prod-b: stock=150, dtc=100/mo, ask=500 -> shortfall=450, full production.",
+      "id": "tests_test_e2e_rationale_164"
     },
     {
-      "label": "Runs after the LLM call.          Checks the drafted response for leaked PII or",
+      "label": "Injection in inquiry must be blocked by before_model_callback, not reach LLM.",
       "file_type": "rationale",
-      "source_file": "app/callbacks.py",
-      "source_location": "L105",
+      "source_file": "tests/test_e2e.py",
+      "source_location": "L179",
       "_origin": "ast",
-      "id": "app_callbacks_rationale_105",
-      "community": 6,
-      "norm_label": "runs after the llm call.          checks the drafted response for leaked pii or"
+      "community": 2,
+      "norm_label": "injection in inquiry must be blocked by before_model_callback, not reach llm.",
+      "id": "tests_test_e2e_rationale_179"
+    },
+    {
+      "label": "Pipeline must not raise an unhandled exception on an unknown company ID.      Th",
+      "file_type": "rationale",
+      "source_file": "tests/test_e2e.py",
+      "source_location": "L192",
+      "_origin": "ast",
+      "community": 2,
+      "norm_label": "pipeline must not raise an unhandled exception on an unknown company id.      th",
+      "id": "tests_test_e2e_rationale_192"
+    },
+    {
+      "label": "Output gate must catch any language implying an email was auto-sent.",
+      "file_type": "rationale",
+      "source_file": "tests/test_e2e.py",
+      "source_location": "L209",
+      "_origin": "ast",
+      "community": 2,
+      "norm_label": "output gate must catch any language implying an email was auto-sent.",
+      "id": "tests_test_e2e_rationale_209"
+    },
+    {
+      "label": "main.py",
+      "file_type": "code",
+      "source_file": "app/main.py",
+      "source_location": "L1",
+      "_origin": "ast",
+      "community": 9,
+      "norm_label": "main.py",
+      "id": "app_main"
+    },
+    {
+      "label": "build_web_app()",
+      "file_type": "code",
+      "source_file": "app/main.py",
+      "source_location": "L33",
+      "_origin": "ast",
+      "community": 9,
+      "norm_label": "build_web_app()",
+      "id": "app_main_build_web_app"
+    },
+    {
+      "label": "run_agent_interactive()",
+      "file_type": "code",
+      "source_file": "app/main.py",
+      "source_location": "L91",
+      "_origin": "ast",
+      "community": 9,
+      "norm_label": "run_agent_interactive()",
+      "id": "app_main_run_agent_interactive"
     },
     {
       "label": "start.sh",
@@ -328,9 +426,9 @@
         "kind": "file"
       },
       "_origin": "ast",
-      "id": "scripts_start",
       "community": 11,
-      "norm_label": "start.sh"
+      "norm_label": "start.sh",
+      "id": "scripts_start"
     },
     {
       "label": "start.sh script",
@@ -342,179 +440,9 @@
         "kind": "bash_entrypoint"
       },
       "_origin": "ast",
-      "id": "users_vpk_library_cloudstorage_onedrive_personal_documents_development_heimdall_scripts_start_sh__entry",
       "community": 11,
-      "norm_label": "start.sh script"
-    },
-    {
-      "label": "Claude.md",
-      "file_type": "document",
-      "source_file": "Claude.md",
-      "source_location": "L1",
-      "_origin": "ast",
-      "community": 21,
-      "norm_label": "claude.md",
-      "id": "claude"
-    },
-    {
-      "label": "Heimdall",
-      "file_type": "document",
-      "source_file": "Claude.md",
-      "source_location": "L1",
-      "_origin": "ast",
-      "community": 21,
-      "norm_label": "heimdall",
-      "id": "claude_heimdall"
-    },
-    {
-      "label": "What This Is",
-      "file_type": "document",
-      "source_file": "Claude.md",
-      "source_location": "L4",
-      "_origin": "ast",
-      "community": 21,
-      "norm_label": "what this is",
-      "id": "claude_what_this_is"
-    },
-    {
-      "label": "Non-Requirements",
-      "file_type": "document",
-      "source_file": "Claude.md",
-      "source_location": "L7",
-      "_origin": "ast",
-      "community": 21,
-      "norm_label": "non-requirements",
-      "id": "claude_non_requirements"
-    },
-    {
-      "label": "Usability Check",
-      "file_type": "document",
-      "source_file": "Claude.md",
-      "source_location": "L15",
-      "_origin": "ast",
-      "community": 21,
-      "norm_label": "usability check",
-      "id": "claude_usability_check"
-    },
-    {
-      "label": "Environment Modes",
-      "file_type": "document",
-      "source_file": "Claude.md",
-      "source_location": "L19",
-      "_origin": "ast",
-      "community": 21,
-      "norm_label": "environment modes",
-      "id": "claude_environment_modes"
-    },
-    {
-      "label": "Local Dev",
-      "file_type": "document",
-      "source_file": "Claude.md",
-      "source_location": "L21",
-      "_origin": "ast",
-      "community": 21,
-      "norm_label": "local dev",
-      "id": "claude_local_dev"
-    },
-    {
-      "label": "Production",
-      "file_type": "document",
-      "source_file": "Claude.md",
-      "source_location": "L26",
-      "_origin": "ast",
-      "community": 21,
-      "norm_label": "production",
-      "id": "claude_production"
-    },
-    {
-      "label": "Security",
-      "file_type": "document",
-      "source_file": "Claude.md",
-      "source_location": "L31",
-      "_origin": "ast",
-      "community": 21,
-      "norm_label": "security",
-      "id": "claude_security"
-    },
-    {
-      "label": "Project Structure",
-      "file_type": "document",
-      "source_file": "Claude.md",
-      "source_location": "L38",
-      "_origin": "ast",
-      "community": 21,
-      "norm_label": "project structure",
-      "id": "claude_project_structure"
-    },
-    {
-      "label": "Skills (Claude Code)",
-      "file_type": "document",
-      "source_file": "Claude.md",
-      "source_location": "L68",
-      "_origin": "ast",
-      "community": 21,
-      "norm_label": "skills (claude code)",
-      "id": "claude_skills_claude_code"
-    },
-    {
-      "label": "Critical Snippets",
-      "file_type": "document",
-      "source_file": "Claude.md",
-      "source_location": "L80",
-      "_origin": "ast",
-      "community": 21,
-      "norm_label": "critical snippets",
-      "id": "claude_critical_snippets"
-    },
-    {
-      "label": "Implementation Phases",
-      "file_type": "document",
-      "source_file": "Claude.md",
-      "source_location": "L102",
-      "_origin": "ast",
-      "community": 21,
-      "norm_label": "implementation phases",
-      "id": "claude_implementation_phases"
-    },
-    {
-      "label": "Open Questions",
-      "file_type": "document",
-      "source_file": "Claude.md",
-      "source_location": "L129",
-      "_origin": "ast",
-      "community": 21,
-      "norm_label": "open questions",
-      "id": "claude_open_questions"
-    },
-    {
-      "label": "Changelog",
-      "file_type": "document",
-      "source_file": "Claude.md",
-      "source_location": "L139",
-      "_origin": "ast",
-      "community": 21,
-      "norm_label": "changelog",
-      "id": "claude_changelog"
-    },
-    {
-      "label": "2026-06-26 \u2014 Initial Build",
-      "file_type": "document",
-      "source_file": "Claude.md",
-      "source_location": "L141",
-      "_origin": "ast",
-      "community": 21,
-      "norm_label": "2026-06-26 \u2014 initial build",
-      "id": "claude_2026_06_26_initial_build"
-    },
-    {
-      "label": "graphify",
-      "file_type": "document",
-      "source_file": "Claude.md",
-      "source_location": "L144",
-      "_origin": "ast",
-      "community": 21,
-      "norm_label": "graphify",
-      "id": "claude_graphify"
+      "norm_label": "start.sh script",
+      "id": "users_vpk_library_cloudstorage_onedrive_personal_documents_development_heimdall_scripts_start_sh__entry"
     },
     {
       "label": "__init__.py",
@@ -524,30 +452,140 @@
       "_origin": "ast",
       "community": 12,
       "norm_label": "__init__.py",
-      "community_name": "Init File",
       "id": "app_init"
     },
     {
-      "label": "main.py",
+      "label": "agent.py",
       "file_type": "code",
-      "source_file": "app/main.py",
+      "source_file": "app/agent.py",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 9,
-      "norm_label": "main.py",
-      "community_name": "Agent Main",
-      "id": "app_main"
+      "community": 6,
+      "norm_label": "agent.py",
+      "id": "app_agent"
     },
     {
-      "label": "run_agent_interactive()",
+      "label": "callbacks.py",
       "file_type": "code",
-      "source_file": "app/main.py",
-      "source_location": "L15",
+      "source_file": "app/callbacks.py",
+      "source_location": "L1",
       "_origin": "ast",
-      "community": 9,
-      "norm_label": "run_agent_interactive()",
-      "community_name": "Agent Main",
-      "id": "app_main_run_agent_interactive"
+      "community": 6,
+      "norm_label": "callbacks.py",
+      "id": "app_callbacks"
+    },
+    {
+      "label": "redact_text()",
+      "file_type": "code",
+      "source_file": "app/callbacks.py",
+      "source_location": "L34",
+      "_origin": "ast",
+      "community": 5,
+      "norm_label": "redact_text()",
+      "id": "app_callbacks_redact_text"
+    },
+    {
+      "label": "detect_injection()",
+      "file_type": "code",
+      "source_file": "app/callbacks.py",
+      "source_location": "L58",
+      "_origin": "ast",
+      "community": 4,
+      "norm_label": "detect_injection()",
+      "id": "app_callbacks_detect_injection"
+    },
+    {
+      "label": "before_model_callback()",
+      "file_type": "code",
+      "source_file": "app/callbacks.py",
+      "source_location": "L68",
+      "_origin": "ast",
+      "community": 6,
+      "norm_label": "before_model_callback()",
+      "id": "app_callbacks_before_model_callback"
+    },
+    {
+      "label": "CallbackContext",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "origin_file": "/Users/vpk/Library/CloudStorage/OneDrive-Personal/Documents/Development/heimdall/app/callbacks.py",
+      "_origin": "ast",
+      "community": 6,
+      "norm_label": "callbackcontext",
+      "id": "callbackcontext"
+    },
+    {
+      "label": "LlmRequest",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "origin_file": "/Users/vpk/Library/CloudStorage/OneDrive-Personal/Documents/Development/heimdall/app/callbacks.py",
+      "_origin": "ast",
+      "community": 6,
+      "norm_label": "llmrequest",
+      "id": "llmrequest"
+    },
+    {
+      "label": "LlmResponse",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "origin_file": "/Users/vpk/Library/CloudStorage/OneDrive-Personal/Documents/Development/heimdall/app/callbacks.py",
+      "_origin": "ast",
+      "community": 6,
+      "norm_label": "llmresponse",
+      "id": "llmresponse"
+    },
+    {
+      "label": "after_model_callback()",
+      "file_type": "code",
+      "source_file": "app/callbacks.py",
+      "source_location": "L100",
+      "_origin": "ast",
+      "community": 6,
+      "norm_label": "after_model_callback()",
+      "id": "app_callbacks_after_model_callback"
+    },
+    {
+      "label": "Redacts PII (email, phone, address, and name patterns) from text.",
+      "file_type": "rationale",
+      "source_file": "app/callbacks.py",
+      "source_location": "L35",
+      "_origin": "ast",
+      "community": 5,
+      "norm_label": "redacts pii (email, phone, address, and name patterns) from text.",
+      "id": "app_callbacks_rationale_35"
+    },
+    {
+      "label": "Detects common prompt injection keyword phrases.",
+      "file_type": "rationale",
+      "source_file": "app/callbacks.py",
+      "source_location": "L59",
+      "_origin": "ast",
+      "community": 4,
+      "norm_label": "detects common prompt injection keyword phrases.",
+      "id": "app_callbacks_rationale_59"
+    },
+    {
+      "label": "Runs before the LLM call.          Redacts PII from the raw inquiry text before",
+      "file_type": "rationale",
+      "source_file": "app/callbacks.py",
+      "source_location": "L71",
+      "_origin": "ast",
+      "community": 6,
+      "norm_label": "runs before the llm call.          redacts pii from the raw inquiry text before",
+      "id": "app_callbacks_rationale_71"
+    },
+    {
+      "label": "Runs after the LLM call.          Checks the drafted response for leaked PII or",
+      "file_type": "rationale",
+      "source_file": "app/callbacks.py",
+      "source_location": "L105",
+      "_origin": "ast",
+      "community": 6,
+      "norm_label": "runs after the llm call.          checks the drafted response for leaked pii or",
+      "id": "app_callbacks_rationale_105"
     },
     {
       "label": "__init__.py",
@@ -557,7 +595,6 @@
       "_origin": "ast",
       "community": 13,
       "norm_label": "__init__.py",
-      "community_name": "Init File",
       "id": "mcp_server_init"
     },
     {
@@ -566,9 +603,8 @@
       "source_file": "mcp_server/server.py",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 0,
+      "community": 15,
       "norm_label": "server.py",
-      "community_name": "Customer CRM",
       "id": "mcp_server_server"
     },
     {
@@ -577,9 +613,8 @@
       "source_file": "mcp_server/server.py",
       "source_location": "L19",
       "_origin": "ast",
-      "community": 0,
+      "community": 15,
       "norm_label": "customer_lookup()",
-      "community_name": "Customer CRM",
       "id": "mcp_server_server_customer_lookup"
     },
     {
@@ -588,9 +623,8 @@
       "source_file": "mcp_server/server.py",
       "source_location": "L28",
       "_origin": "ast",
-      "community": 0,
+      "community": 15,
       "norm_label": "order_history()",
-      "community_name": "Customer CRM",
       "id": "mcp_server_server_order_history"
     },
     {
@@ -599,9 +633,8 @@
       "source_file": "mcp_server/server.py",
       "source_location": "L37",
       "_origin": "ast",
-      "community": 0,
+      "community": 15,
       "norm_label": "dtc_monthly_velocity()",
-      "community_name": "Customer CRM",
       "id": "mcp_server_server_dtc_monthly_velocity"
     },
     {
@@ -610,9 +643,8 @@
       "source_file": "mcp_server/server.py",
       "source_location": "L46",
       "_origin": "ast",
-      "community": 0,
+      "community": 1,
       "norm_label": "inventory_lookup()",
-      "community_name": "Inventory Lookup",
       "id": "mcp_server_server_inventory_lookup"
     },
     {
@@ -623,7 +655,6 @@
       "_origin": "ast",
       "community": 3,
       "norm_label": "production_estimate()",
-      "community_name": "Production Estimation",
       "id": "mcp_server_server_production_estimate"
     },
     {
@@ -632,9 +663,8 @@
       "source_file": "mcp_server/server.py",
       "source_location": "L20",
       "_origin": "ast",
-      "community": 0,
+      "community": 15,
       "norm_label": "look up a b2b customer in the crm by their company id (comp-xxx format).",
-      "community_name": "Customer CRM",
       "id": "mcp_server_server_rationale_20"
     },
     {
@@ -643,9 +673,8 @@
       "source_file": "mcp_server/server.py",
       "source_location": "L29",
       "_origin": "ast",
-      "community": 0,
+      "community": 15,
       "norm_label": "retrieve b2b order history for a customer.          args:         company_id: th",
-      "community_name": "Customer CRM",
       "id": "mcp_server_server_rationale_29"
     },
     {
@@ -654,9 +683,8 @@
       "source_file": "mcp_server/server.py",
       "source_location": "L38",
       "_origin": "ast",
-      "community": 0,
+      "community": 15,
       "norm_label": "retrieve the recent monthly direct-to-consumer (dtc) velocity for a product.",
-      "community_name": "Customer CRM",
       "id": "mcp_server_server_rationale_38"
     },
     {
@@ -665,9 +693,8 @@
       "source_file": "mcp_server/server.py",
       "source_location": "L47",
       "_origin": "ast",
-      "community": 0,
+      "community": 1,
       "norm_label": "look up current stock levels and details for a product.          args:         p",
-      "community_name": "Inventory Lookup",
       "id": "mcp_server_server_rationale_47"
     },
     {
@@ -678,7 +705,6 @@
       "_origin": "ast",
       "community": 3,
       "norm_label": "estimate lead time and pricing tiers for producing a given unit shortfall quanti",
-      "community_name": "Production Estimation",
       "id": "mcp_server_server_rationale_56"
     },
     {
@@ -689,7 +715,6 @@
       "_origin": "ast",
       "community": 20,
       "norm_label": "__init__.py",
-      "community_name": "Init File",
       "id": "tools_init"
     },
     {
@@ -700,7 +725,6 @@
       "_origin": "ast",
       "community": 15,
       "norm_label": "customer_lookup.py",
-      "community_name": "Customer CRM",
       "id": "tools_customer_lookup"
     },
     {
@@ -711,7 +735,6 @@
       "_origin": "ast",
       "community": 15,
       "norm_label": "lookup_customer()",
-      "community_name": "Customer CRM",
       "id": "tools_customer_lookup_lookup_customer"
     },
     {
@@ -722,7 +745,6 @@
       "_origin": "ast",
       "community": 15,
       "norm_label": "look up a b2b customer in the mock crm.          args:         company_id: the u",
-      "community_name": "Customer CRM",
       "id": "tools_customer_lookup_rationale_8"
     },
     {
@@ -731,9 +753,8 @@
       "source_file": "mcp_server/tools/inventory_lookup.py",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 0,
+      "community": 1,
       "norm_label": "inventory_lookup.py",
-      "community_name": "Inventory Lookup",
       "id": "tools_inventory_lookup"
     },
     {
@@ -742,9 +763,8 @@
       "source_file": "mcp_server/tools/inventory_lookup.py",
       "source_location": "L7",
       "_origin": "ast",
-      "community": 0,
+      "community": 1,
       "norm_label": "lookup_inventory()",
-      "community_name": "Inventory Lookup",
       "id": "tools_inventory_lookup_lookup_inventory"
     },
     {
@@ -753,9 +773,8 @@
       "source_file": "mcp_server/tools/inventory_lookup.py",
       "source_location": "L8",
       "_origin": "ast",
-      "community": 0,
+      "community": 1,
       "norm_label": "look up current stock level and details for a given product.          args:",
-      "community_name": "Inventory Lookup",
       "id": "tools_inventory_lookup_rationale_8"
     },
     {
@@ -766,7 +785,6 @@
       "_origin": "ast",
       "community": 0,
       "norm_label": "order_history.py",
-      "community_name": "Customer CRM",
       "id": "tools_order_history"
     },
     {
@@ -777,7 +795,6 @@
       "_origin": "ast",
       "community": 0,
       "norm_label": "lookup_order_history()",
-      "community_name": "Customer CRM",
       "id": "tools_order_history_lookup_order_history"
     },
     {
@@ -788,7 +805,6 @@
       "_origin": "ast",
       "community": 0,
       "norm_label": "get_dtc_monthly_velocity()",
-      "community_name": "Customer CRM",
       "id": "tools_order_history_get_dtc_monthly_velocity"
     },
     {
@@ -799,7 +815,6 @@
       "_origin": "ast",
       "community": 0,
       "norm_label": "look up order history for a specific company id.          args:         company_",
-      "community_name": "Customer CRM",
       "id": "tools_order_history_rationale_8"
     },
     {
@@ -810,7 +825,6 @@
       "_origin": "ast",
       "community": 0,
       "norm_label": "get the recent direct-to-consumer (dtc) monthly order velocity for a product.",
-      "community_name": "Customer CRM",
       "id": "tools_order_history_rationale_29"
     },
     {
@@ -821,7 +835,6 @@
       "_origin": "ast",
       "community": 3,
       "norm_label": "production_estimate.py",
-      "community_name": "Production Estimation",
       "id": "tools_production_estimate"
     },
     {
@@ -832,7 +845,6 @@
       "_origin": "ast",
       "community": 3,
       "norm_label": "estimate_production()",
-      "community_name": "Production Estimation",
       "id": "tools_production_estimate_estimate_production"
     },
     {
@@ -843,7 +855,6 @@
       "_origin": "ast",
       "community": 3,
       "norm_label": "calculate lead time and cost estimates for producing a specified quantity of sho",
-      "community_name": "Production Estimation",
       "id": "tools_production_estimate_rationale_8"
     },
     {
@@ -858,7 +869,6 @@
       "_origin": "ast",
       "community": 10,
       "norm_label": "deploy.sh",
-      "community_name": "Deployment Script",
       "id": "scripts_deploy"
     },
     {
@@ -873,7 +883,6 @@
       "_origin": "ast",
       "community": 10,
       "norm_label": "deploy.sh script",
-      "community_name": "Deployment Script",
       "id": "users_vpk_library_cloudstorage_onedrive_personal_documents_development_heimdall_scripts_deploy_sh__entry"
     },
     {
@@ -884,7 +893,6 @@
       "_origin": "ast",
       "community": 19,
       "norm_label": "__init__.py",
-      "community_name": "Init File",
       "id": "tests_init"
     },
     {
@@ -895,7 +903,6 @@
       "_origin": "ast",
       "community": 4,
       "norm_label": "test_callbacks.py",
-      "community_name": "Injection Detection",
       "id": "tests_test_callbacks"
     },
     {
@@ -906,7 +913,6 @@
       "_origin": "ast",
       "community": 5,
       "norm_label": "testredacttext",
-      "community_name": "PII Redaction",
       "id": "tests_test_callbacks_testredacttext"
     },
     {
@@ -917,7 +923,6 @@
       "_origin": "ast",
       "community": 5,
       "norm_label": ".test_redacts_email()",
-      "community_name": "PII Redaction",
       "id": "tests_test_callbacks_testredacttext_test_redacts_email"
     },
     {
@@ -928,7 +933,6 @@
       "_origin": "ast",
       "community": 5,
       "norm_label": ".test_redacts_phone_us_format()",
-      "community_name": "PII Redaction",
       "id": "tests_test_callbacks_testredacttext_test_redacts_phone_us_format"
     },
     {
@@ -939,7 +943,6 @@
       "_origin": "ast",
       "community": 5,
       "norm_label": ".test_redacts_phone_with_country_code()",
-      "community_name": "PII Redaction",
       "id": "tests_test_callbacks_testredacttext_test_redacts_phone_with_country_code"
     },
     {
@@ -950,7 +953,6 @@
       "_origin": "ast",
       "community": 5,
       "norm_label": ".test_redacts_street_address()",
-      "community_name": "PII Redaction",
       "id": "tests_test_callbacks_testredacttext_test_redacts_street_address"
     },
     {
@@ -961,7 +963,6 @@
       "_origin": "ast",
       "community": 5,
       "norm_label": ".test_redacts_name_my_name_is()",
-      "community_name": "PII Redaction",
       "id": "tests_test_callbacks_testredacttext_test_redacts_name_my_name_is"
     },
     {
@@ -972,7 +973,6 @@
       "_origin": "ast",
       "community": 5,
       "norm_label": ".test_leaves_clean_text_unchanged()",
-      "community_name": "PII Redaction",
       "id": "tests_test_callbacks_testredacttext_test_leaves_clean_text_unchanged"
     },
     {
@@ -983,7 +983,6 @@
       "_origin": "ast",
       "community": 5,
       "norm_label": ".test_empty_string_passthrough()",
-      "community_name": "PII Redaction",
       "id": "tests_test_callbacks_testredacttext_test_empty_string_passthrough"
     },
     {
@@ -994,7 +993,6 @@
       "_origin": "ast",
       "community": 5,
       "norm_label": ".test_none_passthrough()",
-      "community_name": "PII Redaction",
       "id": "tests_test_callbacks_testredacttext_test_none_passthrough"
     },
     {
@@ -1005,7 +1003,6 @@
       "_origin": "ast",
       "community": 5,
       "norm_label": ".test_multiple_emails_redacted()",
-      "community_name": "PII Redaction",
       "id": "tests_test_callbacks_testredacttext_test_multiple_emails_redacted"
     },
     {
@@ -1016,7 +1013,6 @@
       "_origin": "ast",
       "community": 4,
       "norm_label": "testdetectinjection",
-      "community_name": "Injection Detection",
       "id": "tests_test_callbacks_testdetectinjection"
     },
     {
@@ -1027,7 +1023,6 @@
       "_origin": "ast",
       "community": 4,
       "norm_label": ".test_detects_ignore_previous_instructions()",
-      "community_name": "Injection Detection",
       "id": "tests_test_callbacks_testdetectinjection_test_detects_ignore_previous_instructions"
     },
     {
@@ -1038,7 +1033,6 @@
       "_origin": "ast",
       "community": 4,
       "norm_label": ".test_detects_jailbreak()",
-      "community_name": "Injection Detection",
       "id": "tests_test_callbacks_testdetectinjection_test_detects_jailbreak"
     },
     {
@@ -1049,7 +1043,6 @@
       "_origin": "ast",
       "community": 4,
       "norm_label": ".test_detects_system_override()",
-      "community_name": "Injection Detection",
       "id": "tests_test_callbacks_testdetectinjection_test_detects_system_override"
     },
     {
@@ -1060,7 +1053,6 @@
       "_origin": "ast",
       "community": 4,
       "norm_label": ".test_detects_new_instructions()",
-      "community_name": "Injection Detection",
       "id": "tests_test_callbacks_testdetectinjection_test_detects_new_instructions"
     },
     {
@@ -1071,7 +1063,6 @@
       "_origin": "ast",
       "community": 4,
       "norm_label": ".test_case_insensitive()",
-      "community_name": "Injection Detection",
       "id": "tests_test_callbacks_testdetectinjection_test_case_insensitive"
     },
     {
@@ -1082,7 +1073,6 @@
       "_origin": "ast",
       "community": 4,
       "norm_label": ".test_clean_inquiry_not_flagged()",
-      "community_name": "Injection Detection",
       "id": "tests_test_callbacks_testdetectinjection_test_clean_inquiry_not_flagged"
     },
     {
@@ -1093,7 +1083,6 @@
       "_origin": "ast",
       "community": 4,
       "norm_label": ".test_empty_string_not_flagged()",
-      "community_name": "Injection Detection",
       "id": "tests_test_callbacks_testdetectinjection_test_empty_string_not_flagged"
     },
     {
@@ -1104,207 +1093,7 @@
       "_origin": "ast",
       "community": 4,
       "norm_label": ".test_none_not_flagged()",
-      "community_name": "Injection Detection",
       "id": "tests_test_callbacks_testdetectinjection_test_none_not_flagged"
-    },
-    {
-      "label": "test_e2e.py",
-      "file_type": "code",
-      "source_file": "tests/test_e2e.py",
-      "source_location": "L1",
-      "_origin": "ast",
-      "community": 2,
-      "norm_label": "test_e2e.py",
-      "community_name": "Inventory Shortfall",
-      "id": "tests_test_e2e"
-    },
-    {
-      "label": "build_test_agent()",
-      "file_type": "code",
-      "source_file": "tests/test_e2e.py",
-      "source_location": "L51",
-      "_origin": "ast",
-      "community": 2,
-      "norm_label": "build_test_agent()",
-      "community_name": "Inventory Shortfall",
-      "id": "tests_test_e2e_build_test_agent"
-    },
-    {
-      "label": "Agent",
-      "file_type": "code",
-      "source_file": "",
-      "source_location": "",
-      "origin_file": "/Users/vpk/Library/CloudStorage/OneDrive-Personal/Documents/Development/heimdall/tests/test_e2e.py",
-      "_origin": "ast",
-      "community": 2,
-      "norm_label": "agent",
-      "community_name": "Inventory Shortfall",
-      "id": "agent"
-    },
-    {
-      "label": "run_inquiry()",
-      "file_type": "code",
-      "source_file": "tests/test_e2e.py",
-      "source_location": "L75",
-      "_origin": "ast",
-      "community": 2,
-      "norm_label": "run_inquiry()",
-      "community_name": "Inventory Shortfall",
-      "id": "tests_test_e2e_run_inquiry"
-    },
-    {
-      "label": "event_loop()",
-      "file_type": "code",
-      "source_file": "tests/test_e2e.py",
-      "source_location": "L107",
-      "_origin": "ast",
-      "community": 2,
-      "norm_label": "event_loop()",
-      "community_name": "Inventory Shortfall",
-      "id": "tests_test_e2e_event_loop"
-    },
-    {
-      "label": "test_feasible_order_no_production_needed()",
-      "file_type": "code",
-      "source_file": "tests/test_e2e.py",
-      "source_location": "L114",
-      "_origin": "ast",
-      "community": 2,
-      "norm_label": "test_feasible_order_no_production_needed()",
-      "community_name": "Inventory Shortfall",
-      "id": "tests_test_e2e_test_feasible_order_no_production_needed"
-    },
-    {
-      "label": "test_partial_shortfall_triggers_production_estimate()",
-      "file_type": "code",
-      "source_file": "tests/test_e2e.py",
-      "source_location": "L132",
-      "_origin": "ast",
-      "community": 2,
-      "norm_label": "test_partial_shortfall_triggers_production_estimate()",
-      "community_name": "Inventory Shortfall",
-      "id": "tests_test_e2e_test_partial_shortfall_triggers_production_estimate"
-    },
-    {
-      "label": "test_full_production_order()",
-      "file_type": "code",
-      "source_file": "tests/test_e2e.py",
-      "source_location": "L147",
-      "_origin": "ast",
-      "community": 2,
-      "norm_label": "test_full_production_order()",
-      "community_name": "Inventory Shortfall",
-      "id": "tests_test_e2e_test_full_production_order"
-    },
-    {
-      "label": "test_injection_blocked_before_llm()",
-      "file_type": "code",
-      "source_file": "tests/test_e2e.py",
-      "source_location": "L162",
-      "_origin": "ast",
-      "community": 2,
-      "norm_label": "test_injection_blocked_before_llm()",
-      "community_name": "Inventory Shortfall",
-      "id": "tests_test_e2e_test_injection_blocked_before_llm"
-    },
-    {
-      "label": "test_unknown_company_handled_gracefully()",
-      "file_type": "code",
-      "source_file": "tests/test_e2e.py",
-      "source_location": "L175",
-      "_origin": "ast",
-      "community": 2,
-      "norm_label": "test_unknown_company_handled_gracefully()",
-      "community_name": "Inventory Shortfall",
-      "id": "tests_test_e2e_test_unknown_company_handled_gracefully"
-    },
-    {
-      "label": "test_draft_response_never_claims_auto_sent()",
-      "file_type": "code",
-      "source_file": "tests/test_e2e.py",
-      "source_location": "L192",
-      "_origin": "ast",
-      "community": 2,
-      "norm_label": "test_draft_response_never_claims_auto_sent()",
-      "community_name": "Inventory Shortfall",
-      "id": "tests_test_e2e_test_draft_response_never_claims_auto_sent"
-    },
-    {
-      "label": "End-to-end tests using Ollama (qwen2.5:7b via LiteLLM) instead of Gemini.  Runs",
-      "file_type": "rationale",
-      "source_file": "tests/test_e2e.py",
-      "source_location": "L1",
-      "_origin": "ast",
-      "community": 2,
-      "norm_label": "end-to-end tests using ollama (qwen2.5:7b via litellm) instead of gemini.  runs",
-      "community_name": "Inventory Shortfall",
-      "id": "tests_test_e2e_rationale_1"
-    },
-    {
-      "label": "PROD-A: stock=600, DTC=400/mo, ask=100 -> shortfall=0, fulfill from stock.",
-      "file_type": "rationale",
-      "source_file": "tests/test_e2e.py",
-      "source_location": "L115",
-      "_origin": "ast",
-      "community": 2,
-      "norm_label": "prod-a: stock=600, dtc=400/mo, ask=100 -> shortfall=0, fulfill from stock.",
-      "community_name": "Inventory Shortfall",
-      "id": "tests_test_e2e_rationale_115"
-    },
-    {
-      "label": "PROD-A: stock=600, DTC=400/mo, ask=300 -> shortfall=100, partial fulfillment.",
-      "file_type": "rationale",
-      "source_file": "tests/test_e2e.py",
-      "source_location": "L133",
-      "_origin": "ast",
-      "community": 2,
-      "norm_label": "prod-a: stock=600, dtc=400/mo, ask=300 -> shortfall=100, partial fulfillment.",
-      "community_name": "Inventory Shortfall",
-      "id": "tests_test_e2e_rationale_133"
-    },
-    {
-      "label": "PROD-B: stock=150, DTC=100/mo, ask=500 -> shortfall=450, full production.",
-      "file_type": "rationale",
-      "source_file": "tests/test_e2e.py",
-      "source_location": "L148",
-      "_origin": "ast",
-      "community": 2,
-      "norm_label": "prod-b: stock=150, dtc=100/mo, ask=500 -> shortfall=450, full production.",
-      "community_name": "Inventory Shortfall",
-      "id": "tests_test_e2e_rationale_148"
-    },
-    {
-      "label": "Injection in inquiry must be blocked by before_model_callback, not reach LLM.",
-      "file_type": "rationale",
-      "source_file": "tests/test_e2e.py",
-      "source_location": "L163",
-      "_origin": "ast",
-      "community": 2,
-      "norm_label": "injection in inquiry must be blocked by before_model_callback, not reach llm.",
-      "community_name": "Inventory Shortfall",
-      "id": "tests_test_e2e_rationale_163"
-    },
-    {
-      "label": "Pipeline must not raise an unhandled exception on an unknown company ID.      Th",
-      "file_type": "rationale",
-      "source_file": "tests/test_e2e.py",
-      "source_location": "L176",
-      "_origin": "ast",
-      "community": 2,
-      "norm_label": "pipeline must not raise an unhandled exception on an unknown company id.      th",
-      "community_name": "Inventory Shortfall",
-      "id": "tests_test_e2e_rationale_176"
-    },
-    {
-      "label": "Output gate must catch any language implying an email was auto-sent.",
-      "file_type": "rationale",
-      "source_file": "tests/test_e2e.py",
-      "source_location": "L193",
-      "_origin": "ast",
-      "community": 2,
-      "norm_label": "output gate must catch any language implying an email was auto-sent.",
-      "community_name": "Inventory Shortfall",
-      "id": "tests_test_e2e_rationale_193"
     },
     {
       "label": "test_tools.py",
@@ -1314,7 +1103,6 @@
       "_origin": "ast",
       "community": 0,
       "norm_label": "test_tools.py",
-      "community_name": "Customer CRM",
       "id": "tests_test_tools"
     },
     {
@@ -1325,7 +1113,6 @@
       "_origin": "ast",
       "community": 15,
       "norm_label": "testcustomerlookup",
-      "community_name": "Customer CRM",
       "id": "tests_test_tools_testcustomerlookup"
     },
     {
@@ -1336,7 +1123,6 @@
       "_origin": "ast",
       "community": 15,
       "norm_label": ".test_known_company_returns_record()",
-      "community_name": "Customer CRM",
       "id": "tests_test_tools_testcustomerlookup_test_known_company_returns_record"
     },
     {
@@ -1347,7 +1133,6 @@
       "_origin": "ast",
       "community": 15,
       "norm_label": ".test_unknown_company_returns_error()",
-      "community_name": "Customer CRM",
       "id": "tests_test_tools_testcustomerlookup_test_unknown_company_returns_error"
     },
     {
@@ -1358,7 +1143,6 @@
       "_origin": "ast",
       "community": 15,
       "norm_label": ".test_invalid_format_raises()",
-      "community_name": "Customer CRM",
       "id": "tests_test_tools_testcustomerlookup_test_invalid_format_raises"
     },
     {
@@ -1369,7 +1153,6 @@
       "_origin": "ast",
       "community": 15,
       "norm_label": ".test_invalid_format_no_digits_raises()",
-      "community_name": "Customer CRM",
       "id": "tests_test_tools_testcustomerlookup_test_invalid_format_no_digits_raises"
     },
     {
@@ -1378,9 +1161,8 @@
       "source_file": "tests/test_tools.py",
       "source_location": "L27",
       "_origin": "ast",
-      "community": 0,
+      "community": 1,
       "norm_label": "testinventorylookup",
-      "community_name": "Inventory Lookup",
       "id": "tests_test_tools_testinventorylookup"
     },
     {
@@ -1389,9 +1171,8 @@
       "source_file": "tests/test_tools.py",
       "source_location": "L28",
       "_origin": "ast",
-      "community": 0,
+      "community": 1,
       "norm_label": ".test_known_product_returns_stock()",
-      "community_name": "Inventory Lookup",
       "id": "tests_test_tools_testinventorylookup_test_known_product_returns_stock"
     },
     {
@@ -1400,9 +1181,8 @@
       "source_file": "tests/test_tools.py",
       "source_location": "L34",
       "_origin": "ast",
-      "community": 0,
+      "community": 1,
       "norm_label": ".test_unknown_product_returns_error()",
-      "community_name": "Inventory Lookup",
       "id": "tests_test_tools_testinventorylookup_test_unknown_product_returns_error"
     },
     {
@@ -1411,9 +1191,8 @@
       "source_file": "tests/test_tools.py",
       "source_location": "L38",
       "_origin": "ast",
-      "community": 0,
+      "community": 1,
       "norm_label": ".test_invalid_format_raises()",
-      "community_name": "Inventory Lookup",
       "id": "tests_test_tools_testinventorylookup_test_invalid_format_raises"
     },
     {
@@ -1424,7 +1203,6 @@
       "_origin": "ast",
       "community": 0,
       "norm_label": "testorderhistory",
-      "community_name": "Customer CRM",
       "id": "tests_test_tools_testorderhistory"
     },
     {
@@ -1435,7 +1213,6 @@
       "_origin": "ast",
       "community": 0,
       "norm_label": ".test_known_company_returns_orders()",
-      "community_name": "Customer CRM",
       "id": "tests_test_tools_testorderhistory_test_known_company_returns_orders"
     },
     {
@@ -1446,7 +1223,6 @@
       "_origin": "ast",
       "community": 0,
       "norm_label": ".test_company_with_no_orders_returns_empty()",
-      "community_name": "Customer CRM",
       "id": "tests_test_tools_testorderhistory_test_company_with_no_orders_returns_empty"
     },
     {
@@ -1457,7 +1233,6 @@
       "_origin": "ast",
       "community": 0,
       "norm_label": ".test_invalid_format_raises()",
-      "community_name": "Customer CRM",
       "id": "tests_test_tools_testorderhistory_test_invalid_format_raises"
     },
     {
@@ -1468,7 +1243,6 @@
       "_origin": "ast",
       "community": 0,
       "norm_label": "testdtcvelocity",
-      "community_name": "Customer CRM",
       "id": "tests_test_tools_testdtcvelocity"
     },
     {
@@ -1479,7 +1253,6 @@
       "_origin": "ast",
       "community": 0,
       "norm_label": ".test_known_product_returns_velocity()",
-      "community_name": "Customer CRM",
       "id": "tests_test_tools_testdtcvelocity_test_known_product_returns_velocity"
     },
     {
@@ -1490,7 +1263,6 @@
       "_origin": "ast",
       "community": 0,
       "norm_label": ".test_unknown_product_returns_zero()",
-      "community_name": "Customer CRM",
       "id": "tests_test_tools_testdtcvelocity_test_unknown_product_returns_zero"
     },
     {
@@ -1501,7 +1273,6 @@
       "_origin": "ast",
       "community": 0,
       "norm_label": ".test_invalid_format_raises()",
-      "community_name": "Customer CRM",
       "id": "tests_test_tools_testdtcvelocity_test_invalid_format_raises"
     },
     {
@@ -1512,7 +1283,6 @@
       "_origin": "ast",
       "community": 3,
       "norm_label": "testproductionestimate",
-      "community_name": "Production Estimation",
       "id": "tests_test_tools_testproductionestimate"
     },
     {
@@ -1523,7 +1293,6 @@
       "_origin": "ast",
       "community": 3,
       "norm_label": ".test_small_order_hits_tier_one()",
-      "community_name": "Production Estimation",
       "id": "tests_test_tools_testproductionestimate_test_small_order_hits_tier_one"
     },
     {
@@ -1534,7 +1303,6 @@
       "_origin": "ast",
       "community": 3,
       "norm_label": ".test_mid_order_hits_tier_two()",
-      "community_name": "Production Estimation",
       "id": "tests_test_tools_testproductionestimate_test_mid_order_hits_tier_two"
     },
     {
@@ -1545,7 +1313,6 @@
       "_origin": "ast",
       "community": 3,
       "norm_label": ".test_large_order_hits_tier_three()",
-      "community_name": "Production Estimation",
       "id": "tests_test_tools_testproductionestimate_test_large_order_hits_tier_three"
     },
     {
@@ -1556,7 +1323,6 @@
       "_origin": "ast",
       "community": 3,
       "norm_label": ".test_lead_time_includes_setup()",
-      "community_name": "Production Estimation",
       "id": "tests_test_tools_testproductionestimate_test_lead_time_includes_setup"
     },
     {
@@ -1567,7 +1333,6 @@
       "_origin": "ast",
       "community": 3,
       "norm_label": ".test_total_cost_correct()",
-      "community_name": "Production Estimation",
       "id": "tests_test_tools_testproductionestimate_test_total_cost_correct"
     },
     {
@@ -1578,7 +1343,6 @@
       "_origin": "ast",
       "community": 3,
       "norm_label": ".test_zero_quantity_raises()",
-      "community_name": "Production Estimation",
       "id": "tests_test_tools_testproductionestimate_test_zero_quantity_raises"
     },
     {
@@ -1589,7 +1353,6 @@
       "_origin": "ast",
       "community": 3,
       "norm_label": ".test_negative_quantity_raises()",
-      "community_name": "Production Estimation",
       "id": "tests_test_tools_testproductionestimate_test_negative_quantity_raises"
     },
     {
@@ -1600,7 +1363,6 @@
       "_origin": "ast",
       "community": 8,
       "norm_label": "testfeasibilitymath",
-      "community_name": "Feasibility Math",
       "id": "tests_test_tools_testfeasibilitymath"
     },
     {
@@ -1611,7 +1373,6 @@
       "_origin": "ast",
       "community": 8,
       "norm_label": ".test_no_shortfall_when_stock_sufficient()",
-      "community_name": "Feasibility Math",
       "id": "tests_test_tools_testfeasibilitymath_test_no_shortfall_when_stock_sufficient"
     },
     {
@@ -1622,7 +1383,6 @@
       "_origin": "ast",
       "community": 8,
       "norm_label": ".test_partial_shortfall()",
-      "community_name": "Feasibility Math",
       "id": "tests_test_tools_testfeasibilitymath_test_partial_shortfall"
     },
     {
@@ -1633,7 +1393,6 @@
       "_origin": "ast",
       "community": 8,
       "norm_label": ".test_full_production_needed()",
-      "community_name": "Feasibility Math",
       "id": "tests_test_tools_testfeasibilitymath_test_full_production_needed"
     },
     {
@@ -1644,190 +1403,7 @@
       "_origin": "ast",
       "community": 8,
       "norm_label": "validates the core shortfall equation the agent reasons over.      stock_shortfa",
-      "community_name": "Feasibility Math",
       "id": "tests_test_tools_rationale_108"
-    },
-    {
-      "label": "Heimdall Agent",
-      "file_type": "code",
-      "source_file": "heimdall/app/agent.py",
-      "source_location": null,
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null,
-      "community": 1,
-      "norm_label": "heimdall agent",
-      "community_name": "Model Callbacks",
-      "id": "heimdall_agent"
-    },
-    {
-      "label": "MCP Toolset",
-      "file_type": "code",
-      "source_file": "heimdall/app/agent.py",
-      "source_location": null,
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null,
-      "community": 1,
-      "norm_label": "mcp toolset",
-      "community_name": "Model Callbacks",
-      "id": "mcp_toolset"
-    },
-    {
-      "label": "Before Model Callback",
-      "file_type": "code",
-      "source_file": "heimdall/app/callbacks.py",
-      "source_location": null,
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null,
-      "community": 1,
-      "norm_label": "before model callback",
-      "community_name": "Model Callbacks",
-      "id": "before_model_callback"
-    },
-    {
-      "label": "After Model Callback",
-      "file_type": "code",
-      "source_file": "heimdall/app/callbacks.py",
-      "source_location": null,
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null,
-      "community": 1,
-      "norm_label": "after model callback",
-      "community_name": "Model Callbacks",
-      "id": "after_model_callback"
-    },
-    {
-      "label": "Customer Lookup Tool",
-      "file_type": "code",
-      "source_file": "heimdall/mcp_server/tools/customer_lookup.py",
-      "source_location": null,
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null,
-      "community": 1,
-      "norm_label": "customer lookup tool",
-      "community_name": "Model Callbacks",
-      "id": "customer_lookup_tool"
-    },
-    {
-      "label": "Order History Tool",
-      "file_type": "code",
-      "source_file": "heimdall/mcp_server/tools/order_history.py",
-      "source_location": null,
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null,
-      "community": 1,
-      "norm_label": "order history tool",
-      "community_name": "Model Callbacks",
-      "id": "order_history_tool"
-    },
-    {
-      "label": "Inventory Lookup Tool",
-      "file_type": "code",
-      "source_file": "heimdall/mcp_server/tools/inventory_lookup.py",
-      "source_location": null,
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null,
-      "community": 1,
-      "norm_label": "inventory lookup tool",
-      "community_name": "Model Callbacks",
-      "id": "inventory_lookup_tool"
-    },
-    {
-      "label": "Production Estimate Tool",
-      "file_type": "code",
-      "source_file": "heimdall/mcp_server/tools/production_estimate.py",
-      "source_location": null,
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null,
-      "community": 1,
-      "norm_label": "production estimate tool",
-      "community_name": "Model Callbacks",
-      "id": "production_estimate_tool"
-    },
-    {
-      "label": "MCP Toolset Imports",
-      "file_type": "code",
-      "source_file": "heimdall/app/agent.py",
-      "source_location": null,
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null,
-      "community": 1,
-      "norm_label": "mcp toolset imports",
-      "community_name": "Model Callbacks",
-      "id": "mcp_toolset_imports"
-    },
-    {
-      "label": "MCP Toolset Integration",
-      "file_type": "code",
-      "source_file": "heimdall/app/agent.py",
-      "source_location": null,
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null,
-      "community": 14,
-      "norm_label": "mcp toolset integration",
-      "community_name": "MCP Integration",
-      "id": "mcp_toolset_integration"
-    },
-    {
-      "label": "Before Model Callback Signatures",
-      "file_type": "code",
-      "source_file": "heimdall/app/callbacks.py",
-      "source_location": null,
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null,
-      "community": 1,
-      "norm_label": "before model callback signatures",
-      "community_name": "Model Callbacks",
-      "id": "before_model_callback_signatures"
-    },
-    {
-      "label": "After Model Callback Signatures",
-      "file_type": "code",
-      "source_file": "heimdall/app/callbacks.py",
-      "source_location": null,
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null,
-      "community": 1,
-      "norm_label": "after model callback signatures",
-      "community_name": "Model Callbacks",
-      "id": "after_model_callback_signatures"
-    },
-    {
-      "label": "Cloud Run Deployment",
-      "file_type": "code",
-      "source_file": "heimdall/scripts/deploy.sh",
-      "source_location": null,
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null,
-      "community": 1,
-      "norm_label": "cloud run deployment",
-      "community_name": "Model Callbacks",
-      "id": "cloud_run_deployment"
     },
     {
       "label": "Requirements.txt",
@@ -1851,9 +1427,9 @@
       "source_file": "README.md",
       "source_location": "L1",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "readme",
-      "target": "readme_heimdall",
-      "confidence_score": 1.0
+      "target": "readme_heimdall"
     },
     {
       "relation": "contains",
@@ -1861,9 +1437,19 @@
       "source_file": "README.md",
       "source_location": "L17",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "readme_heimdall",
-      "target": "readme_architecture",
-      "confidence_score": 1.0
+      "target": "readme_architecture"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L163",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "readme_heimdall",
+      "target": "readme_changelog"
     },
     {
       "relation": "contains",
@@ -1871,9 +1457,9 @@
       "source_file": "README.md",
       "source_location": "L142",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "readme_heimdall",
-      "target": "readme_deployment",
-      "confidence_score": 1.0
+      "target": "readme_deployment"
     },
     {
       "relation": "contains",
@@ -1881,9 +1467,9 @@
       "source_file": "README.md",
       "source_location": "L47",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "readme_heimdall",
-      "target": "readme_how_this_was_built",
-      "confidence_score": 1.0
+      "target": "readme_how_this_was_built"
     },
     {
       "relation": "contains",
@@ -1891,9 +1477,9 @@
       "source_file": "README.md",
       "source_location": "L133",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "readme_heimdall",
-      "target": "readme_mock_data",
-      "confidence_score": 1.0
+      "target": "readme_mock_data"
     },
     {
       "relation": "contains",
@@ -1901,9 +1487,9 @@
       "source_file": "README.md",
       "source_location": "L53",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "readme_heimdall",
-      "target": "readme_quickstart",
-      "confidence_score": 1.0
+      "target": "readme_quickstart"
     },
     {
       "relation": "contains",
@@ -1911,9 +1497,9 @@
       "source_file": "README.md",
       "source_location": "L106",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "readme_heimdall",
-      "target": "readme_reasoning_chain",
-      "confidence_score": 1.0
+      "target": "readme_reasoning_chain"
     },
     {
       "relation": "contains",
@@ -1921,9 +1507,9 @@
       "source_file": "README.md",
       "source_location": "L126",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "readme_heimdall",
-      "target": "readme_security",
-      "confidence_score": 1.0
+      "target": "readme_security"
     },
     {
       "relation": "contains",
@@ -1931,9 +1517,9 @@
       "source_file": "README.md",
       "source_location": "L118",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "readme_heimdall",
-      "target": "readme_triage_outcomes",
-      "confidence_score": 1.0
+      "target": "readme_triage_outcomes"
     },
     {
       "relation": "contains",
@@ -1941,9 +1527,9 @@
       "source_file": "README.md",
       "source_location": "L11",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "readme_heimdall",
-      "target": "readme_why_it_exists",
-      "confidence_score": 1.0
+      "target": "readme_why_it_exists"
     },
     {
       "relation": "contains",
@@ -1951,9 +1537,9 @@
       "source_file": "README.md",
       "source_location": "L78",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "readme_quickstart",
-      "target": "readme_environment_variables",
-      "confidence_score": 1.0
+      "target": "readme_environment_variables"
     },
     {
       "relation": "contains",
@@ -1961,9 +1547,9 @@
       "source_file": "README.md",
       "source_location": "L60",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "readme_quickstart",
-      "target": "readme_local_dev",
-      "confidence_score": 1.0
+      "target": "readme_local_dev"
     },
     {
       "relation": "contains",
@@ -1971,9 +1557,9 @@
       "source_file": "README.md",
       "source_location": "L55",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "readme_quickstart",
-      "target": "readme_requirements",
-      "confidence_score": 1.0
+      "target": "readme_requirements"
     },
     {
       "relation": "contains",
@@ -1981,9 +1567,330 @@
       "source_file": "README.md",
       "source_location": "L99",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "readme_quickstart",
-      "target": "readme_run_tests",
-      "confidence_score": 1.0
+      "target": "readme_run_tests"
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_e2e.py",
+      "source_location": "L28",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "tests_test_e2e",
+      "target": "app_callbacks"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_e2e.py",
+      "source_location": "L28",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "tests_test_e2e",
+      "target": "app_callbacks_after_model_callback"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_e2e.py",
+      "source_location": "L28",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "tests_test_e2e",
+      "target": "app_callbacks_before_model_callback"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_e2e.py",
+      "source_location": "L51",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "tests_test_e2e",
+      "target": "tests_test_e2e_build_test_agent"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_e2e.py",
+      "source_location": "L107",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "tests_test_e2e",
+      "target": "tests_test_e2e_event_loop"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_e2e.py",
+      "source_location": "L21",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "tests_test_e2e",
+      "target": "tests_test_e2e_ollama_reachable"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_e2e.py",
+      "source_location": "L75",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "tests_test_e2e",
+      "target": "tests_test_e2e_run_inquiry"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_e2e.py",
+      "source_location": "L192",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "tests_test_e2e",
+      "target": "tests_test_e2e_test_draft_response_never_claims_auto_sent"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_e2e.py",
+      "source_location": "L114",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "tests_test_e2e",
+      "target": "tests_test_e2e_test_feasible_order_no_production_needed"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_e2e.py",
+      "source_location": "L147",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "tests_test_e2e",
+      "target": "tests_test_e2e_test_full_production_order"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_e2e.py",
+      "source_location": "L162",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "tests_test_e2e",
+      "target": "tests_test_e2e_test_injection_blocked_before_llm"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_e2e.py",
+      "source_location": "L132",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "tests_test_e2e",
+      "target": "tests_test_e2e_test_partial_shortfall_triggers_production_estimate"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_e2e.py",
+      "source_location": "L175",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "tests_test_e2e",
+      "target": "tests_test_e2e_test_unknown_company_handled_gracefully"
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_e2e.py",
+      "source_location": "L1",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "tests_test_e2e_rationale_1",
+      "target": "tests_test_e2e"
+    },
+    {
+      "relation": "references",
+      "context": "return_type",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_e2e.py",
+      "source_location": "L51",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "tests_test_e2e_build_test_agent",
+      "target": "agent"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_e2e.py",
+      "source_location": "L76",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "tests_test_e2e_run_inquiry",
+      "target": "tests_test_e2e_build_test_agent"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_e2e.py",
+      "source_location": "L197",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "tests_test_e2e_test_draft_response_never_claims_auto_sent",
+      "target": "tests_test_e2e_run_inquiry"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_e2e.py",
+      "source_location": "L120",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "tests_test_e2e_test_feasible_order_no_production_needed",
+      "target": "tests_test_e2e_run_inquiry"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_e2e.py",
+      "source_location": "L153",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "tests_test_e2e_test_full_production_order",
+      "target": "tests_test_e2e_run_inquiry"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_e2e.py",
+      "source_location": "L168",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "tests_test_e2e_test_injection_blocked_before_llm",
+      "target": "tests_test_e2e_run_inquiry"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_e2e.py",
+      "source_location": "L138",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "tests_test_e2e_test_partial_shortfall_triggers_production_estimate",
+      "target": "tests_test_e2e_run_inquiry"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_e2e.py",
+      "source_location": "L186",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "tests_test_e2e_test_unknown_company_handled_gracefully",
+      "target": "tests_test_e2e_run_inquiry"
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_e2e.py",
+      "source_location": "L131",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "tests_test_e2e_rationale_131",
+      "target": "tests_test_e2e_test_feasible_order_no_production_needed"
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_e2e.py",
+      "source_location": "L149",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "tests_test_e2e_rationale_149",
+      "target": "tests_test_e2e_test_partial_shortfall_triggers_production_estimate"
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_e2e.py",
+      "source_location": "L164",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "tests_test_e2e_rationale_164",
+      "target": "tests_test_e2e_test_full_production_order"
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_e2e.py",
+      "source_location": "L179",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "tests_test_e2e_rationale_179",
+      "target": "tests_test_e2e_test_injection_blocked_before_llm"
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_e2e.py",
+      "source_location": "L192",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "tests_test_e2e_rationale_192",
+      "target": "tests_test_e2e_test_unknown_company_handled_gracefully"
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_e2e.py",
+      "source_location": "L209",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "tests_test_e2e_rationale_209",
+      "target": "tests_test_e2e_test_draft_response_never_claims_auto_sent"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/main.py",
+      "source_location": "L33",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_main",
+      "target": "app_main_build_web_app"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/main.py",
+      "source_location": "L15",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_main",
+      "target": "app_main_run_agent_interactive"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/start.sh",
+      "source_location": "L1",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "scripts_start",
+      "target": "users_vpk_library_cloudstorage_onedrive_personal_documents_development_heimdall_scripts_start_sh__entry"
     },
     {
       "relation": "imports_from",
@@ -2067,17 +1974,6 @@
       "weight": 1.0,
       "confidence_score": 1.0,
       "source": "tests_test_callbacks",
-      "target": "app_callbacks"
-    },
-    {
-      "relation": "imports_from",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "tests/test_e2e.py",
-      "source_location": "L28",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "tests_test_e2e",
       "target": "app_callbacks"
     },
     {
@@ -2386,17 +2282,6 @@
       "target": "app_callbacks_before_model_callback"
     },
     {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "tests/test_e2e.py",
-      "source_location": "L28",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "tests_test_e2e",
-      "target": "app_callbacks_before_model_callback"
-    },
-    {
       "relation": "references",
       "context": "parameter_type",
       "confidence": "EXTRACTED",
@@ -2427,197 +2312,6 @@
       "confidence_score": 1.0,
       "source": "app_callbacks_rationale_105",
       "target": "app_callbacks_after_model_callback"
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "tests/test_e2e.py",
-      "source_location": "L28",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "tests_test_e2e",
-      "target": "app_callbacks_after_model_callback"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "scripts/start.sh",
-      "source_location": "L1",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "scripts_start",
-      "target": "users_vpk_library_cloudstorage_onedrive_personal_documents_development_heimdall_scripts_start_sh__entry"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "Claude.md",
-      "source_location": "L1",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "claude",
-      "target": "claude_heimdall"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "Claude.md",
-      "source_location": "L139",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "claude_heimdall",
-      "target": "claude_changelog"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "Claude.md",
-      "source_location": "L80",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "claude_heimdall",
-      "target": "claude_critical_snippets"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "Claude.md",
-      "source_location": "L19",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "claude_heimdall",
-      "target": "claude_environment_modes"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "Claude.md",
-      "source_location": "L144",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "claude_heimdall",
-      "target": "claude_graphify"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "Claude.md",
-      "source_location": "L102",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "claude_heimdall",
-      "target": "claude_implementation_phases"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "Claude.md",
-      "source_location": "L7",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "claude_heimdall",
-      "target": "claude_non_requirements"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "Claude.md",
-      "source_location": "L129",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "claude_heimdall",
-      "target": "claude_open_questions"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "Claude.md",
-      "source_location": "L38",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "claude_heimdall",
-      "target": "claude_project_structure"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "Claude.md",
-      "source_location": "L31",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "claude_heimdall",
-      "target": "claude_security"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "Claude.md",
-      "source_location": "L68",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "claude_heimdall",
-      "target": "claude_skills_claude_code"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "Claude.md",
-      "source_location": "L15",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "claude_heimdall",
-      "target": "claude_usability_check"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "Claude.md",
-      "source_location": "L4",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "claude_heimdall",
-      "target": "claude_what_this_is"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "Claude.md",
-      "source_location": "L21",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "claude_environment_modes",
-      "target": "claude_local_dev"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "Claude.md",
-      "source_location": "L26",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "claude_environment_modes",
-      "target": "claude_production"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "Claude.md",
-      "source_location": "L141",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "claude_changelog",
-      "target": "claude_2026_06_26_initial_build"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "app/main.py",
-      "source_location": "L15",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "app_main",
-      "target": "app_main_run_agent_interactive"
     },
     {
       "relation": "contains",
@@ -3407,254 +3101,6 @@
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "source_file": "tests/test_e2e.py",
-      "source_location": "L51",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "tests_test_e2e",
-      "target": "tests_test_e2e_build_test_agent"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "tests/test_e2e.py",
-      "source_location": "L107",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "tests_test_e2e",
-      "target": "tests_test_e2e_event_loop"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "tests/test_e2e.py",
-      "source_location": "L75",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "tests_test_e2e",
-      "target": "tests_test_e2e_run_inquiry"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "tests/test_e2e.py",
-      "source_location": "L192",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "tests_test_e2e",
-      "target": "tests_test_e2e_test_draft_response_never_claims_auto_sent"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "tests/test_e2e.py",
-      "source_location": "L114",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "tests_test_e2e",
-      "target": "tests_test_e2e_test_feasible_order_no_production_needed"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "tests/test_e2e.py",
-      "source_location": "L147",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "tests_test_e2e",
-      "target": "tests_test_e2e_test_full_production_order"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "tests/test_e2e.py",
-      "source_location": "L162",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "tests_test_e2e",
-      "target": "tests_test_e2e_test_injection_blocked_before_llm"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "tests/test_e2e.py",
-      "source_location": "L132",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "tests_test_e2e",
-      "target": "tests_test_e2e_test_partial_shortfall_triggers_production_estimate"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "tests/test_e2e.py",
-      "source_location": "L175",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "tests_test_e2e",
-      "target": "tests_test_e2e_test_unknown_company_handled_gracefully"
-    },
-    {
-      "relation": "rationale_for",
-      "confidence": "EXTRACTED",
-      "source_file": "tests/test_e2e.py",
-      "source_location": "L1",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "tests_test_e2e_rationale_1",
-      "target": "tests_test_e2e"
-    },
-    {
-      "relation": "references",
-      "context": "return_type",
-      "confidence": "EXTRACTED",
-      "source_file": "tests/test_e2e.py",
-      "source_location": "L51",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "tests_test_e2e_build_test_agent",
-      "target": "agent"
-    },
-    {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "source_file": "tests/test_e2e.py",
-      "source_location": "L76",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "tests_test_e2e_run_inquiry",
-      "target": "tests_test_e2e_build_test_agent"
-    },
-    {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "source_file": "tests/test_e2e.py",
-      "source_location": "L197",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "tests_test_e2e_test_draft_response_never_claims_auto_sent",
-      "target": "tests_test_e2e_run_inquiry"
-    },
-    {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "source_file": "tests/test_e2e.py",
-      "source_location": "L120",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "tests_test_e2e_test_feasible_order_no_production_needed",
-      "target": "tests_test_e2e_run_inquiry"
-    },
-    {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "source_file": "tests/test_e2e.py",
-      "source_location": "L153",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "tests_test_e2e_test_full_production_order",
-      "target": "tests_test_e2e_run_inquiry"
-    },
-    {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "source_file": "tests/test_e2e.py",
-      "source_location": "L168",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "tests_test_e2e_test_injection_blocked_before_llm",
-      "target": "tests_test_e2e_run_inquiry"
-    },
-    {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "source_file": "tests/test_e2e.py",
-      "source_location": "L138",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "tests_test_e2e_test_partial_shortfall_triggers_production_estimate",
-      "target": "tests_test_e2e_run_inquiry"
-    },
-    {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "source_file": "tests/test_e2e.py",
-      "source_location": "L186",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "tests_test_e2e_test_unknown_company_handled_gracefully",
-      "target": "tests_test_e2e_run_inquiry"
-    },
-    {
-      "relation": "rationale_for",
-      "confidence": "EXTRACTED",
-      "source_file": "tests/test_e2e.py",
-      "source_location": "L115",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "tests_test_e2e_rationale_115",
-      "target": "tests_test_e2e_test_feasible_order_no_production_needed"
-    },
-    {
-      "relation": "rationale_for",
-      "confidence": "EXTRACTED",
-      "source_file": "tests/test_e2e.py",
-      "source_location": "L133",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "tests_test_e2e_rationale_133",
-      "target": "tests_test_e2e_test_partial_shortfall_triggers_production_estimate"
-    },
-    {
-      "relation": "rationale_for",
-      "confidence": "EXTRACTED",
-      "source_file": "tests/test_e2e.py",
-      "source_location": "L148",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "tests_test_e2e_rationale_148",
-      "target": "tests_test_e2e_test_full_production_order"
-    },
-    {
-      "relation": "rationale_for",
-      "confidence": "EXTRACTED",
-      "source_file": "tests/test_e2e.py",
-      "source_location": "L163",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "tests_test_e2e_rationale_163",
-      "target": "tests_test_e2e_test_injection_blocked_before_llm"
-    },
-    {
-      "relation": "rationale_for",
-      "confidence": "EXTRACTED",
-      "source_file": "tests/test_e2e.py",
-      "source_location": "L176",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "tests_test_e2e_rationale_176",
-      "target": "tests_test_e2e_test_unknown_company_handled_gracefully"
-    },
-    {
-      "relation": "rationale_for",
-      "confidence": "EXTRACTED",
-      "source_file": "tests/test_e2e.py",
-      "source_location": "L193",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "tests_test_e2e_rationale_193",
-      "target": "tests_test_e2e_test_draft_response_never_claims_auto_sent"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
       "source_file": "tests/test_tools.py",
       "source_location": "L8",
       "weight": 1.0,
@@ -3951,94 +3397,6 @@
       "confidence_score": 1.0,
       "source": "tests_test_tools_testfeasibilitymath",
       "target": "tests_test_tools_testfeasibilitymath_test_partial_shortfall"
-    },
-    {
-      "from": "cloud_run_deployment",
-      "to": "heimdall_agent",
-      "source_file": "heimdall/scripts/deploy.sh",
-      "confidence_score": 1.0,
-      "source": "cloud_run_deployment",
-      "target": "heimdall_agent"
-    },
-    {
-      "from": "heimdall_agent",
-      "to": "after_model_callback",
-      "source_file": "heimdall/app/agent.py",
-      "confidence_score": 1.0,
-      "source": "heimdall_agent",
-      "target": "after_model_callback"
-    },
-    {
-      "from": "heimdall_agent",
-      "to": "before_model_callback",
-      "source_file": "heimdall/app/agent.py",
-      "confidence_score": 1.0,
-      "source": "heimdall_agent",
-      "target": "before_model_callback"
-    },
-    {
-      "from": "heimdall_agent",
-      "to": "customer_lookup_tool",
-      "source_file": "heimdall/app/agent.py",
-      "confidence_score": 1.0,
-      "source": "heimdall_agent",
-      "target": "customer_lookup_tool"
-    },
-    {
-      "from": "heimdall_agent",
-      "to": "inventory_lookup_tool",
-      "source_file": "heimdall/app/agent.py",
-      "confidence_score": 1.0,
-      "source": "heimdall_agent",
-      "target": "inventory_lookup_tool"
-    },
-    {
-      "from": "heimdall_agent",
-      "to": "mcp_toolset",
-      "source_file": "heimdall/app/agent.py",
-      "confidence_score": 1.0,
-      "source": "heimdall_agent",
-      "target": "mcp_toolset"
-    },
-    {
-      "from": "heimdall_agent",
-      "to": "order_history_tool",
-      "source_file": "heimdall/app/agent.py",
-      "confidence_score": 1.0,
-      "source": "heimdall_agent",
-      "target": "order_history_tool"
-    },
-    {
-      "from": "heimdall_agent",
-      "to": "production_estimate_tool",
-      "source_file": "heimdall/app/agent.py",
-      "confidence_score": 1.0,
-      "source": "heimdall_agent",
-      "target": "production_estimate_tool"
-    },
-    {
-      "from": "mcp_toolset_imports",
-      "to": "mcp_toolset",
-      "source_file": "heimdall/app/agent.py",
-      "confidence_score": 1.0,
-      "source": "mcp_toolset_imports",
-      "target": "mcp_toolset"
-    },
-    {
-      "from": "before_model_callback_signatures",
-      "to": "before_model_callback",
-      "source_file": "heimdall/app/callbacks.py",
-      "confidence_score": 1.0,
-      "source": "before_model_callback_signatures",
-      "target": "before_model_callback"
-    },
-    {
-      "from": "after_model_callback_signatures",
-      "to": "after_model_callback",
-      "source_file": "heimdall/app/callbacks.py",
-      "confidence_score": 1.0,
-      "source": "after_model_callback_signatures",
-      "target": "after_model_callback"
     }
   ],
   "hyperedges": [
@@ -4072,5 +3430,5 @@
       "source_file": "README.md"
     }
   ],
-  "built_at_commit": "c4a35f88869fe8348eba9bdbf31beddda51a3c74"
+  "built_at_commit": "123d421373855eba903acc1a9d6026ed49f9e572"
 }
