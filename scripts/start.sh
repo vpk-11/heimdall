@@ -45,8 +45,8 @@ case "$MODE" in
     python -m app.main
     ;;
   web)
-    echo "Starting Heimdall in ADK web UI..."
-    adk web
+    echo "Starting Heimdall in ADK web UI (via app.main:app, Phase 2.1 test)..."
+    uvicorn app.main:app --reload
     ;;
   *)
     echo "Usage: $0 [cli|web]"
