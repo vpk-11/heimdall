@@ -6,8 +6,9 @@ from google.adk.tools.mcp_tool.mcp_session_manager import StdioConnectionParams
 from mcp import StdioServerParameters
 from app.callbacks import before_model_callback, after_model_callback
 
-# Resolve the absolute path to mcp_server/server.py
-current_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+# Resolve the absolute path to mcp_server/server.py (nested under app/ so
+# it's included when `adk deploy cloud_run` packages this folder)
+current_dir = os.path.dirname(os.path.abspath(__file__))
 server_path = os.path.join(current_dir, "mcp_server", "server.py")
 
 mcp_toolset = McpToolset(
@@ -47,7 +48,7 @@ Follow this strict multi-step reasoning chain:
 
 root_agent = Agent(
     name="HeimdallAgent",
-    model="gemini-2.5-flash-lite",
+    model=os.getenv("GEMINI_MODEL", "gemini-3.1-flash-lite"),
     instruction=AGENT_INSTRUCTIONS,
     before_model_callback=before_model_callback,
     after_model_callback=after_model_callback,
