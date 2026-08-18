@@ -23,10 +23,12 @@ if [ -n "$GEMINI_MODEL" ]; then
   ENV_VARS="$ENV_VARS,GEMINI_MODEL=$GEMINI_MODEL"
 fi
 
-adk deploy cloud_run app \
+adk deploy cloud_run \
   --project="$GOOGLE_CLOUD_PROJECT" \
   --region="$GOOGLE_CLOUD_REGION" \
+  --service_name=heimdall \
   --with_ui \
+  app \
   -- \
   --allow-unauthenticated \
   --set-env-vars="$ENV_VARS"
