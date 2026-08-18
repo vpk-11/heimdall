@@ -6,7 +6,7 @@ PRODUCT_ID_PATTERN = re.compile(r"^PROD-[A-Z]$")
 
 
 def load_json(path: str):
-    """Loads a JSON fixture file. Shared by every tool reading mock_server/data/*.json."""
+    """Loads a JSON fixture file. Shared by every tool reading app/mcp_server/data/*.json."""
     with open(path, "r", encoding="utf-8") as f:
         return json.load(f)
 
