@@ -47,6 +47,7 @@ OLLAMA_BASE = "http://localhost:11434"
 OLLAMA_MODEL = "ollama_chat/qwen2.5:7b"
 MCP_SERVER_PATH = os.path.join(
     os.path.dirname(os.path.dirname(os.path.abspath(__file__))),
+    "app",
     "mcp_server",
     "server.py",
 )
