@@ -1,6 +1,7 @@
-import json
 import os
 import math
+
+from app.mcp_server.tools._shared import load_json
 
 CONFIG_PATH = os.path.join(os.path.dirname(os.path.dirname(__file__)), "data", "production_config.json")
 
@@ -23,8 +24,7 @@ def estimate_production(quantity: int) -> dict:
     if not os.path.exists(CONFIG_PATH):
         return {"error": "Production configuration not initialized."}
 
-    with open(CONFIG_PATH, "r") as f:
-        config = json.load(f)
+    config = load_json(CONFIG_PATH)
 
     production_rate = config["production_rate_units_per_day"]
     setup_lead_time = config["setup_lead_time_days"]
