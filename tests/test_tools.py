@@ -1,8 +1,8 @@
 import pytest
-from mcp_server.tools.customer_lookup import lookup_customer
-from mcp_server.tools.inventory_lookup import lookup_inventory
-from mcp_server.tools.order_history import lookup_order_history, get_dtc_monthly_velocity
-from mcp_server.tools.production_estimate import estimate_production
+from app.mcp_server.tools.customer_lookup import lookup_customer
+from app.mcp_server.tools.inventory_lookup import lookup_inventory
+from app.mcp_server.tools.order_history import lookup_order_history, get_dtc_monthly_velocity
+from app.mcp_server.tools.production_estimate import estimate_production
 
 
 class TestCustomerLookup:

@@ -70,3 +70,9 @@ class TestDetectInjection:
 
     def test_none_not_flagged(self):
         assert detect_injection(None) is False
+
+    def test_detects_keyword_split_by_zero_width_chars(self):
+        # ZWSP (U+200B) inserted between every character of "jailbreak" - a
+        # naive substring check misses this, NFKC + zero-width stripping catches it.
+        split = "​".join("jailbreak")
+        assert detect_injection(f"This is a {split} attempt.") is True

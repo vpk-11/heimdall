@@ -10,11 +10,27 @@ MPS acceleration is automatic on Apple Silicon via Ollama's Metal backend.
 """
 import asyncio
 import os
+import socket
 import sys
 import pytest
 import pytest_asyncio
 
 sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+
+
+def _ollama_reachable(host: str = "localhost", port: int = 11434) -> bool:
+    try:
+        with socket.create_connection((host, port), timeout=1):
+            return True
+    except OSError:
+        return False
+
+
+if not _ollama_reachable():
+    pytest.skip(
+        "Ollama not running on localhost:11434, skipping e2e suite",
+        allow_module_level=True,
+    )
 
 from google.adk.agents import Agent
 from google.adk.models.lite_llm import LiteLlm
@@ -31,6 +47,7 @@ OLLAMA_BASE = "http://localhost:11434"
 OLLAMA_MODEL = "ollama_chat/qwen2.5:7b"
 MCP_SERVER_PATH = os.path.join(
     os.path.dirname(os.path.dirname(os.path.abspath(__file__))),
+    "app",
     "mcp_server",
     "server.py",
 )
