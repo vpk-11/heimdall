@@ -1,4 +1,5 @@
 import re
+import unicodedata
 from typing import Optional
 from google.adk.agents.callback_context import CallbackContext
 from google.adk.models.llm_request import LlmRequest
@@ -17,6 +18,10 @@ NAME_PATTERNS = [
     re.compile(r'\bcontact:\s*([A-Z][a-z]+(?:\s+[A-Z][a-z]+)?)\b', re.IGNORECASE),
     re.compile(r'\b(?:Sincerely|Regards|Best|Best regards|Thanks|Thank you|From),?\s*\n+([A-Z][a-z]+(?:\s+[A-Z][a-z]+)?)\b', re.IGNORECASE)
 ]
+
+# Zero-width/invisible characters used to split up injection keywords and dodge substring
+# matching: ZWSP, ZWNJ, ZWJ, word joiner, BOM
+ZERO_WIDTH_REGEX = re.compile('[\u200b\u200c\u200d\u2060\ufeff]')
 
 # Injection patterns
 INJECTION_KEYWORDS = [
@@ -56,10 +61,18 @@ def redact_text(text: str) -> str:
     return text
 
 def detect_injection(text: str) -> bool:
-    """Detects common prompt injection keyword phrases."""
+    """Detects common prompt injection keyword phrases.
+
+    Normalizes unicode (NFKC, folds full-width/compatibility lookalikes into
+    plain ASCII) and strips zero-width characters first, since both are cheap
+    ways to split a keyword across characters that a naive substring check
+    would otherwise miss (e.g. "ignore​previous​instructions").
+    """
     if not text:
         return False
-    lower_text = text.lower()
+    normalized = unicodedata.normalize("NFKC", text)
+    normalized = ZERO_WIDTH_REGEX.sub("", normalized)
+    lower_text = normalized.lower()
     for kw in INJECTION_KEYWORDS:
         if kw in lower_text:
             return True
