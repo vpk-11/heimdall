@@ -64,17 +64,20 @@ def detect_injection(text: str) -> bool:
     """Detects common prompt injection keyword phrases.
 
     Normalizes unicode (NFKC, folds full-width/compatibility lookalikes into
-    plain ASCII) and strips zero-width characters first, since both are cheap
-    ways to split a keyword across characters that a naive substring check
-    would otherwise miss (e.g. "ignore​previous​instructions").
+    plain ASCII) first. Zero-width characters are checked two ways: stripping
+    them outright would collapse "ignore[ZWSP]previous[ZWSP]instructions" into
+    one word and break the match against a spaced keyword, so we also check a
+    whitespace-collapsed form of both the text and the keyword, catching a
+    zero-width char used either mid-word or as a fake word separator.
     """
     if not text:
         return False
     normalized = unicodedata.normalize("NFKC", text)
-    normalized = ZERO_WIDTH_REGEX.sub("", normalized)
-    lower_text = normalized.lower()
+    normalized = ZERO_WIDTH_REGEX.sub(" ", normalized)
+    lower_text = normalized.casefold()
+    compact_text = re.sub(r"\s+", "", lower_text)
     for kw in INJECTION_KEYWORDS:
-        if kw in lower_text:
+        if kw in lower_text or re.sub(r"\s+", "", kw) in compact_text:
             return True
     return False
 
