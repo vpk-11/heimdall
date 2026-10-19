@@ -114,9 +114,10 @@ conda activate heimdall
 # Unit + callback tests (no external deps, this is what CI runs)
 python -m pytest tests/test_tools.py tests/test_callbacks.py -v
 
-# Full e2e suite also includes test_e2e.py, which needs Ollama running
+# Full suite also includes test_e2e.py, which needs Ollama running
 # locally (`ollama serve` + `ollama pull qwen2.5:7b`) since it drives the
-# whole agent pipeline through a local model instead of Gemini
+# whole agent pipeline through a local model instead of Gemini.
+# A full run including test_e2e.py can hang, run the unit command above.
 python -m pytest tests/ -v
 ```
 
@@ -144,7 +145,7 @@ For each inquiry, the agent:
 
 - **Input firewall**: `before_model_callback` redacts PII (email, phone, address, names) and screens for prompt injection before any LLM call. Detected injection short-circuits the entire pipeline.
 - **Output gate**: `after_model_callback` re-scans the draft for leaked PII and flags any language suggesting an auto-sent action.
-- **Tool guardrails**: all tools are read-only. The agent has no direct DB access.
+- **Tool guardrails**: all tools are read-only. There is no database, the tools read static JSON fixtures.
 - **No secrets in code**: all keys via `.env`, never committed.
 
 ## Mock data
@@ -157,6 +158,8 @@ All tool lookups use fixture files in `mcp_server/data/`:
 To test the shortfall path: ask about COMP-001 ordering 300+ units of PROD-A (600 stock, 400 DTC burn, so 100+ units will require production).
 
 ## Deployment
+
+Nothing is currently deployed. The Cloud Run service was deleted on 2026-08-18; the script below redeploys it.
 
 ```bash
 export GOOGLE_CLOUD_PROJECT=your-project-id
