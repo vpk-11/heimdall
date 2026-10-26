@@ -1,6 +1,6 @@
 # Heimdall
-<!-- version: v2.4.1 -->
-![Version](https://img.shields.io/badge/version-v2.4.1-blue)
+<!-- version: v3.0.0 -->
+![Version](https://img.shields.io/badge/version-v3.0.0-blue)
 
 ![Heimdall title card](./images/heimdall-titlecard.png)
 
@@ -185,6 +185,7 @@ HEIMDALL_ALLOW_DEPLOY=1 ./scripts/deploy.sh
 
 This wraps `adk deploy cloud_run --with_ui --allow-unauthenticated`, passing `GOOGLE_GENAI_USE_VERTEXAI=true` (and `GEMINI_MODEL` if set) through as Cloud Run env vars. Not Agent Runtime, Cloud Run is used specifically for unauthenticated public access during the demo. `--with_ui` bundles the same dev chat UI used locally alongside the agent API in one service, no separate frontend.
 ## Changelog
+- **v3.0.0** (2026-10-26): major bump
 - **v2.4.1** (2026-10-19): patch bump
 - **v2.4.0** (2026-09-28): minor bump
 - **v2.3.0** (2026-09-26): minor bump
