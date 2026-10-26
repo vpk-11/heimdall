@@ -34,6 +34,7 @@ ADK Agent (Gemini 3.1 Flash Lite)
      +-- customer_lookup         <- mock CRM
      +-- inventory_lookup        <- current stock
      +-- dtc_monthly_velocity    <- DTC burn rate per product
+     +-- compute_shortfall       <- stock shortfall (called by the model; not enforced)
      +-- production_estimate     <- lead time + cost for shortfall
      |
      v
@@ -111,15 +112,28 @@ For local development, copy this to `.env` and set `GOOGLE_API_KEY` to a Google 
 ```bash
 conda activate heimdall
 
-# Unit + callback tests (no external deps, this is what CI runs)
-python -m pytest tests/test_tools.py tests/test_callbacks.py -v
+# Unit, callback, and firewall-corpus tests (no external deps)
+python -m pytest tests/test_tools.py tests/test_callbacks.py tests/test_firewall_corpus.py -v
 
 # Full suite also includes test_e2e.py, which needs Ollama running
 # locally (`ollama serve` + `ollama pull qwen2.5:7b`) since it drives the
 # whole agent pipeline through a local model instead of Gemini.
-# A full run including test_e2e.py can hang, run the unit command above.
+# A full run takes about 5 minutes (each e2e agent call is capped at 120s).
 python -m pytest tests/ -v
 ```
+
+### Run the eval
+
+```bash
+# Offline firewall scores (injection detection, false positives, PII recall)
+python -m tests.eval.run_eval --firewall-only
+
+# Firewall scores plus the 28-case agent golden set (trajectory, outcome, shortfall)
+python -m tests.eval.run_eval --model ollama_chat/gpt-oss:20b --out results.json
+python -m tests.eval.run_eval --model gemini-3.1-flash-lite   # needs GEMINI_API_KEY
+```
+
+Raw per-model results are committed in `tests/eval/results/` (single run each, Gemini on the free tier, so provider errors are counted as failures).
 
 ## Reasoning chain
 
@@ -129,9 +143,9 @@ For each inquiry, the agent:
 2. Looks up the company via `customer_lookup`
 3. Checks current stock via `inventory_lookup`
 4. Gets DTC monthly burn via `dtc_monthly_velocity`
-5. Computes shortfall: `max(0, (dtc_velocity + wholesale_ask) - stock)`
+5. Calls `compute_shortfall`: `max(0, (dtc_velocity + wholesale_ask) - stock)`. The math runs in code, but only if the model chooses to call the tool; nothing enforces the call yet
 6. If shortfall > 0, calls `production_estimate` for lead time and cost
-7. Synthesizes a recommendation and drafts a response email
+7. Returns structured output (`outcome`, `shortfall`, `cost`, `draft_email`, schema in `app/schema.py`) with a draft response email
 
 ## Triage outcomes
 
@@ -143,8 +157,8 @@ For each inquiry, the agent:
 
 ## Security
 
-- **Input firewall**: `before_model_callback` redacts PII (email, phone, address, names) and screens for prompt injection before any LLM call. Detected injection short-circuits the entire pipeline.
-- **Output gate**: `after_model_callback` re-scans the draft for leaked PII and flags any language suggesting an auto-sent action.
+- **Input firewall**: `before_model_callback` redacts PII (email, phone, address, names) and screens for prompt injection before any LLM call. Detected injection short-circuits the entire pipeline. The screen is a keyword list: on the 28-case attack corpus (`tests/eval/firewall_corpus.json`) it detects 25% (7 of 28). That includes the 5 direct attacks, which are the keyword list itself, and 2 obfuscated attacks it was hardened against. On the other 19 attacks (paraphrase, base64, multilingual, role-play, remaining obfuscation) it catches 0. PII redaction recall is 67% over 18 secrets. It is a first filter, not a complete defense.
+- **Output gate**: `after_model_callback` validates the structured output against `TriageOutput` (malformed output is replaced with a `[FORMAT ERROR]` response), then re-scans `draft_email` for leaked PII and flags any language suggesting an auto-sent action.
 - **Tool guardrails**: all tools are read-only. There is no database, the tools read static JSON fixtures.
 - **No secrets in code**: all keys via `.env`, never committed.
 
@@ -159,14 +173,14 @@ To test the shortfall path: ask about COMP-001 ordering 300+ units of PROD-A (60
 
 ## Deployment
 
-Nothing is currently deployed. The Cloud Run service was deleted on 2026-08-18; the script below redeploys it.
+Nothing is currently deployed and deploys are disabled. The Cloud Run service was deleted on 2026-08-18 for cost risk, and `scripts/deploy.sh` refuses to run unless `HEIMDALL_ALLOW_DEPLOY=1` is set. Redeploy only with explicit go-ahead.
 
 ```bash
 export GOOGLE_CLOUD_PROJECT=your-project-id
 export GOOGLE_CLOUD_REGION=us-central1
 # Optional, overrides the default model for this deploy only:
 # export GEMINI_MODEL=gemini-3.1-flash-lite
-./scripts/deploy.sh
+HEIMDALL_ALLOW_DEPLOY=1 ./scripts/deploy.sh
 ```
 
 This wraps `adk deploy cloud_run --with_ui --allow-unauthenticated`, passing `GOOGLE_GENAI_USE_VERTEXAI=true` (and `GEMINI_MODEL` if set) through as Cloud Run env vars. Not Agent Runtime, Cloud Run is used specifically for unauthenticated public access during the demo. `--with_ui` bundles the same dev chat UI used locally alongside the agent API in one service, no separate frontend.
