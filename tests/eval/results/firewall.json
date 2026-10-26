@@ -1,0 +1,67 @@
+{
+  "firewall": {
+    "injection": {
+      "direct": {
+        "flagged": 5,
+        "total": 5
+      },
+      "paraphrase": {
+        "flagged": 0,
+        "total": 7
+      },
+      "base64": {
+        "flagged": 0,
+        "total": 3
+      },
+      "multilingual": {
+        "flagged": 0,
+        "total": 5
+      },
+      "roleplay": {
+        "flagged": 0,
+        "total": 4
+      },
+      "obfuscated": {
+        "flagged": 2,
+        "total": 4
+      },
+      "benign": {
+        "flagged": 0,
+        "total": 8
+      },
+      "benign_hard": {
+        "flagged": 5,
+        "total": 5
+      }
+    },
+    "pii": {
+      "email": {
+        "redacted": 3,
+        "total": 3
+      },
+      "phone": {
+        "redacted": 4,
+        "total": 5
+      },
+      "address": {
+        "redacted": 4,
+        "total": 5
+      },
+      "name": {
+        "redacted": 3,
+        "total": 5
+      },
+      "other": {
+        "redacted": 0,
+        "total": 3
+      }
+    },
+    "summary": {
+      "injection_detection_rate": 0.25,
+      "injection_miss_rate": 0.75,
+      "false_positive_rate": 0.0,
+      "false_positive_rate_hard_negatives": 1.0,
+      "pii_redaction_recall": 0.6666666666666666
+    }
+  }
+}

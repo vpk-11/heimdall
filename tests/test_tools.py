@@ -3,6 +3,7 @@ from app.mcp_server.tools.customer_lookup import lookup_customer
 from app.mcp_server.tools.inventory_lookup import lookup_inventory
 from app.mcp_server.tools.order_history import lookup_order_history, get_dtc_monthly_velocity
 from app.mcp_server.tools.production_estimate import estimate_production
+from app.mcp_server.tools.shortfall import compute_shortfall
 
 
 class TestCustomerLookup:
@@ -104,29 +105,12 @@ class TestProductionEstimate:
             estimate_production(-5)
 
 
-class TestFeasibilityMath:
-    """Validates the core shortfall equation the agent reasons over.
-
-    stock_shortfall = max(0, (dtc_monthly_velocity + wholesale_ask) - stock)
-    """
-
+class TestComputeShortfall:
     def test_no_shortfall_when_stock_sufficient(self):
-        stock = 600
-        dtc = 400
-        wholesale_ask = 100
-        shortfall = max(0, (dtc + wholesale_ask) - stock)
-        assert shortfall == 0
+        assert compute_shortfall(stock=600, dtc_monthly_velocity=400, requested_quantity=100) == 0
 
     def test_partial_shortfall(self):
-        stock = 600
-        dtc = 400
-        wholesale_ask = 300
-        shortfall = max(0, (dtc + wholesale_ask) - stock)
-        assert shortfall == 100
+        assert compute_shortfall(stock=600, dtc_monthly_velocity=400, requested_quantity=300) == 100
 
     def test_full_production_needed(self):
-        stock = 100
-        dtc = 400
-        wholesale_ask = 500
-        shortfall = max(0, (dtc + wholesale_ask) - stock)
-        assert shortfall == 800
+        assert compute_shortfall(stock=100, dtc_monthly_velocity=400, requested_quantity=500) == 800

@@ -6,6 +6,9 @@ PROJECT_ROOT="$(dirname "$SCRIPT_DIR")"
 
 cd "$PROJECT_ROOT"
 
+# Deploys are disabled: the Cloud Run service was deleted for cost risk (2026-08-18).
+[ "${HEIMDALL_ALLOW_DEPLOY:-}" = 1 ] || { echo "Deploy disabled. Set HEIMDALL_ALLOW_DEPLOY=1 only with explicit go-ahead" >&2; exit 1; }
+
 # Required vars
 : "${GOOGLE_CLOUD_PROJECT:?Set GOOGLE_CLOUD_PROJECT}"
 : "${GOOGLE_CLOUD_REGION:?Set GOOGLE_CLOUD_REGION}"

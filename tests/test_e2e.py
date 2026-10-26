@@ -59,7 +59,7 @@ Follow this reasoning chain exactly:
 2. Call customer_lookup with the company_id.
 3. Call inventory_lookup with the product_id.
 4. Call dtc_monthly_velocity with the product_id.
-5. Compute shortfall: max(0, (dtc_monthly_velocity + requested_quantity) - stock)
+5. Call compute_shortfall with stock, dtc_monthly_velocity, and requested_quantity.
 6. If shortfall > 0, call production_estimate with the shortfall quantity.
 7. Output a triage report and a DRAFT email response. Never claim to have sent anything.
 """

@@ -5,6 +5,9 @@ from google.adk.agents.callback_context import CallbackContext
 from google.adk.models.llm_request import LlmRequest
 from google.adk.models.llm_response import LlmResponse
 from google.genai import types
+from pydantic import ValidationError
+
+from app.schema import TriageOutput
 
 # Regex patterns for PII detection
 EMAIL_REGEX = re.compile(r'[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+\.[a-zA-Z0-9-.]+')
@@ -81,6 +84,29 @@ def detect_injection(text: str) -> bool:
             return True
     return False
 
+AUTO_ACTION_PHRASES = ["sent the email", "emailed the customer", "sent the response", "updated the crm"]
+SET_MODEL_RESPONSE = "set_model_response"
+FORMAT_ERROR = "[FORMAT ERROR] Agent output did not match the triage schema and was rejected."
+
+
+def firewall_output_text(text: str) -> str:
+    """Output gate for free text: re-redact PII and flag implied auto-actions."""
+    cleaned = redact_text(text)
+    if any(phrase in cleaned.lower() for phrase in AUTO_ACTION_PHRASES):
+        cleaned = "[POLICY WARNING] The draft response was flagged for attempting to execute an automatic external action. Re-evaluating...\n\n" + cleaned
+    return cleaned
+
+
+def validate_triage_args(args: dict) -> dict:
+    """Validates structured output against TriageOutput and runs the output firewall on draft_email.
+
+    Raises pydantic.ValidationError on malformed output.
+    """
+    triage = TriageOutput.model_validate(args)
+    triage.draft_email = firewall_output_text(triage.draft_email)
+    return triage.model_dump()
+
+
 def before_model_callback(
     *, callback_context: CallbackContext, llm_request: LlmRequest
 ) -> Optional[LlmResponse]:
@@ -130,23 +156,18 @@ def after_model_callback(
 
     updated_parts = []
     for part in llm_response.content.parts:
+        call = getattr(part, "function_call", None)
+        if call and call.name == SET_MODEL_RESPONSE:
+            try:
+                call.args = validate_triage_args(call.args or {})
+            except ValidationError:
+                updated_parts.append(types.Part(text=FORMAT_ERROR))
+                continue
+            updated_parts.append(part)
+            continue
         text = getattr(part, "text", None)
         if text:
-            # Make sure no PII leaked into the output
-            cleaned_text = redact_text(text)
-            
-            # Policy guardrail: ensure model doesn't imply it executed any action directly
-            # e.g., "I have sent the email" -> replace or warn
-            auto_action_phrases = ["sent the email", "emailed the customer", "sent the response", "updated the crm"]
-            flagged = False
-            for phrase in auto_action_phrases:
-                if phrase in cleaned_text.lower():
-                    flagged = True
-                    break
-            
-            if flagged:
-                cleaned_text = "[POLICY WARNING] The draft response was flagged for attempting to execute an automatic external action. Re-evaluating...\n\n" + cleaned_text
-            
+            cleaned_text = firewall_output_text(text)
             updated_parts.append(types.Part(text=cleaned_text))
         else:
             updated_parts.append(part)
