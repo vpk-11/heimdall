@@ -32,7 +32,7 @@ Follow this strict multi-step reasoning chain:
    - Retrieve the product's direct-to-consumer (DTC) monthly velocity using `dtc_monthly_velocity`.
 4. **Feasibility Calculation**:
    - Determine if current stock covers both the wholesale request and the projected DTC monthly demand.
-   - Equation: stock_shortfall = max(0, (dtc_monthly_velocity + wholesale_requested_quantity) - current_stock)
+   - Call `compute_shortfall` with current_stock, dtc_monthly_velocity, and wholesale_requested_quantity. Use its `stock_shortfall` result; do not compute it yourself.
 5. **Production Estimation (if stock shortfall > 0)**:
    - Call `production_estimate` with the calculated stock_shortfall quantity as the quantity argument.
    - Note the estimated setup time, production time, cost per unit, and total cost.

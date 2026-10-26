@@ -12,6 +12,7 @@ from app.mcp_server.tools.customer_lookup import lookup_customer
 from app.mcp_server.tools.order_history import lookup_order_history, get_dtc_monthly_velocity
 from app.mcp_server.tools.inventory_lookup import lookup_inventory
 from app.mcp_server.tools.production_estimate import estimate_production
+from app.mcp_server.tools.shortfall import compute_shortfall as _compute_shortfall
 
 mcp = FastMCP("HeimdallServer")
 
@@ -50,6 +51,17 @@ def inventory_lookup(product_id: str) -> dict:
         product_id: The unique product identifier, e.g., PROD-A.
     """
     return lookup_inventory(product_id)
+
+@mcp.tool()
+def compute_shortfall(stock: int, dtc_monthly_velocity: int, requested_quantity: int) -> dict:
+    """Compute the stock shortfall for a wholesale request.
+
+    Args:
+        stock: Current stock from inventory_lookup.
+        dtc_monthly_velocity: Monthly DTC velocity from dtc_monthly_velocity.
+        requested_quantity: Wholesale quantity requested.
+    """
+    return {"stock_shortfall": _compute_shortfall(stock, dtc_monthly_velocity, requested_quantity)}
 
 @mcp.tool()
 def production_estimate(quantity: int) -> dict:
