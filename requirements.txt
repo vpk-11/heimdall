@@ -1,7 +1,7 @@
-google-adk==2.3.0
-google-adk[extensions]==2.3.0
-litellm==1.83.14
-mcp==1.28.1
+google-adk==2.4.0
+google-adk[extensions]==2.4.0
+litellm==1.95.1
+mcp==1.30.0
 python-dotenv==1.2.2
 pytest==9.1.1
 pytest-asyncio==1.4.0
